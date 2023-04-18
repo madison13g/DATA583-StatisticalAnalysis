@@ -1,0 +1,851 @@
+Unnamed: 0,price,bed,bath,feet,address,new_flag,link,latitude,longitude
+0,365000,2,1,963,"825 Morrison Ave Bronx, NY 10473",True,https://www.trulia.com/p/ny/bronx/825-morrison-ave-10l-bronx-ny-10473--2307422989,40.82056995,-73.87318743050017
+1,399000,1,1,1000,"97-11 63rd Dr Rego Park, NY 11374",True,https://www.trulia.com/p/ny/rego-park/97-11-63rd-dr-e7-rego-park-ny-11374--2478467167,40.7307438,-73.8601777461798
+2,475000,2,2,1200,"555 Kappock St Bronx, NY 10463",True,https://www.trulia.com/p/ny/bronx/555-kappock-st-2l-bronx-ny-10463--2495328442,40.877946699999995,-73.91703031266044
+3,418000,2,2,1138,"100 Colfax Ave Staten Island, NY 10306",True,https://www.trulia.com/p/ny/staten-island/100-colfax-ave-2j-staten-island-ny-10306--2008768811,40.5795929,-74.1074795
+4,399000,2,1,1221,"31 Devon Loop Staten Island, NY 10314",True,https://www.trulia.com/p/ny/staten-island/31-devon-loop-a-staten-island-ny-10314--2008855913,40.5810669,-74.1610438
+5,575000,1,1,739,"133 Beach 116 St Rockaway Park, NY 11694",True,https://www.trulia.com/p/ny/rockaway-park/133-beach-116-st-2l-rockaway-park-ny-11694--2625412590,,
+6,400000,2,2,853,"1286 E 91st St Brooklyn, NY 11236",True,https://www.trulia.com/p/ny/brooklyn/1286-e-91st-st-202-brooklyn-ny-11236--2089033467,40.63828245,-73.90283943469908
+7,305000,,1,450,"85-14 Broadway Elmhurst, NY 11373",True,https://www.trulia.com/p/ny/elmhurst/85-14-broadway-5d-elmhurst-ny-11373--2396405549,40.7389383,-73.87802549759652
+8,375000,2,2,,"800 Grand Concourse Bronx, NY 10451",True,https://www.trulia.com/p/ny/bronx/800-grand-concourse-2sn-bronx-ny-10451--2333368890,40.82486205,-73.92260592736525
+9,258000,1,1,850,"37-51 86th St Jackson Heights, NY 11372",True,https://www.trulia.com/p/ny/jackson-heights/37-51-86th-st-3n-jackson-heights-ny-11372--2556347846,40.748676599999996,-73.88004121634299
+10,3350000,3,3,1980,"520 W 19th St New York, NY 10011",True,https://www.trulia.com/p/ny/new-york/520-w-19th-st-5c-new-york-ny-10011--2088827172,40.74546375,-74.00713068884602
+11,1838888,13,6,3974,"69 Starbuck St,Staten Island, NY 10304",True,https://www.trulia.com/p/ny/staten-island/69-starbuck-st-staten-island-ny-10304--2008753672,40.610648350000005,-74.08990037566667
+12,985000,4,4,2400,"3 Craig Ave,Staten Island, NY 10307",True,https://www.trulia.com/p/ny/staten-island/3-craig-ave-staten-island-ny-10307--868983,40.51687915,-74.2375387741059
+13,1350000,3,3,2900,"53 Hawley Ave,Staten Island, NY 10312",True,https://www.trulia.com/p/ny/staten-island/53-hawley-ave-staten-island-ny-10312--2622516274,40.53266406122449,-74.19386463265306
+14,1488888,8,6,3600,"63 Titus Ave,Staten Island, NY 10306",True,https://www.trulia.com/p/ny/staten-island/63-titus-ave-staten-island-ny-10306--816443,40.5669752,-74.10705710053674
+15,699900,2,2,1056,"939 E 43rd St,Brooklyn, NY 11210",True,https://www.trulia.com/p/ny/brooklyn/939-e-43rd-st-brooklyn-ny-11210--2088988237,40.63209095,-73.93482551454326
+16,1299000,3,2,,"222 E 82nd St New York, NY 10028",True,https://www.trulia.com/p/ny/new-york/222-e-82nd-st-2c-new-york-ny-10028--2478589582,40.7755871,-73.95487650321877
+17,1149000,3,3,1440,"524 Beach 138 St,Rockaway Park, NY 11694",True,https://www.trulia.com/p/ny/rockaway-park/524-beach-138-st-rockaway-park-ny-11694--2123717567,,
+18,595000,1,1,677,"342 E 110th St New York, NY 10029",True,https://www.trulia.com/p/ny/new-york/342-e-110th-st-6c-new-york-ny-10029--2088891812,40.7923117,-73.93899145040119
+19,2250000,4,3,,"108 E 86th St New York, NY 10028",True,https://www.trulia.com/p/ny/new-york/108-e-86th-st-12n-new-york-ny-10028--2478898012,40.7796924,-73.9567274
+20,2300000,6,5,2868,"125 N Bay 10th St,Brooklyn, NY 11228",True,https://www.trulia.com/p/ny/brooklyn/125-n-bay-10th-st-brooklyn-ny-11228--2625412913,40.607582,-74.012281
+21,2300000,6,5,2868,"123 Bay 10th St,Brooklyn, NY 11228",True,https://www.trulia.com/p/ny/brooklyn/123-bay-10th-st-brooklyn-ny-11228--1008229843,40.608345799999995,-74.01119295987178
+22,888168,3,2,1786,"2327 E 18th St,Brooklyn, NY 11229",True,https://www.trulia.com/p/ny/brooklyn/2327-e-18th-st-brooklyn-ny-11229--2089009572,40.59393745,-73.95232451785714
+23,699900,2,2,1056,"939 E 43rd St,Brooklyn, NY 11210",True,https://www.trulia.com/p/ny/brooklyn/939-e-43rd-st-brooklyn-ny-11210--2088988237,40.63209095,-73.93482551454326
+24,950000,1,1,685,"225 Rector Pl New York, NY 10280",True,https://www.trulia.com/p/ny/new-york/225-rector-pl-9d-new-york-ny-10280--2008716218,40.7092957,-74.0161233
+25,3350000,3,3,1980,"520 W 19th St New York, NY 10011",True,https://www.trulia.com/p/ny/new-york/520-w-19th-st-5c-new-york-ny-10011--2088827172,40.74546375,-74.00713068884602
+26,365000,2,1,963,"825 Morrison Ave Bronx, NY 10473",True,https://www.trulia.com/p/ny/bronx/825-morrison-ave-10l-bronx-ny-10473--2307422989,40.82056995,-73.87318743050017
+27,1299000,3,2,,"222 E 82nd St New York, NY 10028",True,https://www.trulia.com/p/ny/new-york/222-e-82nd-st-2c-new-york-ny-10028--2478589582,40.7755871,-73.95487650321877
+28,824000,2,2,,"110-11 Queens Blvd Forest Hills, NY 11375",True,https://www.trulia.com/p/ny/forest-hills/110-11-queens-blvd-20k-forest-hills-ny-11375--2182708770,,
+29,685000,3,2,,"5900 Arlington Ave Bronx, NY 10471",True,https://www.trulia.com/p/ny/bronx/5900-arlington-ave-16u-bronx-ny-10471--2478323986,40.909105100000005,-73.9054834157342
+30,399000,1,1,1000,"97-11 63rd Dr Rego Park, NY 11374",True,https://www.trulia.com/p/ny/rego-park/97-11-63rd-dr-e7-rego-park-ny-11374--2478467167,40.7307438,-73.8601777461798
+31,475000,2,2,1200,"555 Kappock St Bronx, NY 10463",True,https://www.trulia.com/p/ny/bronx/555-kappock-st-2l-bronx-ny-10463--2495328442,40.877946699999995,-73.91703031266044
+32,1250000,2,2,,"35 Sutton Pl New York, NY 10022",True,https://www.trulia.com/p/ny/new-york/35-sutton-pl-18f-new-york-ny-10022--2180285790,40.7583951,-73.9596947
+33,575000,1,1,739,"133 Beach 116 St Rockaway Park, NY 11694",True,https://www.trulia.com/p/ny/rockaway-park/133-beach-116-st-2l-rockaway-park-ny-11694--2625412590,,
+34,1149000,3,3,1440,"524 Beach 138 St,Rockaway Park, NY 11694",True,https://www.trulia.com/p/ny/rockaway-park/524-beach-138-st-rockaway-park-ny-11694--2123717567,,
+35,1829000,7,3,3166,"59-75 Fresh Pond Rd,Maspeth, NY 11378",True,https://www.trulia.com/p/ny/maspeth/59-75-fresh-pond-rd-maspeth-ny-11378--2395682810,,
+36,1875000,5,3,3000,"31-47 29th St,Astoria, NY 11106",True,https://www.trulia.com/p/ny/astoria/31-47-29th-st-astoria-ny-11106--2172265963,40.76379355,-73.92583130451389
+37,2225000,4,2,1600,"250 E 87th St New York, NY 10128",True,https://www.trulia.com/p/ny/new-york/250-e-87th-st-30aj-new-york-ny-10128--2497237116,40.77887713333333,-73.95224673333334
+38,418000,2,2,1138,"100 Colfax Ave Staten Island, NY 10306",True,https://www.trulia.com/p/ny/staten-island/100-colfax-ave-2j-staten-island-ny-10306--2008768811,40.5795929,-74.1074795
+39,400000,2,2,853,"1286 E 91st St Brooklyn, NY 11236",True,https://www.trulia.com/p/ny/brooklyn/1286-e-91st-st-202-brooklyn-ny-11236--2089033467,40.63828245,-73.90283943469908
+40,4900000,3,3,1899,"10J Plan in 212 West 72nd Street,New York, NY 10023",True,https://www.trulia.com/builder-community-plan/212-West-72nd-Street-10j-2059135433,,
+41,8300000,4,5,2534,"16E Plan in 212 West 72nd Street,New York, NY 10023",True,https://www.trulia.com/builder-community-plan/212-West-72nd-Street-16e-2059135434,,
+42,1460000,1,1,714,"11F Plan in 212 West 72nd Street,New York, NY 10023",True,https://www.trulia.com/builder-community-plan/212-West-72nd-Street-11f-2059135435,,
+43,2540000,2,2,1420,"6L Plan in 212 West 72nd Street,New York, NY 10023",True,https://www.trulia.com/builder-community-plan/212-West-72nd-Street-6l-2059135436,,
+44,2990000,3,2,1425,"11C Plan in 212 West 72nd Street,New York, NY 10023",True,https://www.trulia.com/builder-community-plan/212-West-72nd-Street-11c-2059135437,,
+45,1399000,1,1,728,"7E Plan in 212 West 72nd Street,New York, NY 10023",True,https://www.trulia.com/builder-community-plan/212-West-72nd-Street-7e-2059135438,,
+46,2195000,2,2,992,"9A Plan in 212 West 72nd Street,New York, NY 10023",True,https://www.trulia.com/builder-community-plan/212-West-72nd-Street-9a-2059135439,,
+47,13500000,4,5,3677,"PHS Plan in 212 West 72nd Street,New York, NY 10023",True,https://www.trulia.com/builder-community-plan/212-West-72nd-Street-Phs-2059135440,,
+48,2545000,2,2,1226,"11L Plan in 212 West 72nd Street,New York, NY 10023",True,https://www.trulia.com/builder-community-plan/212-West-72nd-Street-11l-2059135441,,
+49,8275000,4,5,2834,"16G Plan in 212 West 72nd Street,New York, NY 10023",True,https://www.trulia.com/builder-community-plan/212-West-72nd-Street-16g-2059135442,,
+50,5825000,4,4,2082,"5H Plan in 212 West 72nd Street,New York, NY 10023",True,https://www.trulia.com/builder-community-plan/212-West-72nd-Street-5h-2059135443,,
+51,1510000,1,1,743,"12G Plan in 212 West 72nd Street,New York, NY 10023",True,https://www.trulia.com/builder-community-plan/212-West-72nd-Street-12g-2059135444,,
+52,7575000,4,4,2589,"10H Plan in 212 West 72nd Street,New York, NY 10023",True,https://www.trulia.com/builder-community-plan/212-West-72nd-Street-10h-2059135445,,
+53,305000,,1,450,"85-14 Broadway Elmhurst, NY 11373",True,https://www.trulia.com/p/ny/elmhurst/85-14-broadway-5d-elmhurst-ny-11373--2396405549,40.7389383,-73.87802549759652
+54,399000,2,1,1221,"31 Devon Loop Staten Island, NY 10314",True,https://www.trulia.com/p/ny/staten-island/31-devon-loop-a-staten-island-ny-10314--2008855913,40.5810669,-74.1610438
+55,749900,4,3,2572,"316 York Ave,Staten Island, NY 10301",True,https://www.trulia.com/p/ny/staten-island/316-york-ave-staten-island-ny-10301--743848,40.63864205,-74.08840752415828
+56,595000,1,1,677,"342 E 110th St New York, NY 10029",True,https://www.trulia.com/p/ny/new-york/342-e-110th-st-6c-new-york-ny-10029--2088891812,40.7923117,-73.93899145040119
+57,2250000,4,3,,"108 E 86th St New York, NY 10028",True,https://www.trulia.com/p/ny/new-york/108-e-86th-st-12n-new-york-ny-10028--2478898012,40.7796924,-73.9567274
+58,375000,2,2,,"800 Grand Concourse Bronx, NY 10451",True,https://www.trulia.com/p/ny/bronx/800-grand-concourse-2sn-bronx-ny-10451--2333368890,40.82486205,-73.92260592736525
+59,1200000,9,7,,"439 E 45th St Brooklyn, NY 11203",True,https://www.trulia.com/p/ny/brooklyn/439-e-45th-st-1-6-brooklyn-ny-11203--2625411237,40.650874099999996,-73.93487028031203
+0,995000,12,6,4200,"93-38 43rd Ave Elmhurst, NY 11373",True,https://www.trulia.com/p/ny/elmhurst/93-38-43rd-ave-6fam-elmhurst-ny-11373--2625411236,40.7422709,-73.8782393
+1,3000000,7,7,5080,"351 W 84th St New York, NY 10024",True,https://www.trulia.com/p/ny/new-york/351-w-84th-st-1-new-york-ny-10024--2625411235,40.7884404,-73.98042072491164
+2,1675000,2,2,1087,"710 Metropolitan Ave Brooklyn, NY 11211",True,https://www.trulia.com/p/ny/brooklyn/710-metropolitan-ave-5c-brooklyn-ny-11211--2590482056,40.7143274,-73.9452235
+3,1750000,2,2,980,"710 Metropolitan Ave Brooklyn, NY 11211",True,https://www.trulia.com/p/ny/brooklyn/710-metropolitan-ave-4c-brooklyn-ny-11211--2590449817,40.7143274,-73.9452235
+4,258000,1,1,850,"37-51 86th St Jackson Heights, NY 11372",True,https://www.trulia.com/p/ny/jackson-heights/37-51-86th-st-3n-jackson-heights-ny-11372--2556347846,40.748676599999996,-73.88004121634299
+5,515000,1,1,476,"764 Saint Johns Pl Brooklyn, NY 11216",True,https://www.trulia.com/p/ny/brooklyn/764-saint-johns-pl-2b-brooklyn-ny-11216--2174113832,40.6716702,-73.9528301
+6,699000,3,2,1876,"127 McArthur Ave,Staten Island, NY 10312",True,https://www.trulia.com/p/ny/staten-island/127-mcarthur-ave-staten-island-ny-10312--842886,40.5541451,-74.17776734253957
+7,399000,,1,,"225 E 36th St New York, NY 10016",True,https://www.trulia.com/p/ny/new-york/225-e-36th-st-3d-new-york-ny-10016--2478464637,40.74668025,-73.97579415607126
+8,369000,1,1,650,"4489 Broadway New York, NY 10040",True,https://www.trulia.com/p/ny/new-york/4489-broadway-6d-new-york-ny-10040--2008701045,,
+9,689999,3,1,1036,"5215 Avenue L,Brooklyn, NY 11234",True,https://www.trulia.com/p/ny/brooklyn/5215-avenue-l-brooklyn-ny-11234--2009862089,40.6239047,-73.9248716769367
+10,1398888,2,2,970,"630 1st Ave New York, NY 10016",True,https://www.trulia.com/p/ny/new-york/630-1st-ave-34e-new-york-ny-10016--2008631915,40.7454336,-73.9720391
+11,385000,,1,475,"210 E 36th St New York, NY 10016",True,https://www.trulia.com/p/ny/new-york/210-e-36th-st-3j-new-york-ny-10016--2478364429,40.746539,-73.9766511438315
+12,2350000,2,2,1180,"133 W 22nd St New York, NY 10011",True,https://www.trulia.com/p/ny/new-york/133-w-22nd-st-8f-new-york-ny-10011--2088823253,40.74302165,-73.9946793503658
+13,695000,1,1,,"155 E 76th St New York, NY 10021",True,https://www.trulia.com/p/ny/new-york/155-e-76th-st-4c-new-york-ny-10021--2192636258,40.77288755,-73.95951717458541
+14,950000,2,2,971,"171 W 131st St New York, NY 10027",True,https://www.trulia.com/p/ny/new-york/171-w-131st-st-610-new-york-ny-10027--2283922459,40.81246042857143,-73.94464128571428
+15,1150000,1,1,773,"710 Metropolitan Ave Brooklyn, NY 11211",True,https://www.trulia.com/p/ny/brooklyn/710-metropolitan-ave-5f-brooklyn-ny-11211--2590452324,40.7143274,-73.9452235
+16,1295000,12,6,2500,"1665 76th St Brooklyn, NY 11214",True,https://www.trulia.com/p/ny/brooklyn/1665-76th-st-6-brooklyn-ny-11214--2614069563,40.6148628,-73.9995858275086
+17,1035000,1,1,680,"710 Metropolitan Ave Brooklyn, NY 11211",True,https://www.trulia.com/p/ny/brooklyn/710-metropolitan-ave-3e-brooklyn-ny-11211--2590488955,40.7143274,-73.9452235
+18,685000,,1,468,"710 Metropolitan Ave Brooklyn, NY 11211",True,https://www.trulia.com/p/ny/brooklyn/710-metropolitan-ave-3l-brooklyn-ny-11211--2590614066,40.7143274,-73.9452235
+19,859000,3,2,2320,"5003 Avenue M,Brooklyn, NY 11234",True,https://www.trulia.com/p/ny/brooklyn/5003-avenue-m-brooklyn-ny-11234--2009861830,40.6215722,-73.92687895057783
+20,674000,3,3,1312,"15129 134th Ave,Jamaica, NY 11434",True,https://www.trulia.com/p/ny/jamaica/15129-134th-ave-jamaica-ny-11434--2010258779,,
+21,880000,2,2,1152,"122 Ashland Pl Brooklyn, NY 11201",True,https://www.trulia.com/p/ny/brooklyn/122-ashland-pl-11m-brooklyn-ny-11201--2331883590,40.692434500000005,-73.9793546947686
+22,315000,1,1,950,"1625 E 13th St Brooklyn, NY 11229",True,https://www.trulia.com/p/ny/brooklyn/1625-e-13th-st-3k-brooklyn-ny-11229--2333955220,40.6097096,-73.9602234
+23,349000,2,1,1000,"224 Highland Blvd Brooklyn, NY 11207",True,https://www.trulia.com/p/ny/brooklyn/224-highland-blvd-602-brooklyn-ny-11207--2478574755,40.6817209,-73.89310515475938
+24,569000,2,1,,"70-31 108th St Forest Hills, NY 11375",True,https://www.trulia.com/p/ny/forest-hills/70-31-108th-st-10h-forest-hills-ny-11375--2624896032,,
+25,5800000,3,4,2535,"555 W 22nd St New York, NY 10011",True,https://www.trulia.com/p/ny/new-york/555-w-22nd-st-5aw-new-york-ny-10011--2625409469,40.747437545454545,-74.00541827272728
+26,4375000,3,4,2369,"100 Barclay St New York, NY 10007",True,https://www.trulia.com/p/ny/new-york/100-barclay-st-14g-new-york-ny-10007--2288745570,40.713932,-74.012523
+27,19500000,20,10,63000,"49 Ash St,Brooklyn, NY 11222",True,https://www.trulia.com/p/ny/brooklyn/49-ash-st-brooklyn-ny-11222--2009771843,40.73862815,-73.95349699148488
+28,599000,2,2,986,"775 Lafayette Ave Brooklyn, NY 11221",True,https://www.trulia.com/p/ny/brooklyn/775-lafayette-ave-14c-brooklyn-ny-11221--2182102114,40.691483149999996,-73.9418693601585
+29,500000,"138   ,"," ,  10301",,"138 Grymes Hill Rd,Staten Island, NY 10301",True,https://www.trulia.com/home/138-Grymes-Hill-Rd-Staten-Island-NY-10301-2104235467,40.62330204081633,-74.09267983673469
+30,1295000,12,6,5400,"1665 76th St,Brooklyn, NY 11214",True,https://www.trulia.com/p/ny/brooklyn/1665-76th-st-brooklyn-ny-11214--2009679157,40.6148628,-73.9995858275086
+31,1100000,8,4,4557,"1739 Zerega Ave,Bronx, NY 10462",True,https://www.trulia.com/p/ny/bronx/1739-zerega-ave-bronx-ny-10462--2008914895,40.84056665,-73.8525283713362
+32,1799000,3,2,1200,"12 Colonial Gdns,Brooklyn, NY 11209",True,https://www.trulia.com/p/ny/brooklyn/12-colonial-gdns-brooklyn-ny-11209--2009632041,40.62249625,-74.03972771881953
+33,1095000,1,2,781,"235 E 40th St New York, NY 10016",True,https://www.trulia.com/p/ny/new-york/235-e-40th-st-24c-new-york-ny-10016--2088834109,40.748969755102046,-73.9739428367347
+34,1100000,2,2,,"137 E 36th St New York, NY 10016",True,https://www.trulia.com/p/ny/new-york/137-e-36th-st-13k-new-york-ny-10016--2478405711,40.747758899999994,-73.97832760468114
+35,349000,,1,,"209 E 56th St New York, NY 10022",True,https://www.trulia.com/p/ny/new-york/209-e-56th-st-3c-new-york-ny-10022--2346080103,40.759459750000005,-73.96710557421667
+36,595000,1,1,,"335 E 51st St New York, NY 10022",True,https://www.trulia.com/p/ny/new-york/335-e-51st-st-4d-new-york-ny-10022--2189848510,40.7550827,-73.9665626890463
+37,9500000,3,4,2340,"555 W 22nd St New York, NY 10011",True,https://www.trulia.com/p/ny/new-york/555-w-22nd-st-16cw-new-york-ny-10011--2625408868,40.747437545454545,-74.00541827272728
+38,698000,4,2,,"121-14 196th St,Springfield Gardens, NY 11413",True,https://www.trulia.com/p/ny/springfield-gardens/121-14-196th-st-springfield-gardens-ny-11413--2512309341,,
+39,10350000,3,4,3086,"30 Riverside Blvd New York, NY 10069",True,https://www.trulia.com/p/ny/new-york/30-riverside-blvd-37e-new-york-ny-10069--2442694725,40.7736798,-73.9918014
+0,6849000,5,6,2874,"188 E 78th St New York, NY 10075",True,https://www.trulia.com/p/ny/new-york/188-e-78th-st-24b-new-york-ny-10075--2088910685,40.7736045,-73.9580638
+1,795000,"56  ,"," ,  10309",,"56 Hallister St,Staten Island, NY 10309",True,https://www.trulia.com/home/56-Hallister-St-Staten-Island-NY-10309-2085791449,40.52522269230769,-74.21865623076923
+2,1188888,6,4,2560,"26-26A Robin Rd,Staten Island, NY 10305",True,https://www.trulia.com/p/ny/staten-island/26-26a-robin-rd-staten-island-ny-10305--2424681746,40.595263,-74.063889
+3,1838888,13,6,3974,"69 Starbuck St,Staten Island, NY 10304",True,https://www.trulia.com/p/ny/staten-island/69-starbuck-st-staten-island-ny-10304--2008753672,40.610648350000005,-74.08990037566667
+4,985000,4,4,2400,"3 Craig Ave,Staten Island, NY 10307",True,https://www.trulia.com/p/ny/staten-island/3-craig-ave-staten-island-ny-10307--868983,40.51687915,-74.2375387741059
+5,434900,2,1,1200,"20 Bay Street Lndg Staten Island, NY 10301",True,https://www.trulia.com/p/ny/staten-island/20-bay-street-lndg-1d-staten-island-ny-10301--2008724316,,
+6,1350000,3,3,2900,"53 Hawley Ave,Staten Island, NY 10312",True,https://www.trulia.com/p/ny/staten-island/53-hawley-ave-staten-island-ny-10312--2622516274,40.53266406122449,-74.19386463265306
+7,3250000,2,2,1402,"120 E 87th St New York, NY 10128",True,https://www.trulia.com/p/ny/new-york/120-e-87th-st-p24-c-new-york-ny-10128--2088913467,40.7801398,-73.9553085
+8,1499000,2,2,1177,"429 Kent Ave Brooklyn, NY 11249",True,https://www.trulia.com/p/ny/brooklyn/429-kent-ave-810-brooklyn-ny-11249--2009908853,40.709598119999995,-73.96839560000001
+9,1350000,9,5,2698,"3048 Brighton 14 St Brooklyn, NY 11235",True,https://www.trulia.com/p/ny/brooklyn/3048-brighton-14-st-5-brooklyn-ny-11235--2625405326,,
+10,299000,1,1,674,"211 W 144th St New York, NY 10030",True,https://www.trulia.com/p/ny/new-york/211-w-144th-st-3b-new-york-ny-10030--2329665901,40.8215589,-73.94031479448539
+11,950000,2,1,1050,"310 E 46th St New York, NY 10017",True,https://www.trulia.com/p/ny/new-york/310-e-46th-st-19m-new-york-ny-10017--2174127398,40.7520063,-73.9697268
+12,939000,3,2,1270,"467 W 163rd St New York, NY 10032",True,https://www.trulia.com/p/ny/new-york/467-w-163rd-st-6-new-york-ny-10032--2088895355,40.836486449999995,-73.938715204183
+13,400000,2,1,,"631 Academy St New York, NY 10034",True,https://www.trulia.com/p/ny/new-york/631-academy-st-5a-new-york-ny-10034--2614342027,40.8656305,-73.9243671
+14,1495000,2,2,1200,"319 E 50th St New York, NY 10022",True,https://www.trulia.com/p/ny/new-york/319-e-50th-st-7ed-new-york-ny-10022--2325915335,40.7546097,-73.9676331
+15,1150000,,"2,898 ",,"1748 Anthony Ave,Bronx, NY 10457",True,https://www.trulia.com/p/ny/bronx/1748-anthony-ave-bronx-ny-10457--2008883922,40.8452507,-73.90369494619048
+16,530000,2,2,606,"858 54th St Brooklyn, NY 11220",True,https://www.trulia.com/p/ny/brooklyn/858-54th-st-4d-brooklyn-ny-11220--2009754844,40.63785195,-74.00476255000001
+17,2120000,8,6,3750,"958 Madison St,Brooklyn, NY 11221",True,https://www.trulia.com/p/ny/brooklyn/958-madison-st-brooklyn-ny-11221--1008704886,40.688521300000005,-73.91922201308304
+18,445000,2,2,1400,"125-10 Queens Blvd Kew Gardens, NY 11415",True,https://www.trulia.com/p/ny/kew-gardens/125-10-queens-blvd-1423-kew-gardens-ny-11415--2393312666,40.7123428,-73.8265381
+19,1950000,6,3,2820,"51 Sutton St,Brooklyn, NY 11222",True,https://www.trulia.com/p/ny/brooklyn/51-sutton-st-brooklyn-ny-11222--2009772051,40.72469855,-73.9407526445
+20,735000,4,3,2500,"7423 88th Rd,Jamaica, NY 11421",True,https://www.trulia.com/p/ny/jamaica/7423-88th-rd-jamaica-ny-11421--2010195751,,
+21,225000,1,1,,"5800 Arlington Ave Bronx, NY 10471",True,https://www.trulia.com/p/ny/bronx/5800-arlington-ave-6a-bronx-ny-10471--2345534121,40.90799495,-73.90575805145176
+22,1375000,3,2,,"125 Eastern Pkwy Brooklyn, NY 11238",True,https://www.trulia.com/p/ny/brooklyn/125-eastern-pkwy-4e-brooklyn-ny-11238--2346123461,40.67263925,-73.96469471690821
+23,5795000,3,4,,"131 E 66th St New York, NY 10065",True,https://www.trulia.com/p/ny/new-york/131-e-66th-st-6-7a-new-york-ny-10065--2625403749,40.766598,-73.9647457
+24,2495000,3,3,,"135 Eastern Pkwy Brooklyn, NY 11238",True,https://www.trulia.com/p/ny/brooklyn/135-eastern-pkwy-10i-brooklyn-ny-11238--2478930127,40.672510599999995,-73.96405236966206
+25,499000,1,1,,"575 Park Ave New York, NY 10065",True,https://www.trulia.com/p/ny/new-york/575-park-ave-409-new-york-ny-10065--2008705868,40.7651593,-73.9678623
+26,3750000,3,4,,"880 5th Ave New York, NY 10021",True,https://www.trulia.com/p/ny/new-york/880-5th-ave-4jk-new-york-ny-10021--2576733127,40.770716,-73.9680959
+27,15995000,5,6,4621,"35 Hudson Yards New York, NY 10001",True,https://www.trulia.com/p/ny/new-york/35-hudson-yards-8301-new-york-ny-10001--2549724918,40.754673749999995,-74.002222085563
+28,199000,,1,462,"15 Oliver St Brooklyn, NY 11209",True,https://www.trulia.com/p/ny/brooklyn/15-oliver-st-2c-brooklyn-ny-11209--2346127030,40.6197286,-74.0392109
+29,1499999,3,3,1584,"1719 E 22nd St,Brooklyn, NY 11229",True,https://www.trulia.com/p/ny/brooklyn/1719-e-22nd-st-brooklyn-ny-11229--2089005112,40.6096543,-73.95111909117831
+30,1880000,6,6,3261,"1407 Shore Pkwy,Brooklyn, NY 11214",True,https://www.trulia.com/p/ny/brooklyn/1407-shore-pkwy-brooklyn-ny-11214--327655,40.5991449,-74.00622105
+31,1488888,8,6,3600,"63 Titus Ave,Staten Island, NY 10306",True,https://www.trulia.com/p/ny/staten-island/63-titus-ave-staten-island-ny-10306--816443,40.5669752,-74.10705710053674
+32,1488888,8,6,3600,"65 Titus Ave,Staten Island, NY 10306",True,https://www.trulia.com/p/ny/staten-island/65-titus-ave-staten-island-ny-10306--2008785775,40.5667869,-74.1071665390524
+33,575000,3,2,1280,"103 Moreland St,Staten Island, NY 10306",True,https://www.trulia.com/p/ny/staten-island/103-moreland-st-staten-island-ny-10306--2008769170,40.5767836,-74.09516922144539
+34,799999,3,2,1925,"97 Lyndale Ave,Staten Island, NY 10312",True,https://www.trulia.com/p/ny/staten-island/97-lyndale-ave-staten-island-ny-10312--2008841479,40.54039185,-74.16229769142555
+35,248000,1,1,900,"1100 Clove Rd Staten Island, NY 10301",True,https://www.trulia.com/p/ny/staten-island/1100-clove-rd-2m-staten-island-ny-10301--2345703080,40.6189402,-74.10719764999999
+36,2295000,4,6,5500,"70 Utopia Ct,Staten Island, NY 10304",True,https://www.trulia.com/p/ny/staten-island/70-utopia-ct-staten-island-ny-10304--2008753819,40.59408525,-74.1055408745044
+37,679000,3,3,1638,"7 Sandalwood Dr,Staten Island, NY 10308",True,https://www.trulia.com/p/ny/staten-island/7-sandalwood-dr-staten-island-ny-10308--2008802170,40.562916900000005,-74.14758320000001
+38,850000,1,1,702,"372 Central Park W New York, NY 10025",True,https://www.trulia.com/p/ny/new-york/372-central-park-w-20h-new-york-ny-10025--2088878019,40.792962349999996,-73.96479896961364
+39,7495000,3,4,2653,"35 Hudson Yards New York, NY 10001",True,https://www.trulia.com/p/ny/new-york/35-hudson-yards-5904-new-york-ny-10001--2578265314,40.754673749999995,-74.002222085563
+0,1398000,4,3,,"63-06 138th Street,Flushing, NY 11367",True,https://www.trulia.com/p/ny/flushing/6306-138th-st-flushing-ny-11367--2010014281,40.76117,-73.829368
+1,4199000,3,3,2004,"525 Park Ave New York, NY 10065",True,https://www.trulia.com/p/ny/new-york/525-park-ave-3a-new-york-ny-10065--2008705673,40.7638739,-73.9688009
+2,729900,3,4,1050,"13644 222nd St,Laurelton, NY 11413",True,https://www.trulia.com/p/ny/laurelton/13644-222nd-st-laurelton-ny-11413--1137987733,40.667735,-73.754412
+3,530000,1,1,800,"415 Argyle Rd Brooklyn, NY 11218",True,https://www.trulia.com/p/ny/brooklyn/415-argyle-rd-5v-brooklyn-ny-11218--2478398723,40.639215285714286,-73.96583185714285
+4,599000,1,1,,"1270 5th Ave New York, NY 10029",True,https://www.trulia.com/p/ny/new-york/1270-5th-ave-11k-new-york-ny-10029--2478464370,40.7957897,-73.9497938
+5,599888,2,2,1100,"98-22 63rd Dr Rego Park, NY 11374",True,https://www.trulia.com/p/ny/rego-park/98-22-63rd-dr-2b-rego-park-ny-11374--2478947663,40.731017949999995,-73.85791786725977
+6,750000,1,1,700,"165 W End Ave New York, NY 10023",True,https://www.trulia.com/p/ny/new-york/165-w-end-ave-11a-new-york-ny-10023--2178446753,40.77702175,-73.98704736859827
+7,875000,2,1,,"410 Nostrand Ave Brooklyn, NY 11216",True,https://www.trulia.com/p/ny/brooklyn/410-nostrand-ave-2r-brooklyn-ny-11216--2352316035,40.6851834,-73.9506984
+8,3495000,4,4,3400,"910 5th Ave New York, NY 10021",True,https://www.trulia.com/p/ny/new-york/910-5th-ave-2de-new-york-ny-10021--2392762167,40.7724157,-73.9665231
+9,285000,2,1,829,"1604 Metropolitan Avenue UNIT 5A,Bronx, NY 10462",True,https://www.trulia.com/p/ny/bronx/1604-metropolitan-ave-5a-bronx-ny-10462--2008912914,,
+10,699999,2,2,,"1039 E 92nd Street,Brooklyn, NY 11236",True,https://www.trulia.com/p/ny/brooklyn/1039-e-92nd-st-brooklyn-ny-11236--2089031076,40.6436915,-73.90739919999999
+11,1950000,2,2,1227,"200 W 24th St New York, NY 10011",True,https://www.trulia.com/p/ny/new-york/200-w-24th-st-7b-new-york-ny-10011--2088824397,40.7448012,-73.9955142
+12,615000,1,1,800,"345 Montgomery St Brooklyn, NY 11225",True,https://www.trulia.com/p/ny/brooklyn/345-montgomery-st-7d-brooklyn-ny-11225--2625390483,40.66572335,-73.95260571180899
+13,3795000,4,5,3032,"530 E 76th St New York, NY 10021",True,https://www.trulia.com/p/ny/new-york/530-e-76th-st-36e-new-york-ny-10021--2181281333,40.768234,-73.950073
+14,495000,,1,468,"520 E 81st St New York, NY 10028",True,https://www.trulia.com/p/ny/new-york/520-e-81st-st-2k-new-york-ny-10028--2088889964,40.77199575,-73.94829719728011
+15,549000,1,1,683,"202 Quentin Rd Brooklyn, NY 11223",True,https://www.trulia.com/p/ny/brooklyn/202-quentin-rd-2b-brooklyn-ny-11223--2009776587,40.605760149999995,-73.97878572090242
+16,799000,4,3,,"1071 E 233rd St Bronx, NY 10466",True,https://www.trulia.com/p/ny/bronx/1071-e-233rd-st-w-bronx-ny-10466--2625390263,40.890029999999996,-73.84609618848548
+17,428000,2,1,1000,"64-74 Saunders St Rego Park, NY 11374",True,https://www.trulia.com/p/ny/rego-park/64-74-saunders-st-3b-rego-park-ny-11374--2624847406,40.72779645,-73.8592066664294
+18,350000,2,1,950,"30-11 Parsons Blvd Flushing, NY 11354",True,https://www.trulia.com/p/ny/flushing/30-11-parsons-blvd-7j-flushing-ny-11354--2577611593,40.7701114,-73.82405963813527
+19,1250000,4,4,2400,"87-76 160th Street,Jamaica, NY 11432",True,https://www.trulia.com/p/ny/jamaica/87-76-160th-st-jamaica-ny-11432--2010244799,40.7074525,-73.80182725254267
+20,1488000,4,3,1584,"7418 Colonial Rd,Brooklyn, NY 11209",True,https://www.trulia.com/p/ny/brooklyn/7418-colonial-rd-brooklyn-ny-11209--2009639058,40.633067249999996,-74.03332220136878
+21,175000,1,1,665,"26 Metropolitan Oval UNIT 3A,Bronx, NY 10462",True,https://www.trulia.com/p/ny/bronx/26-metropolitan-oval-3a-bronx-ny-10462--2008920693,,
+22,689000,3,1,1280,"1456 E 57th St,Brooklyn, NY 11234",True,https://www.trulia.com/p/ny/brooklyn/1456-e-57th-st-brooklyn-ny-11234--2089018778,40.617968000000005,-73.92020050205633
+23,549999,2,1,1182,"11127 144th St,Jamaica, NY 11435",True,https://www.trulia.com/p/ny/jamaica/11127-144th-st-jamaica-ny-11435--2010265689,,
+24,620000,1,1,9450,"80 Gold St New York, NY 10038",True,https://www.trulia.com/p/ny/new-york/80-gold-st-10n-new-york-ny-10038--2464694023,40.709602849999996,-74.00452617109784
+25,199000,,1,500,"99-45 67th Rd Forest Hills, NY 11375",True,https://www.trulia.com/p/ny/forest-hills/99-45-67th-rd-104-forest-hills-ny-11375--2497518995,,
+26,875000,4,3,1725,"109-67 131st Street,South Ozone Park, NY 11420",True,https://www.trulia.com/p/ny/south-ozone-park/109-67-131st-st-south-ozone-park-ny-11420--2512325225,,
+27,1355000,5,3,2224,"1806 W 8th St,Brooklyn, NY 11223",True,https://www.trulia.com/p/ny/brooklyn/1806-w-8th-st-brooklyn-ny-11223--1102461065,40.60299285,-73.98094479093137
+28,1345000,1,2,916,"308 E 72nd St New York, NY 10021",True,https://www.trulia.com/p/ny/new-york/308-e-72nd-st-6e-new-york-ny-10021--2088854655,40.7684847,-73.958014
+29,958888,2,3,1600,"8818 74th Ave,Glendale, NY 11385",True,https://www.trulia.com/p/ny/glendale/8818-74th-ave-glendale-ny-11385--2010123251,40.700335,-73.891437
+30,3050000,2,2,1231,"30 W 63rd St New York, NY 10023",True,https://www.trulia.com/p/ny/new-york/30-w-63rd-st-16vw-new-york-ny-10023--2088867924,40.7710889,-73.9816965
+31,3995000,4,4,,"35 E 75th St New York, NY 10021",True,https://www.trulia.com/p/ny/new-york/35-e-75th-st-10e-new-york-ny-10021--2193955169,40.7736729,-73.9636064
+32,5750000,4,4,,"37 W 12th St New York, NY 10011",True,https://www.trulia.com/p/ny/new-york/37-w-12th-st-4j-new-york-ny-10011--2478422461,40.73548775,-73.99595510325838
+33,220000,1,1,652,"180 Van Cortlandt Park S Bronx, NY 10463",True,https://www.trulia.com/p/ny/bronx/180-van-cortlandt-park-s-6k-bronx-ny-10463--2333493455,40.88610235,-73.89933844909058
+34,1850000,4,3,,"10 Mitchell Pl New York, NY 10017",True,https://www.trulia.com/p/ny/new-york/10-mitchell-pl-2cdf-new-york-ny-10017--2403546457,40.753340083333335,-73.96628666666666
+35,1625000,2,2,959,"635 W 42nd St New York, NY 10036",True,https://www.trulia.com/p/ny/new-york/635-w-42nd-st-32j-new-york-ny-10036--2088904055,40.7616697,-73.9998589
+36,2250000,1,2,,"35 E 76th St New York, NY 10021",True,https://www.trulia.com/p/ny/new-york/35-e-76th-st-1418-new-york-ny-10021--2461286475,40.774381,-73.96299019274056
+37,1200000,9,7,6000,"439 E 45th Street UNIT 6,Brooklyn, NY 11203",True,https://www.trulia.com/p/ny/brooklyn/439-e-45th-st-6-brooklyn-ny-11203--2088979660,,
+38,1200000,8,4,,"2143 Strauss Street,Brooklyn, NY 11212",True,https://www.trulia.com/p/ny/brooklyn/2143-strauss-st-brooklyn-ny-11212--2009664766,40.661411900000004,-73.91422886288082
+39,300000,"433  ,",",  11207",,"433 Warwick St,Brooklyn, NY 11207",True,https://www.trulia.com/home/433-Warwick-St-Brooklyn-NY-11207-142892698,40.67299545454545,-73.88563254545454
+0,799000,,4,,"118-29 191st St,Saint Albans, NY 11412",True,https://www.trulia.com/p/ny/saint-albans/118-29-191st-st-saint-albans-ny-11412--2397468194,40.693161,-73.760707
+1,1199000,4,4,2496,"160 Pittsville Ave,Staten Island, NY 10307",True,https://www.trulia.com/p/ny/staten-island/160-pittsville-ave-staten-island-ny-10307--2008789425,40.506516038461534,-74.24636226923077
+2,460000,3,2,1408,"132 Montreal Ave,Staten Island, NY 10306",True,https://www.trulia.com/p/ny/staten-island/132-montreal-ave-staten-island-ny-10306--2008771140,40.562417100000005,-74.13135095341114
+3,189000,1,1,800,"4200 Herkimer Place UNIT 7G,Bronx, NY 10470",True,https://www.trulia.com/p/ny/bronx/4200-herkimer-pl-7g-bronx-ny-10470--2478317147,,
+4,1736000,2,2,1027,"515 E 72nd St New York, NY 10021",True,https://www.trulia.com/p/ny/new-york/515-e-72nd-st-4p-new-york-ny-10021--2088856744,40.7667625,-73.9531214
+5,800000,"429  ,",",  11207",,"429 Warwick St,Brooklyn, NY 11207",True,https://www.trulia.com/home/429-Warwick-St-Brooklyn-NY-11207-142892699,40.67308863636363,-73.88565636363637
+6,255000,1,1,,"42-30 Douglaston Parkw UNIT 3P,Flushing, NY 11363",True,https://www.trulia.com/p/ny/flushing/4230-douglaston-pkwy-3p-flushing-ny-11363--2180729665,,
+7,1175000,5,3,,"144-16 Tuskegee Airmen Way,Jamaica, NY 11435",True,https://www.trulia.com/p/ny/jamaica/144-16-tuskegee-airmen-way-jamaica-ny-11435--2189874624,40.6972684,-73.7987507
+8,4995000,3,4,2185,"200 E 69th St New York, NY 10021",True,https://www.trulia.com/p/ny/new-york/200-e-69th-st-44a-new-york-ny-10021--2088853949,40.76768,-73.961925
+9,449000,2,1,1200,"2425 Kings Hwy Brooklyn, NY 11229",True,https://www.trulia.com/p/ny/brooklyn/2425-kings-hwy-e16-brooklyn-ny-11229--2332881894,40.6131376,-73.9494021
+10,1299000,7,2,3328,"1634 Hering Avenue,Bronx, NY 10461",True,https://www.trulia.com/p/ny/bronx/1634-hering-ave-bronx-ny-10461--2008900128,40.84885805,-73.84773773746849
+11,479000,2,1,950,"100-11 67th Road UNIT 102,Flushing, NY 11375",True,https://www.trulia.com/p/ny/flushing/10011-67th-rd-flushing-ny-11375--1003953462,,
+12,1189000,4,3,,"196-11 100 Avenue,Jamaica, NY 11423",True,https://www.trulia.com/p/ny/jamaica/19611-100th-ave-jamaica-ny-11423--2010211299,,
+13,799999,"75  ,"," ,  10312",,"75 Poughkeepsie Ct,Staten Island, NY 10312",True,https://www.trulia.com/home/75-Poughkeepsie-Ct-Staten-Island-NY-10312-2067508134,40.52536795715811,-74.17090069573048
+14,319000,2,1,,"84-70 129 Street UNIT 4B,Kew Gardens, NY 11415",True,https://www.trulia.com/p/ny/kew-gardens/84-70-129th-st-4b-kew-gardens-ny-11415--2397166388,,
+15,699000,5,2,968,"645 Mead Street,Bronx, NY 10460",True,https://www.trulia.com/p/ny/bronx/645-mead-st-bronx-ny-10460--85172,40.8428936,-73.86611927971393
+16,259000,2,1,850,"2220 Burnett St Brooklyn, NY 11229",True,https://www.trulia.com/p/ny/brooklyn/2220-burnett-st-2f-brooklyn-ny-11229--2467408533,40.6020768,-73.9330721
+17,699000,,1,2470,"3018 Richmond Ter,Staten Island, NY 10303",True,https://www.trulia.com/p/ny/staten-island/3018-richmond-ter-staten-island-ny-10303--2008740623,40.63723475,-74.1605845
+18,699900,2,2,,"939 E 43rd Street,Brooklyn, NY 11234",True,https://www.trulia.com/p/ny/brooklyn/939-e-43rd-st-brooklyn-ny-11234--2088988237,40.63154861538462,-73.93491351923076
+19,3995000,4,4,,"10 W 66th St New York, NY 10023",True,https://www.trulia.com/p/ny/new-york/10-w-66th-st-23d-new-york-ny-10023--2177190939,40.7725184,-73.98422367365187
+20,725000,,1,,"249 8th Ave New York, NY 10011",True,https://www.trulia.com/p/ny/new-york/249-8th-ave-9d-new-york-ny-10011--2322426209,40.7450247,-73.9989294
+21,699000,2,2,1150,"37-30 83rd St Jackson Heights, NY 11372",True,https://www.trulia.com/p/ny/jackson-heights/37-30-83rd-st-1d-jackson-heights-ny-11372--2398029590,40.748806,-73.8835145593055
+22,499000,1,1,815,"720 Fort Washington Ave New York, NY 10040",True,https://www.trulia.com/p/ny/new-york/720-fort-washington-ave-1z-new-york-ny-10040--2332068855,40.8578028,-73.93454980381895
+23,3180000,8,8,5000,"56-15 Van Cleef Street,Flushing, NY 11368",True,https://www.trulia.com/p/ny/flushing/5615-van-cleef-st-flushing-ny-11368--2010024883,,
+24,1275000,5,2,2792,"236 45th St,Brooklyn, NY 11220",True,https://www.trulia.com/p/ny/brooklyn/236-45th-st-brooklyn-ny-11220--1103372382,40.65117515,-74.01321809823048
+25,965000,4,3,1800,"2049 Haring St,Brooklyn, NY 11229",True,https://www.trulia.com/p/ny/brooklyn/2049-haring-st-brooklyn-ny-11229--2009818293,40.6015883,-73.94085435
+26,1698000,4,3,,"43-22 91st,Elmhurst, NY 11373",True,https://www.trulia.com/p/ny/elmhurst/43-22-91st-pl-elmhurst-ny-11373--2175417806,40.74271335,-73.8740492678145
+27,699900,3,2,1485,"248-02 87th Avenue,Bellerose, NY 11426",True,https://www.trulia.com/p/ny/bellerose/24802-87th-ave-bellerose-ny-11426--2410562852,,
+28,345000,2,1,,"219-10 74th Avenue 2nd FL,Bayside, NY 11364",True,https://www.trulia.com/p/ny/bayside/219-10-74-ave-2nd-fl-bayside-ny-11364--2566400457,,
+29,168000,,1,,"226-26 Union Turnpike UNIT 6A,Oakland Gardens, NY 11364",True,https://www.trulia.com/p/ny/oakland-gardens/226-26-union-tpke-6a-oakland-gardens-ny-11364--2625389905,,
+30,599000,4,3,,"143-11 105th Avenue,Jamaica, NY 11435",True,https://www.trulia.com/p/ny/jamaica/143-11-105th-ave-jamaica-ny-11435--2010268294,40.6963921,-73.8028405
+31,1179000,6,5,,"191-35 115th Drive,Saint Albans, NY 11412",True,https://www.trulia.com/p/ny/saint-albans/191-35-115th-dr-saint-albans-ny-11412--2182999240,40.69505755,-73.75998440080524
+32,1082260,5,4,3015,"16035 99th Street,Jamaica, NY 11414",True,https://www.trulia.com/p/ny/jamaica/16035-99th-st-jamaica-ny-11414--2010153772,,
+33,485000,1,1,803,"4465 Douglas Avenue UNIT 15M,Bronx, NY 10471",True,https://www.trulia.com/p/ny/bronx/4465-douglas-ave-15m-bronx-ny-10471--2332753785,,
+34,632000,3,2,1600,"116-39 224 Street,Jamaica, NY 11411",True,https://www.trulia.com/p/ny/jamaica/11639-224th-st-jamaica-ny-11411--2205123788,,
+35,478000,2,1,,"73-20 Austin Street UNIT 1E,Forest Hills, NY 11375",True,https://www.trulia.com/p/ny/forest-hills/73-20-austin-st-1-e-forest-hills-ny-11375--2187494233,,
+36,1210000,7,3,3592,"1417 Fteley Avenue,Bronx, NY 10472",True,https://www.trulia.com/p/ny/bronx/1417-fteley-ave-bronx-ny-10472--2008971755,40.8350458,-73.87316524698136
+37,1298000,3,2,2832,"131-09 Liberty Avenue,South Richmond Hill, NY 11419",True,https://www.trulia.com/p/ny/south-richmond-hill/131-09-liberty-ave-south-richmond-hill-ny-11419--2397280680,,
+38,699000,3,3,2172,"2063 Turnbull Avenue,Bronx, NY 10473",True,https://www.trulia.com/p/ny/bronx/2063-turnbull-ave-bronx-ny-10473--2008975848,40.82369575,-73.85291475308179
+39,699000,3,2,1728,"1665 Waring Avenue,Bronx, NY 10469",True,https://www.trulia.com/p/ny/bronx/1665-waring-ave-bronx-ny-10469--2008955822,40.86100385,-73.83734735031993
+0,479000,3,2,1400,"4525 Henry Hudson Pkwy W Bronx, NY 10471",True,https://www.trulia.com/p/ny/bronx/4525-henry-hudson-pkwy-w-b103-bronx-ny-10471--2566498677,40.891473,-73.90915257404029
+1,925000,1,1,605,"526 Union Ave Brooklyn, NY 11211",True,https://www.trulia.com/p/ny/brooklyn/526-union-ave-605-brooklyn-ny-11211--2625225418,40.716382,-73.95189252380952
+2,579999,3,2,1122,"114-53 170th Street,Jamaica, NY 11434",True,https://www.trulia.com/p/ny/jamaica/114-53-170th-st-jamaica-ny-11434--692539,,
+3,398000,1,1,700,"136-05 Sanford Avenue UNIT 1R,Flushing, NY 11355",True,https://www.trulia.com/p/ny/flushing/136-05-sanford-ave-1r-flushing-ny-11355--2397725616,,
+4,1188000,3,3,,"166-43 21st Avenue,Flushing, NY 11357",True,https://www.trulia.com/p/ny/flushing/16643-21st-ave-flushing-ny-11357--2009950290,,
+5,848000,3,2,1380,"75-06 Utopia Parkway,Flushing, NY 11366",True,https://www.trulia.com/p/ny/flushing/7506-utopia-pkwy-flushing-ny-11366--2010006064,,
+6,1595000,1,2,1230,"30 Main St Brooklyn, NY 11201",True,https://www.trulia.com/p/ny/brooklyn/30-main-st-3h-brooklyn-ny-11201--2009547171,40.703030299999995,-73.99100222345739
+7,888000,2,1,,"23-05 24th Ave Astoria, NY 11105",True,https://www.trulia.com/p/ny/astoria/23-05-24th-ave-3c-astoria-ny-11105--2625211961,40.7773499,-73.9225597
+8,3995000,3,3,2650,"28 Vestry St New York, NY 10013",True,https://www.trulia.com/p/ny/new-york/28-vestry-st-1c-new-york-ny-10013--2008606416,40.7227619,-74.0084812
+9,649999,3,1,1200,"501 W 138th St New York, NY 10031",True,https://www.trulia.com/p/ny/new-york/501-w-138th-st-23-new-york-ny-10031--2197905410,40.8210606,-73.9511332
+10,3850000,3,3,2173,"80 Riverside Blvd New York, NY 10069",True,https://www.trulia.com/p/ny/new-york/80-riverside-blvd-10b-new-york-ny-10069--2008708635,40.7751167,-73.99028351486912
+11,590000,2,2,1100,"2818 W 17th St Brooklyn, NY 11224",True,https://www.trulia.com/p/ny/brooklyn/2818-w-17th-st-1b-brooklyn-ny-11224--2174475024,40.57841995,-73.98539734626952
+12,559000,2,1,,"62 Park Ter W New York, NY 10034",True,https://www.trulia.com/p/ny/new-york/62-park-ter-w-a37-new-york-ny-10034--2318863860,40.8711251,-73.9174014
+13,290000,1,1,700,"2600 E 21st St Brooklyn, NY 11235",True,https://www.trulia.com/p/ny/brooklyn/2600-e-21st-st-202-brooklyn-ny-11235--2625206330,40.58919531707317,-73.94853031707316
+14,720000,1,1,725,"201 E 25th St New York, NY 10010",True,https://www.trulia.com/p/ny/new-york/201-e-25th-st-9g-new-york-ny-10010--2478479648,40.7400913,-73.981896
+15,4200000,1,2,1060,"157 W 57th St New York, NY 10019",True,https://www.trulia.com/p/ny/new-york/157-w-57th-st-32a-new-york-ny-10019--2313726672,40.76507142857143,-73.978746
+16,225000,1,1,650,"1000 Clove Rd Staten Island, NY 10301",True,https://www.trulia.com/p/ny/staten-island/1000-clove-rd-5d-staten-island-ny-10301--2345713648,40.6202769,-74.10986952737753
+17,6950000,2,3,2100,"200 Central Park S New York, NY 10019",True,https://www.trulia.com/p/ny/new-york/200-central-park-s-35a-new-york-ny-10019--2478355279,40.766662,-73.97978854843282
+18,449000,,1,560,"405 W 57th St New York, NY 10019",True,https://www.trulia.com/p/ny/new-york/405-w-57th-st-4d-new-york-ny-10019--2337935313,40.768328,-73.98599427815034
+19,825000,3,2,,"9615 Shore Rd Brooklyn, NY 11209",True,https://www.trulia.com/p/ny/brooklyn/9615-shore-rd-1f-brooklyn-ny-11209--2346122450,40.615485050000004,-74.03752743916662
+20,1150000,1,1,717,"1080 Lorimer St Brooklyn, NY 11222",True,https://www.trulia.com/p/ny/brooklyn/1080-lorimer-st-c-brooklyn-ny-11222--2565988889,40.727464999999995,-73.95379975
+21,6385000,3,3,3069,"390 W End Ave New York, NY 10024",True,https://www.trulia.com/p/ny/new-york/390-w-end-ave-4j-new-york-ny-10024--2088873720,40.78374595,-73.98049427961273
+22,1635000,2,2,,"304 W 75th St New York, NY 10023",True,https://www.trulia.com/p/ny/new-york/304-w-75th-st-12ac-new-york-ny-10023--2625195864,40.78177435,-73.98371206278965
+23,335000,1,1,,"67-76 Booth St Forest Hills, NY 11375",True,https://www.trulia.com/p/ny/forest-hills/67-76-booth-st-7m-forest-hills-ny-11375--2625188653,,
+24,4986000,7,7,4715,"217 E 30th St,New York, NY 10016",True,https://www.trulia.com/p/ny/new-york/217-e-30th-st-new-york-ny-10016--145648,40.743017449999996,-73.97903345617412
+25,1588000,3,3,,"154-23 28 Avenue,Flushing, NY 11354",True,https://www.trulia.com/p/ny/flushing/15423-28th-ave-flushing-ny-11354--2009917203,,
+26,1148888,5,1,,"189-08 42 Avenue,Flushing, NY 11358",True,https://www.trulia.com/p/ny/flushing/18908-42nd-ave-flushing-ny-11358--2009956080,,
+27,170000,,1,,"125-10 Queens Boulevard UNIT 25,Kew Gardens, NY 11415",True,https://www.trulia.com/p/ny/kew-gardens/125-10-queens-blvd-25-kew-gardens-ny-11415--2625381847,,
+28,648888,3,2,,"163-10 71st Avenue UNIT 3,Fresh Meadows, NY 11365",True,https://www.trulia.com/p/ny/fresh-meadows/163-10-71st-ave-3-fresh-meadows-ny-11365--2526907501,,
+29,675000,2,2,716,"132-49 41st Road UNIT 6A,Flushing, NY 11355",True,https://www.trulia.com/p/ny/flushing/132-49-41st-rd-6-a-flushing-ny-11355--2397317978,,
+30,947000,3,2,1624,"11415 115th St,Jamaica, NY 11420",True,https://www.trulia.com/p/ny/jamaica/11415-115th-st-jamaica-ny-11420--2010187638,,
+31,265000,1,1,575,"5355 Henry Hudson Pkwy Bronx, NY 10471",True,https://www.trulia.com/p/ny/bronx/5355-henry-hudson-pkwy-1c-bronx-ny-10471--2553380115,40.9011832,-73.903681
+32,1095000,3,3,1733,"838 Quincy St Brooklyn, NY 11221",True,https://www.trulia.com/p/ny/brooklyn/838-quincy-st-1-brooklyn-ny-11221--2394943131,40.6896375,-73.92595649077971
+33,5650000,2,3,1475,"27 E 79th St New York, NY 10075",True,https://www.trulia.com/p/ny/new-york/27-e-79th-st-5-new-york-ny-10075--2344036795,40.7767402,-73.96232344099869
+34,4650000,5,3,3860,"632 2nd St,Brooklyn, NY 11215",True,https://www.trulia.com/p/ny/brooklyn/632-2nd-st-brooklyn-ny-11215--2009699457,40.6691082,-73.97431439400279
+35,289000,3,1,960,"59 Barker St,Staten Island, NY 10310",True,https://www.trulia.com/p/ny/staten-island/59-barker-st-staten-island-ny-10310--2008819386,40.63585405,-74.12126277186499
+36,309000,1,1,836,"145 Lincoln Ave Staten Island, NY 10306",True,https://www.trulia.com/p/ny/staten-island/145-lincoln-ave-6a-staten-island-ny-10306--2008771909,40.579042799999996,-74.10759804244887
+37,2995000,2,2,1748,"360 Furman St Brooklyn, NY 11201",True,https://www.trulia.com/p/ny/brooklyn/360-furman-st-1206-brooklyn-ny-11201--2009549552,40.69360305,-74.00054042784278
+38,2850000,3,2,,"60 Gramercy Park N New York, NY 10010",True,https://www.trulia.com/p/ny/new-york/60-gramercy-park-n-9g-new-york-ny-10010--2192066568,40.737913,-73.9849697
+39,6250000,4,4,3136,"1228 Madison Ave New York, NY 10128",True,https://www.trulia.com/p/ny/new-york/1228-madison-ave-4-new-york-ny-10128--2542687476,40.7826012,-73.95786334609551
+0,530000,1,1,707,"125 Ashland Pl Brooklyn, NY 11201",True,https://www.trulia.com/p/ny/brooklyn/125-ashland-pl-12c-brooklyn-ny-11201--2333835533,40.6924035,-73.97872815
+1,1180000,,3,,"2019 W 12th St,Brooklyn, NY 11223",True,https://www.trulia.com/p/ny/brooklyn/2019-w-12th-st-brooklyn-ny-11223--2088997990,40.5976128,-73.98324831691649
+2,2499000,7,5,4557,"2719 Whitman Dr,Brooklyn, NY 11234",True,https://www.trulia.com/p/ny/brooklyn/2719-whitman-dr-brooklyn-ny-11234--405798,40.604997350000005,-73.91065695
+3,6495000,5,4,3700,"50 W 84th St,New York, NY 10024",True,https://www.trulia.com/p/ny/new-york/50-w-84th-st-new-york-ny-10024--417688,40.78464115,-73.9723602
+4,525000,,1,350,"225 Central Park N New York, NY 10024",True,https://www.trulia.com/p/ny/new-york/225-central-park-n-514-new-york-ny-10024--2478589215,40.7996582244898,-73.95605134693878
+5,4100000,4,4,2791,"200 Water St,Brooklyn, NY 11201",True,https://www.trulia.com/p/ny/brooklyn/200-water-st-brooklyn-ny-11201--2467427488,40.7028927,-73.98576596157736
+6,875000,3,2,840,"68 McClean Ave,Staten Island, NY 10305",True,https://www.trulia.com/p/ny/staten-island/68-mcclean-ave-staten-island-ny-10305--2159068276,40.59869715,-74.0638634
+7,529000,2,2,1050,"3015 Harding Avenue,Bronx, NY 10465",True,https://www.trulia.com/p/ny/bronx/3015-harding-ave-bronx-ny-10465--2008934401,40.81682805,-73.81171484999999
+8,2398000,10,5,2000,"6923 20th Ave,Brooklyn, NY 11204",True,https://www.trulia.com/p/ny/brooklyn/6923-20th-ave-brooklyn-ny-11204--2009577791,40.613633300000004,-73.98849507100228
+9,815000,3,2,2220,"1287 E 53rd St,Brooklyn, NY 11234",True,https://www.trulia.com/p/ny/brooklyn/1287-e-53rd-st-brooklyn-ny-11234--2089017366,40.627325150000004,-73.92455392164247
+10,289000,,1,,"444 E 87th St New York, NY 10128",True,https://www.trulia.com/p/ny/new-york/444-e-87th-st-4g-new-york-ny-10128--2478376905,40.77704879591837,-73.94790685714285
+11,830000,,1,490,"22 N 6th St Brooklyn, NY 11249",True,https://www.trulia.com/p/ny/brooklyn/22-n-6th-st-20e-brooklyn-ny-11249--2089040724,40.720024,-73.96333029141324
+12,1160000,2,2,1045,"2280 Frederick Douglass Blvd New York, NY 10027",True,https://www.trulia.com/p/ny/new-york/2280-frederick-douglass-blvd-6i-new-york-ny-10027--2008659188,40.8084498,-73.9521714
+13,3749500,3,4,1770,"196 Orchard St New York, NY 10002",True,https://www.trulia.com/p/ny/new-york/196-orchard-st-10c-new-york-ny-10002--2369765038,40.722304,-73.9879659
+14,1195000,,1,609,"196 Orchard St New York, NY 10002",True,https://www.trulia.com/p/ny/new-york/196-orchard-st-4p-new-york-ny-10002--2402845241,40.722304,-73.9879659
+15,6750000,3,4,2862,"260 W Broadway New York, NY 10013",True,https://www.trulia.com/p/ny/new-york/260-w-broadway-4b5b-new-york-ny-10013--2625178876,,
+16,529000,1,1,,"511 Evergreen Ave Brooklyn, NY 11221",True,https://www.trulia.com/p/ny/brooklyn/511-evergreen-ave-4f-brooklyn-ny-11221--2625178874,40.690590666666665,-73.915841
+17,2215000,2,2,1091,"202 Broome St New York, NY 10002",True,https://www.trulia.com/p/ny/new-york/202-broome-st-8f-new-york-ny-10002--2512652135,40.717615800000004,-73.98728724271628
+18,195000,"724  235 ,",",  10466",,"724 E 235th St,Bronx, NY 10466",True,https://www.trulia.com/home/724-E-235th-St-Bronx-NY-10466-29836664,40.894525,-73.85574650000001
+19,225000,"599  ,",",  11207",,"599 Ashford St,Brooklyn, NY 11207",True,https://www.trulia.com/home/599-Ashford-St-Brooklyn-NY-11207-2097828771,40.66727715625,-73.88332290625
+20,2480000,7,2,1626,"2024 80th St,Brooklyn, NY 11214",True,https://www.trulia.com/p/ny/brooklyn/2024-80th-st-brooklyn-ny-11214--2009681697,40.607372850000004,-73.99407794999999
+21,399000,,1,,"205 E 63rd St New York, NY 10065",True,https://www.trulia.com/p/ny/new-york/205-e-63rd-st-5h-new-york-ny-10065--2191418945,40.7639362,-73.9641732
+22,595000,2,1,990,"860 W 181st St New York, NY 10033",True,https://www.trulia.com/p/ny/new-york/860-w-181st-st-43-new-york-ny-10033--2478444842,40.8511846,-73.9406333
+23,1750000,,1,20000,"38-18 31st St,Long Island City, NY 11101",True,https://www.trulia.com/p/ny/long-island-city/38-18-31st-st-long-island-city-ny-11101--2009485866,,
+24,4288000,7,5,4074,"8101 Colonial Rd,Brooklyn, NY 11209",True,https://www.trulia.com/p/ny/brooklyn/8101-colonial-rd-brooklyn-ny-11209--2009640027,40.628233,-74.034883
+25,840000,2,2,1050,"7601 14th Ave Brooklyn, NY 11228",True,https://www.trulia.com/p/ny/brooklyn/7601-14th-ave-2a-brooklyn-ny-11228--2009813124,40.618223,-74.00587
+26,469000,,1,,"201 W 21st St New York, NY 10011",True,https://www.trulia.com/p/ny/new-york/201-w-21st-st-11d-new-york-ny-10011--2178930533,40.7430253,-73.9968208
+27,1200000,1,1,875,"50 Park Ave New York, NY 10016",True,https://www.trulia.com/p/ny/new-york/50-park-ave-12g-new-york-ny-10016--2008631045,42.64455275438035,-73.76042642001842
+28,3100000,3,2,,"173-175 Riverside Dr W New York, NY 10024",True,https://www.trulia.com/p/ny/new-york/173-175-riverside-dr-w-4h-new-york-ny-10024--2625176581,40.7963513,-73.974553
+29,2800000,12,4,3300,"1392 Madison St,Brooklyn, NY 11237",True,https://www.trulia.com/p/ny/brooklyn/1392-madison-st-brooklyn-ny-11237--2009882996,40.6976124,-73.91032788788618
+30,350000,3,1,,"552 W 141st St New York, NY 10031",True,https://www.trulia.com/p/ny/new-york/552-w-141st-st-5a-new-york-ny-10031--2345967257,40.82335125,-73.9515759065987
+31,1088888,4,4,2200,"126 Tyrrell St,Staten Island, NY 10307",True,https://www.trulia.com/p/ny/staten-island/126-tyrrell-st-staten-island-ny-10307--869349,40.5121468,-74.24856317046522
+32,578000,3,1,,"92-21 76th Street,Woodhaven, NY 11421",True,https://www.trulia.com/p/ny/woodhaven/92-21-76th-st-woodhaven-ny-11421--604167,40.685044500000004,-73.8639136313817
+33,380000,,600 ,,"51 Hill St,Brooklyn, NY 11208",True,https://www.trulia.com/p/ny/brooklyn/51-hill-st-brooklyn-ny-11208--2009626562,40.6789306,-73.87131145000001
+34,1358000,6,3,2310,"2401 37th Ave,Long Island City, NY 11101",True,https://www.trulia.com/p/ny/long-island-city/2401-37th-ave-long-island-city-ny-11101--2009482606,,
+35,1800000,2,2,1280,"400 E 54th St New York, NY 10022",True,https://www.trulia.com/p/ny/new-york/400-e-54th-st-14c-new-york-ny-10022--2088860858,40.7560875,-73.9640348
+36,1450000,1,2,1000,"300 E 74th St New York, NY 10021",True,https://www.trulia.com/p/ny/new-york/300-e-74th-st-28c-new-york-ny-10021--2173751631,40.7698782,-73.9572384
+37,675000,1,1,,"302 W 79th St New York, NY 10024",True,https://www.trulia.com/p/ny/new-york/302-w-79th-st-2c-new-york-ny-10024--2333245885,40.78436524999999,-73.98191435154851
+38,675000,2,1,,"100 Overlook Ter New York, NY 10040",True,https://www.trulia.com/p/ny/new-york/100-overlook-ter-412-new-york-ny-10040--2284025102,40.8562126,-73.93494559257556
+39,569000,3,2,20930,"9740 62nd Dr Rego Park, NY 11374",True,https://www.trulia.com/p/ny/rego-park/9740-62nd-dr-7j-rego-park-ny-11374--2474900647,40.7309323,-73.8645828
+0,319000,1,1,,"6538 Booth St Flushing, NY 11374",True,https://www.trulia.com/p/ny/flushing/6538-booth-st-2f-flushing-ny-11374--2173624729,,
+1,340000,1,1,650,"43-15 46th St Sunnyside, NY 11104",True,https://www.trulia.com/p/ny/sunnyside/43-15-46th-st-f10-sunnyside-ny-11104--2605865880,40.744295,-73.91818416091216
+2,7999000,4,4,2372,"PH1A Plan in 101 West 14th,New York, NY 10011",True,https://www.trulia.com/builder-community-plan/101-West-14th-Ph1a-2059152043,,
+3,2998000,2,2,1076,"Residence 4A Plan in 101 West 14th,New York, NY 10011",True,https://www.trulia.com/builder-community-plan/101-West-14th-Residence-4a-2059152044,,
+4,3590000,2,2,1125,"Residence 5B Plan in 101 West 14th,New York, NY 10011",True,https://www.trulia.com/builder-community-plan/101-West-14th-Residence-5b-2059152045,,
+5,4630000,2,2,1454,"Residence 4D Plan in 101 West 14th,New York, NY 10011",True,https://www.trulia.com/builder-community-plan/101-West-14th-Residence-4d-2059152046,,
+6,1890000,1,1,727,"Residence 3D Plan in 101 West 14th,New York, NY 10011",True,https://www.trulia.com/builder-community-plan/101-West-14th-Residence-3d-2059152047,,
+7,6500000,3,3,1851,"PH1B Plan in 101 West 14th,New York, NY 10011",True,https://www.trulia.com/builder-community-plan/101-West-14th-Ph1b-2059152048,,
+8,3160000,2,2,1214,"Residence 3A Plan in 101 West 14th,New York, NY 10011",True,https://www.trulia.com/builder-community-plan/101-West-14th-Residence-3a-2059152049,,
+9,2950000,1,2,911,"Residence 4C Plan in 101 West 14th,New York, NY 10011",True,https://www.trulia.com/builder-community-plan/101-West-14th-Residence-4c-2059152050,,
+10,1449000,5,4,3000,"2806 Avenue K,Brooklyn, NY 11210",True,https://www.trulia.com/p/ny/brooklyn/2806-avenue-k-brooklyn-ny-11210--369226,40.623991700000005,-73.94802909541946
+11,849000,3,2,1224,"1830 E 32nd St,Brooklyn, NY 11234",True,https://www.trulia.com/p/ny/brooklyn/1830-e-32nd-st-brooklyn-ny-11234--2089021957,40.6104531,-73.93740762178811
+12,1498000,6,3,1760,"15310 Peck Ave,Flushing, NY 11355",True,https://www.trulia.com/p/ny/flushing/15310-peck-ave-flushing-ny-11355--536197,,
+13,1698000,6,4,1250,"1926 76th St,Flushing, NY 11370",True,https://www.trulia.com/p/ny/flushing/1926-76th-st-flushing-ny-11370--1011166781,,
+14,3999000,3,3,1898,"220 Riverside Blvd New York, NY 10069",True,https://www.trulia.com/p/ny/new-york/220-riverside-blvd-42a-new-york-ny-10069--2008707982,40.7796941,-73.98754840652174
+15,799000,1,1,581,"211 E 51st St New York, NY 10022",True,https://www.trulia.com/p/ny/new-york/211-e-51st-st-5c-new-york-ny-10022--2088858686,40.75638040816327,-73.96991759183673
+16,2250000,2,2,1200,"150 W 56th St New York, NY 10019",True,https://www.trulia.com/p/ny/new-york/150-w-56th-st-5206-new-york-ny-10019--2189861043,40.7641992,-73.97965110486828
+17,1199000,1,1,,"16 W 16th St New York, NY 10011",True,https://www.trulia.com/p/ny/new-york/16-w-16th-st-8cs-new-york-ny-10011--2208136428,40.73759015,-73.99380880477267
+18,2580000,7,5,4815,"10454 Roosevelt Ave,Flushing, NY 11368",True,https://www.trulia.com/p/ny/flushing/10454-roosevelt-ave-flushing-ny-11368--2010017810,40.7565446,-73.8398191
+19,1275000,1,1,753,"100 W 93rd St New York, NY 10025",True,https://www.trulia.com/p/ny/new-york/100-w-93rd-st-24k-new-york-ny-10025--2088874884,40.790812450000004,-73.96963206630498
+20,1699000,2,2,971,"100 W 93rd St New York, NY 10025",True,https://www.trulia.com/p/ny/new-york/100-w-93rd-st-23j-new-york-ny-10025--2088874873,40.790812450000004,-73.96963206630498
+21,1750000,1,2,899,"322 W 57th St New York, NY 10019",True,https://www.trulia.com/p/ny/new-york/322-w-57th-st-44q-new-york-ny-10019--2196884014,40.7669507,-73.9838062
+22,1980000,5,5,,"407 Lincoln Road,Brooklyn, NY 11225",True,https://www.trulia.com/p/ny/brooklyn/407-lincoln-rd-brooklyn-ny-11225--2009790568,40.6618534,-73.94928510337881
+23,1149000,4,4,2497,"2245 E 38th St,Brooklyn, NY 11234",True,https://www.trulia.com/p/ny/brooklyn/2245-e-38th-st-brooklyn-ny-11234--1103219837,40.606663499999996,-73.92505851120691
+24,8500000,5,5,3014,"279 Central Park W New York, NY 10024",True,https://www.trulia.com/p/ny/new-york/279-central-park-w-8a-new-york-ny-10024--2088873121,40.78689205,-73.96857084815946
+25,6650000,3,4,2841,"907 5th Ave,New York, NY 10021",True,https://www.trulia.com/p/ny/new-york/907-5th-ave-new-york-ny-10021--328002,40.7722101,-73.9668718
+26,739000,3,3,1108,"18424 Edgewood Ave,Jamaica, NY 11413",True,https://www.trulia.com/p/ny/jamaica/18424-edgewood-ave-jamaica-ny-11413--2010146444,,
+27,288000,1,1,750,"9031 Fort Hamilton Pkwy Brooklyn, NY 11209",True,https://www.trulia.com/p/ny/brooklyn/9031-fort-hamilton-pkwy-5l-brooklyn-ny-11209--2478494716,40.61733295,-74.02675462247547
+28,340000,1,1,540,540 sqft48-18 43rd St ,True,https://www.trulia.com/p/ny/woodside/48-18-43rd-st-2b-woodside-ny-11377--2195755062,,
+29,369000,,1,460,"215 E 24th St New York, NY 10010",True,https://www.trulia.com/p/ny/new-york/215-e-24th-st-823-new-york-ny-10010--2478604683,40.7393046,-73.98172600106602
+30,298000,1,1,700,"37-16 83rd St Jackson Heights, NY 11372",True,https://www.trulia.com/p/ny/jackson-heights/37-16-83rd-st-2e-jackson-heights-ny-11372--2398416852,40.74933595,-73.88353540961471
+31,695000,1,1,630,630 sqft231 Park Pl ,True,https://www.trulia.com/p/ny/brooklyn/231-park-pl-15-brooklyn-ny-11238--2478670581,,
+32,920000,1,1,,"300 E 40th St New York, NY 10016",True,https://www.trulia.com/p/ny/new-york/300-e-40th-st-30n-new-york-ny-10016--2174699908,40.7481595,-73.9726606
+33,289000,,1,350,"305 E 83rd St New York, NY 10028",True,https://www.trulia.com/p/ny/new-york/305-e-83rd-st-4e-new-york-ny-10028--2184241777,40.7758274,-73.95240900016537
+34,649000,1,1,,"140 8th Ave Brooklyn, NY 11215",True,https://www.trulia.com/p/ny/brooklyn/140-8th-ave-1j-brooklyn-ny-11215--2346130761,40.6719388,-73.97477033186331
+35,9995000,3,4,2333,"277 5th Ave New York, NY 10016",True,https://www.trulia.com/p/ny/new-york/277-5th-ave-48b-new-york-ny-10016--2356503741,40.7456303,-73.986386
+36,1100000,8,4,,"2179 Light St Bronx, NY 10466",True,https://www.trulia.com/p/ny/bronx/2179-light-st-tom-bronx-ny-10466--2625106736,40.88807715,-73.8329294979981
+37,4400000,2,3,1674,"15 E 30th St New York, NY 10016",True,https://www.trulia.com/p/ny/new-york/15-e-30th-st-35d-new-york-ny-10016--2544695652,40.74567955,-73.98518092574707
+38,459000,1,1,,"19-79 78th St East Elmhurst, NY 11370",True,https://www.trulia.com/p/ny/east-elmhurst/19-79-78th-st-2-east-elmhurst-ny-11370--2624720489,,
+39,999000,2,2,1500,"1175 York Ave New York, NY 10065",True,https://www.trulia.com/p/ny/new-york/1175-york-ave-1a-new-york-ny-10065--2008705061,40.7615491,-73.9578486
+0,199000,1,1,,"21-47 33rd St Astoria, NY 11105",True,https://www.trulia.com/p/ny/astoria/21-47-33rd-st-1g-astoria-ny-11105--2197426628,,
+1,179000,,1,600,"150 W End Ave Brooklyn, NY 11235",True,https://www.trulia.com/p/ny/brooklyn/150-w-end-ave-2-brooklyn-ny-11235--2172778440,40.578172300000006,-73.95357239081908
+2,1695000,2,2,,2ba617 Warren St ,True,https://www.trulia.com/p/ny/brooklyn/617-warren-st-2-brooklyn-ny-11217--2172624217,,
+3,479999,3,2,1176,"1420 Castleton Ave,Staten Island, NY 10302",True,https://www.trulia.com/p/ny/staten-island/1420-castleton-ave-staten-island-ny-10302--2008732602,40.63380705,-74.13028944999999
+4,1199900,3,2,2464,"7 Minna St,Staten Island, NY 10304",True,https://www.trulia.com/p/ny/staten-island/7-minna-st-staten-island-ny-10304--2008754405,40.594600400000004,-74.090959397136
+5,619000,4,2,1924,"225 Rolling Hill Grn,Staten Island, NY 10312",True,https://www.trulia.com/p/ny/staten-island/225-rolling-hill-grn-staten-island-ny-10312--2008827462,40.551359,-74.19367148428259
+6,825000,4,3,1065,"4236 Richmond Ave,Staten Island, NY 10312",True,https://www.trulia.com/p/ny/staten-island/4236-richmond-ave-staten-island-ny-10312--2008833614,40.5355179,-74.15668289989969
+7,889000,5,2,2820,"33 Gower St,Staten Island, NY 10314",True,https://www.trulia.com/p/ny/staten-island/33-gower-st-staten-island-ny-10314--2008856584,40.6116192,-74.12426545114324
+8,1099000,"2321  ,",",  11207",,"2321 Pitkin Ave,Brooklyn, NY 11207",True,https://www.trulia.com/home/2321-Pitkin-Ave-Brooklyn-NY-11207-119381512,40.673352,-73.88659
+9,939000,6,"2,963 ",,"3430 Fulton St,Brooklyn, NY 11208",True,https://www.trulia.com/p/ny/brooklyn/3430-fulton-st-brooklyn-ny-11208--2009623971,40.6843625,-73.86907899316716
+10,1188000,"80-09/80-11  ,",",  11421",,"80-09/80-11 Atlantic Ave,Woodhaven, NY 11421",True,https://www.trulia.com/home/80-09-80-11-Atlantic-Ave-Woodhaven-NY-11421-2059153595,,
+11,2369000,4,4,3368,"548 W 148th St,New York, NY 10031",True,https://www.trulia.com/p/ny/new-york/548-w-148th-st-new-york-ny-10031--2088894216,40.8277544,-73.9480727
+12,4750000,3,4,2700,"1185 Park Ave New York, NY 10128",True,https://www.trulia.com/p/ny/new-york/1185-park-ave-5f-new-york-ny-10128--2478829472,40.7848335,-73.9534973
+13,2350000,5,5,3067,"510 Halsey St,Brooklyn, NY 11233",True,https://www.trulia.com/p/ny/brooklyn/510-halsey-st-brooklyn-ny-11233--185956,40.6834587,-73.93389129215531
+14,649000,3,2,1300,"1549 E 53rd St,Brooklyn, NY 11234",True,https://www.trulia.com/p/ny/brooklyn/1549-e-53rd-st-brooklyn-ny-11234--2089019800,40.620664399999995,-73.9238724
+15,729000,1,2,784,"21 S End Ave New York, NY 10280",True,https://www.trulia.com/p/ny/new-york/21-s-end-ave-2j-new-york-ny-10280--2179037685,40.7080812,-74.0182068
+16,950000,1,1,636,"171 E 84th St New York, NY 10028",True,https://www.trulia.com/p/ny/new-york/171-e-84th-st-12e-new-york-ny-10028--2088887264,40.7778224,-73.9553414
+17,1750000,3,2,1630,"525 E 80th St New York, NY 10075",True,https://www.trulia.com/p/ny/new-york/525-e-80th-st-8a-new-york-ny-10075--2088912955,40.771798000000004,-73.949064
+18,399000,,1,,"229 E 28th St New York, NY 10016",True,https://www.trulia.com/p/ny/new-york/229-e-28th-st-5c-new-york-ny-10016--2478710631,40.74154895,-73.97936924789124
+19,799999,1,1,795,"13103 40th Rd Flushing, NY 11354",True,https://www.trulia.com/p/ny/flushing/13103-40th-rd-12y-flushing-ny-11354--2174953618,40.755805448979594,-73.83642763265306
+20,625000,1,1,750,"135 Ashland Pl Brooklyn, NY 11201",True,https://www.trulia.com/p/ny/brooklyn/135-ashland-pl-8c-brooklyn-ny-11201--2332156228,40.6921224,-73.97825756827486
+21,1295000,1,1,589,"300 W 30th St New York, NY 10001",True,https://www.trulia.com/p/ny/new-york/300-w-30th-st-13c-new-york-ny-10001--2575438587,40.7496844,-73.9955808
+22,540000,1,1,581,"2652 E 18th St Brooklyn, NY 11235",True,https://www.trulia.com/p/ny/brooklyn/2652-e-18th-st-4c-brooklyn-ny-11235--2625103003,40.587051548387095,-73.95136990322581
+23,1599000,2,2,1155,"99 Conselyea St Brooklyn, NY 11211",True,https://www.trulia.com/p/ny/brooklyn/99-conselyea-st-1r-brooklyn-ny-11211--2617121351,40.71510615,-73.94725314673153
+24,619000,2,2,1013,"460 W 236th St Bronx, NY 10463",True,https://www.trulia.com/p/ny/bronx/460-w-236th-st-c3-bronx-ny-10463--2625093957,40.88564724489796,-73.90662924489796
+25,489000,2,1,,"110-45 71st Rd Forest Hills, NY 11375",True,https://www.trulia.com/p/ny/forest-hills/110-45-71st-rd-3h-forest-hills-ny-11375--2427477207,,
+26,979000,2,2,,"519 E 86th St New York, NY 10028",True,https://www.trulia.com/p/ny/new-york/519-e-86th-st-6a-new-york-ny-10028--2288946453,40.775657714285714,-73.94625714285715
+27,1089000,3,2,1301,"1414 W 4th St Brooklyn, NY 11204",True,https://www.trulia.com/p/ny/brooklyn/1414-w-4th-st-5-brooklyn-ny-11204--2361078707,40.61177457142857,-73.97853214285715
+28,2799000,5,5,5600,"10 Todt Hill Ct,Staten Island, NY 10304",True,https://www.trulia.com/p/ny/staten-island/10-todt-hill-ct-staten-island-ny-10304--769864,40.5885131,-74.11181069602137
+29,1230000,4,3,2502,"312 126th St,Flushing, NY 11356",True,https://www.trulia.com/p/ny/flushing/312-126th-st-flushing-ny-11356--1151037805,,
+30,1295000,2,2,,"176 E 77th St New York, NY 10075",True,https://www.trulia.com/p/ny/new-york/176-e-77th-st-11b-new-york-ny-10075--2188983897,40.77320875,-73.95905408333333
+31,365000,2,1,,"105-55 62nd Dr Forest Hills, NY 11375",True,https://www.trulia.com/p/ny/forest-hills/105-55-62nd-dr-4j-forest-hills-ny-11375--2398508562,,
+32,12500000,2,3,2405,"212 W 18th St New York, NY 10011",True,https://www.trulia.com/p/ny/new-york/212-w-18th-st-7-new-york-ny-10011--2088824570,40.74104265,-73.99872105145296
+33,132500,,1,400,"6535 Broadway Bronx, NY 10471",True,https://www.trulia.com/p/ny/bronx/6535-broadway-6c-bronx-ny-10471--2345532505,40.9064684,-73.8967153
+34,2625000,3,3,1866,"4 E 88th St New York, NY 10128",True,https://www.trulia.com/p/ny/new-york/4-e-88th-st-8a-new-york-ny-10128--2345969967,40.78241065,-73.95888694990236
+35,1010000,1,1,512,"300 W 30th St New York, NY 10001",True,https://www.trulia.com/p/ny/new-york/300-w-30th-st-5a-new-york-ny-10001--2179890154,40.7496844,-73.9955808
+36,799900,2,2,976,"963A Kent Ave Brooklyn, NY 11205",True,https://www.trulia.com/p/ny/brooklyn/963a-kent-ave-a2-brooklyn-ny-11205--2625095528,40.6912953,-73.95822443129819
+37,3695000,3,3,,"1165 5th Ave New York, NY 10029",True,https://www.trulia.com/p/ny/new-york/1165-5th-ave-8c-new-york-ny-10029--2224583015,40.7890576,-73.9547098
+38,3450000,3,3,1647,"322 W 57th St New York, NY 10019",True,https://www.trulia.com/p/ny/new-york/322-w-57th-st-39h-new-york-ny-10019--2173096002,40.7669507,-73.9838062
+39,7650000,4,4,,"885 Park Ave New York, NY 10075",True,https://www.trulia.com/p/ny/new-york/885-park-ave-6c-new-york-ny-10075--2187320837,40.7749794,-73.960611
+0,1745000,2,3,,"565 Park Ave New York, NY 10065",True,https://www.trulia.com/p/ny/new-york/565-park-ave-11e-new-york-ny-10065--2478400158,40.764936,-73.96786533739592
+1,1070000,1,1,607,"300 W 30th St New York, NY 10001",True,https://www.trulia.com/p/ny/new-york/300-w-30th-st-5f-new-york-ny-10001--2575634732,40.7496844,-73.9955808
+2,1195000,6,5,2400,"132-50 Bennett Ct Jamaica, NY 11434",True,https://www.trulia.com/p/ny/jamaica/132-50-bennett-ct-2family-jamaica-ny-11434--2625093375,,
+3,625000,1,1,840,"166 E 61st St New York, NY 10065",True,https://www.trulia.com/p/ny/new-york/166-e-61st-st-7e-new-york-ny-10065--2346038839,40.7629398,-73.9662921
+4,549998,3,3,1280,"527 Leverett Ave,Staten Island, NY 10308",True,https://www.trulia.com/p/ny/staten-island/527-leverett-ave-staten-island-ny-10308--2008800919,40.55569535,-74.16369982745536
+5,989000,8,5,5280,"203 Clinton Ave,Staten Island, NY 10301",True,https://www.trulia.com/p/ny/staten-island/203-clinton-ave-staten-island-ny-10301--2159058978,40.6393302,-74.09731354531051
+6,749900,3,3,2040,"63 Beacon Ave,Staten Island, NY 10306",True,https://www.trulia.com/p/ny/staten-island/63-beacon-ave-staten-island-ny-10306--2008785549,40.577553449999996,-74.12263105082988
+7,929900,5,4,2235,"81 Ridgecrest Ave,Staten Island, NY 10312",True,https://www.trulia.com/p/ny/staten-island/81-ridgecrest-ave-staten-island-ny-10312--2367383921,40.5362399,-74.15570395
+8,799000,3,3,2014,"6203 Spencer Ter,Bronx, NY 10471",True,https://www.trulia.com/p/ny/bronx/6203-spencer-ter-bronx-ny-10471--1045173143,40.9107708,-73.8974554
+9,975000,3,3,1835,"874 E 27th St,Brooklyn, NY 11210",True,https://www.trulia.com/p/ny/brooklyn/874-e-27th-st-brooklyn-ny-11210--2088987886,40.629458099999994,-73.9505327975592
+10,1095000,1,1,670,"1 Irving Pl New York, NY 10003",True,https://www.trulia.com/p/ny/new-york/1-irving-pl-u15c-new-york-ny-10003--2008544295,,
+11,3595000,8,5,8100,"730 Saint Nicholas Ave,New York, NY 10031",True,https://www.trulia.com/p/ny/new-york/730-saint-nicholas-ave-new-york-ny-10031--39188,40.8249092,-73.94369829405969
+12,1100000,4,3,1443,"3149 56th St,Flushing, NY 11377",True,https://www.trulia.com/p/ny/flushing/3149-56th-st-flushing-ny-11377--2010080466,,
+13,649000,1,1,700,"345 E 73rd St New York, NY 10021",True,https://www.trulia.com/p/ny/new-york/345-e-73rd-st-5f-new-york-ny-10021--2478344097,40.76892905,-73.95602748110177
+14,869000,1,1,850,"152 E 94th St New York, NY 10128",True,https://www.trulia.com/p/ny/new-york/152-e-94th-st-7f-new-york-ny-10128--2478876956,40.7841338,-73.95136984169237
+15,950000,1,1,760,"225 Rector Pl New York, NY 10280",True,https://www.trulia.com/p/ny/new-york/225-rector-pl-10t-new-york-ny-10280--2488611571,40.7092957,-74.0161233
+16,4400000,2,4,4043,"419 Grand St,Brooklyn, NY 11211",True,https://www.trulia.com/p/ny/brooklyn/419-grand-st-brooklyn-ny-11211--205757,40.7117894,-73.95366680407223
+17,585000,,1,320433,"405 W 23rd St New York, NY 10011",True,https://www.trulia.com/p/ny/new-york/405-w-23rd-st-4d-new-york-ny-10011--2333123169,40.7467841,-74.0016172
+18,840000,1,1,,"336 Central Park W New York, NY 10025",True,https://www.trulia.com/p/ny/new-york/336-central-park-w-5d-new-york-ny-10025--2333487904,40.7902597,-73.9658981
+19,1750000,2,2,1400,"45 Sutton Pl S New York, NY 10022",True,https://www.trulia.com/p/ny/new-york/45-sutton-pl-s-20i-new-york-ny-10022--2192111209,40.7558143,-73.9615657
+20,895000,1,1,875,"333 W 57th St New York, NY 10019",True,https://www.trulia.com/p/ny/new-york/333-w-57th-st-406-new-york-ny-10019--2333926991,40.76764525,-73.98439273315978
+21,329000,,1,300,"25 Tudor City Pl New York, NY 10017",True,https://www.trulia.com/p/ny/new-york/25-tudor-city-pl-201-new-york-ny-10017--2560692397,40.748448,-73.9707212
+22,599000,1,1,,"41-21 42nd St Sunnyside, NY 11104",True,https://www.trulia.com/p/ny/sunnyside/41-21-42nd-st-aa-sunnyside-ny-11104--2624504964,40.7463137,-73.92157585855963
+23,2380000,2,2,939,"300 W 30th St New York, NY 10001",True,https://www.trulia.com/p/ny/new-york/300-w-30th-st-14a-new-york-ny-10001--2575631646,40.7496844,-73.9955808
+24,269000,,1,250,"321 E 43rd St New York, NY 10017",True,https://www.trulia.com/p/ny/new-york/321-e-43rd-st-211-new-york-ny-10017--2345954693,40.75021975,-73.97035323420172
+25,830000,4,2,,"78-23 87th Avenue,Woodhaven, NY 11421",True,https://www.trulia.com/p/ny/woodhaven/78-23-87th-ave-woodhaven-ny-11421--2397922801,40.691437300000004,-73.86274618749306
+26,674900,3,3,1800,"7372 Amboy Rd,Staten Island, NY 10307",True,https://www.trulia.com/p/ny/staten-island/7372-amboy-rd-staten-island-ny-10307--867735,40.5103592,-74.2424908
+27,625000,2,2,1050,"131 Howton Ave,Staten Island, NY 10308",True,https://www.trulia.com/p/ny/staten-island/131-howton-ave-staten-island-ny-10308--2008794563,40.5578656,-74.14804430886099
+28,668000,1,1,,"132-27 41st Road UNIT 5C,Flushing, NY 11355",True,https://www.trulia.com/p/ny/flushing/13227-41st-rd-5c-flushing-ny-11355--2579426817,,
+29,1490000,5,4,,"70-32 Kissena Boulevard,Flushing, NY 11367",True,https://www.trulia.com/p/ny/flushing/7032-kissena-blvd-flushing-ny-11367--2010015198,40.7543143,-73.8233212
+30,399900,3,2,1060,"3430 Amboy Rd Staten Island, NY 10306",True,https://www.trulia.com/p/ny/staten-island/3430-amboy-rd-a-staten-island-ny-10306--2189880913,40.557777333333334,-74.13767522222221
+31,799900,2,2,976,"963 Kent Ave Brooklyn, NY 11205",True,https://www.trulia.com/p/ny/brooklyn/963-kent-ave-a2-brooklyn-ny-11205--2172468402,40.691286250000005,-73.95830339541317
+32,3980000,12,6,4492,"2296 2nd Avenue,New York, NY 10035",True,https://www.trulia.com/p/ny/new-york/2296-2nd-ave-new-york-ny-10035--2008681554,40.7981392,-73.9367198
+33,888000,3,2,706,"48 Market St New York, NY 10002",True,https://www.trulia.com/p/ny/new-york/48-market-st-3a-new-york-ny-10002--2008539782,40.7118802,-73.994173
+34,339000,1,1,800,"83-30 Vietor Avenue UNIT 623,Queens, NY 11373",True,https://www.trulia.com/p/ny/queens/83-30-vietor-ave-623-queens-ny-11373--2397082334,,
+35,849000,5,3,,"109-40 157th Street,Jamaica, NY 11433",True,https://www.trulia.com/p/ny/jamaica/10940-157th-st-jamaica-ny-11433--2010247984,40.6999118,-73.8006764
+36,439000,1,1,450,"366 Kings Hwy Brooklyn, NY 11223",True,https://www.trulia.com/p/ny/brooklyn/366-kings-hwy-5d-brooklyn-ny-11223--2009778942,40.6044601,-73.9766363
+37,539000,3,2,1700,"17 Wood Ct,Staten Island, NY 10309",True,https://www.trulia.com/p/ny/staten-island/17-wood-ct-staten-island-ny-10309--2008805523,40.549491849999995,-74.21137685321771
+38,550000,2,3,890,"1173 Crosby Avenue,Bronx, NY 10461",True,https://www.trulia.com/p/ny/bronx/1173-crosby-ave-bronx-ny-10461--2008897434,40.83574715,-73.8275322322072
+39,475000,2,1,1116,"2738 Gunther Avenue,Bronx, NY 10469",True,https://www.trulia.com/p/ny/bronx/2738-gunther-ave-bronx-ny-10469--2008959138,40.86655715,-73.8368357
+0,696000,1,1,,"132-27 41st Road UNIT 5A,Flushing, NY 11355",True,https://www.trulia.com/p/ny/flushing/13227-41st-rd-5a-flushing-ny-11355--2579426533,,
+1,3695000,3,3,,"37 E 67th St,New York, NY 10065",True,https://www.trulia.com/p/ny/new-york/37-e-67th-st-new-york-ny-10065--1001526094,40.7684768,-73.96701111025857
+2,1595000,5,3,1620,"116 Erasmus St,Brooklyn, NY 11226",True,https://www.trulia.com/p/ny/brooklyn/116-erasmus-st-brooklyn-ny-11226--2009795195,40.6495087,-73.95175999772727
+3,599000,1,1,575,"206 E 95th St New York, NY 10128",True,https://www.trulia.com/p/ny/new-york/206-e-95th-st-5c-new-york-ny-10128--2088914987,40.7840954,-73.94938763752536
+4,638880,3,3,2300,"125 Dover Grn,Staten Island, NY 10312",True,https://www.trulia.com/p/ny/staten-island/125-dover-grn-staten-island-ny-10312--2008822909,40.55579235,-74.19730140102101
+5,1495000,7,2,2164,"532 W 187th Street,New York, NY 10033",True,https://www.trulia.com/p/ny/new-york/532-w-187th-st-new-york-ny-10033--2088897055,40.85220095,-73.92944097148701
+6,3950000,20,"27-09/11 30 ,",,"27-09/11 30th Avenue,Astoria, NY 11102",True,https://www.trulia.com/p/ny/astoria/27-09-11-30th-ave-astoria-ny-11102--2503892675,,
+7,1125000,5,4,2268,"756 Decatur Street,Brooklyn, NY 11233",True,https://www.trulia.com/p/ny/brooklyn/756-decatur-st-brooklyn-ny-11233--2009854325,40.6836306,-73.9128197534484
+8,279000,1,1,,"212-30 23 Avenue UNIT 5J,Bayside, NY 11360",True,https://www.trulia.com/p/ny/bayside/212-30-23rd-ave-5j-bayside-ny-11360--2478618567,,
+9,720000,3,2,1318,"4344 Boyd Avenue,Bronx, NY 10466",True,https://www.trulia.com/p/ny/bronx/4344-boyd-ave-bronx-ny-10466--2008944802,40.89650505,-73.85150004253177
+10,1050000,4,2,,"44-06 Jessie Ct,Little Neck, NY 11363",True,https://www.trulia.com/p/ny/little-neck/44-06-jessie-ct-little-neck-ny-11363--2396643136,,
+11,550000,3,2,1290,"188-16 Ludlum Avenue,Saint Albans, NY 11412",True,https://www.trulia.com/p/ny/saint-albans/188-16-ludlum-ave-saint-albans-ny-11412--2398649458,,
+12,1150000,2,1,,"310 W 99th St New York, NY 10025",True,https://www.trulia.com/p/ny/new-york/310-w-99th-st-802-new-york-ny-10025--2192102507,40.79744015,-73.97277533629511
+13,2700000,5,4,3740,"232 W 112th St New York, NY 10026",True,https://www.trulia.com/p/ny/new-york/232-w-112th-st-1-3-new-york-ny-10026--2625024550,40.801051599999994,-73.95579697076337
+14,1750000,"104-30  ,"," ,  11418",,"104-30 Jamaica Avenue,Richmond Hill, NY 11418",True,https://www.trulia.com/home/104-30-Jamaica-Ave-Richmond-Hill-NY-11418-2065402553,40.700279,-73.829648
+15,348000,2,1,,"163-04 Willets Point Boulevard UNIT 2F,Whitestone, NY 11357",True,https://www.trulia.com/p/ny/whitestone/163-04-willets-point-blvd-2f-whitestone-ny-11357--2625104899,,
+16,1695000,8,4,3200,"280 Marion St,Brooklyn, NY 11233",True,https://www.trulia.com/p/ny/brooklyn/280-marion-st-brooklyn-ny-11233--179633,40.68075775,-73.91840476853598
+17,975000,1,1,,"204 W 10th St New York, NY 10014",True,https://www.trulia.com/p/ny/new-york/204-w-10th-st-2-new-york-ny-10014--2192599228,40.73401833333333,-74.00395666666667
+18,679000,2,2,1200,"69-10 108 Street UNIT 6O,Forest Hills, NY 11375",True,https://www.trulia.com/p/ny/forest-hills/69-10-108th-st-6o-forest-hills-ny-11375--2503849578,,
+19,739000,3,3,,"184-24 Edgewood Ave,Springfield Gardens, NY 11413",True,https://www.trulia.com/p/ny/springfield-gardens/184-24-edgewood-ave-springfield-gardens-ny-11413--2195755124,,
+20,1429000,6,5,,"144-64 Guy R Brewer Boulevard,Jamaica, NY 11434",True,https://www.trulia.com/p/ny/jamaica/144-64-guy-r-brewer-blvd-jamaica-ny-11434--2010257670,40.7006076,-73.7941708
+21,1199000,6,5,,"95-34 115th Street,South Richmond Hill, NY 11419",True,https://www.trulia.com/p/ny/south-richmond-hill/95-34-115th-st-south-richmond-hill-ny-11419--2397722405,,
+22,649500,,"1208  ,",,"1208 Hoe Ave,Bronx, NY 10459",True,https://www.trulia.com/p/ny/bronx/1208-hoe-ave-bronx-ny-10459--2008891569,40.82911425,-73.89063319476924
+23,400000,2,1,,"463 Chestnut,Brooklyn, NY 11208",True,https://www.trulia.com/p/ny/brooklyn/463-chestnut-st-brooklyn-ny-11208--2009625781,40.67573715,-73.87333176197592
+24,859000,4,2,,"318 Logan Street,Brooklyn, NY 11208",True,https://www.trulia.com/p/ny/brooklyn/318-logan-st-brooklyn-ny-11208--2009623434,40.67848885,-73.87732114865643
+25,424888,1,1,,"162-21 Powells Cove Boulevard UNIT 3J,Whitestone, NY 11357",True,https://www.trulia.com/p/ny/whitestone/162-21-powells-cove-blvd-3j-whitestone-ny-11357--2398542770,,
+26,680000,3,3,,"738 Vermont Street,Brooklyn, NY 11207",True,https://www.trulia.com/p/ny/brooklyn/738-vermont-st-brooklyn-ny-11207--2009615340,40.66128775,-73.89077410565608
+27,1200000,"34-17 107 ,",",  11368",,"34-17 107th Street,Flushing, NY 11368",True,https://www.trulia.com/home/3417-107th-St-Flushing-NY-11368-31970567,,
+28,649900,3,3,,"126 Mountain View,Staten Island, NY 10314",True,https://www.trulia.com/p/ny/staten-island/126-mountainview-ave-staten-island-ny-10314--2008844198,,
+29,1299000,4,3,,"268 78th Street,Brooklyn, NY 11209",True,https://www.trulia.com/p/ny/brooklyn/268-78th-st-brooklyn-ny-11209--307278,40.62928665,-74.02939383434425
+30,1525000,2,2,976,"526 Union Ave Brooklyn, NY 11211",True,https://www.trulia.com/p/ny/brooklyn/526-union-ave-503-brooklyn-ny-11211--2596202332,40.716382,-73.95189252380952
+31,1200000,2,2,1318,"186 Rochelle Street,Bronx, NY 10464",True,https://www.trulia.com/p/ny/bronx/186-rochelle-st-bronx-ny-10464--2008927313,40.83910229999999,-73.78161346226636
+32,890000,3,2,938,"51-07 Ireland Street,Flushing, NY 11373",True,https://www.trulia.com/p/ny/flushing/5107-ireland-st-flushing-ny-11373--2010047045,,
+33,149888,1,1,,"112-19 34 Avenue UNIT 5E,Corona, NY 11368",True,https://www.trulia.com/p/ny/corona/112-19-34th-ave-5e-corona-ny-11368--2424040007,,
+34,1195000,6,5,,"132-50 Bennett,Jamaica, NY 11434",True,https://www.trulia.com/p/ny/jamaica/132-50-bennett-ct-jamaica-ny-11434--2396383252,,
+35,1250000,7,3,2320,"225 Grant Avenue,Brooklyn, NY 11208",True,https://www.trulia.com/p/ny/brooklyn/225-grant-ave-brooklyn-ny-11208--2009621333,40.6854869,-73.86747570706422
+36,739000,3,3,,"248-11 Francis Lewis Boulevard,Rosedale, NY 11422",True,https://www.trulia.com/p/ny/rosedale/248-11-francis-lewis-blvd-rosedale-ny-11422--2010207459,40.663010799999995,-73.73302760000001
+37,1450000,6,5,,"86-34 235th Court,Queens Village, NY 11427",True,https://www.trulia.com/p/ny/queens-village/86-34-235th-ct-queens-village-ny-11427--2398468058,,
+38,579000,3,2,1175,"150-27 116th Ave,Jamaica, NY 11434",True,https://www.trulia.com/p/ny/jamaica/150-27-116th-ave-jamaica-ny-11434--2010258454,,
+39,999888,7,3,1952,"35-45 99th Street,Corona, NY 11368",True,https://www.trulia.com/p/ny/corona/35-45-99th-st-corona-ny-11368--2397069084,40.7527456,-73.86821744999999
+0,775000,,1,510,"445 5th Ave New York, NY 10016",True,https://www.trulia.com/p/ny/new-york/445-5th-ave-9e-new-york-ny-10016--2008630424,40.751604900000004,-73.98182745088441
+1,439000,2,1,,"68-20 Burns Street UNIT B,Forest Hills, NY 11375",True,https://www.trulia.com/p/ny/forest-hills/68-20-burns-st-b-forest-hills-ny-11375--2566573291,,
+2,235000,1,1,724,"5 Metropolitan Oval UNIT 2E,Bronx, NY 10462",True,https://www.trulia.com/p/ny/bronx/5-metropolitan-oval-2e-bronx-ny-10462--2008921228,,
+3,290000,1,1,,"67-11 Yellowstone Blvd UNIT 2A,Forest Hills, NY 11375",True,https://www.trulia.com/p/ny/forest-hills/6707-yellowstone-blvd-2a-forest-hills-ny-11375--2010073481,,
+4,375000,2,1,,"21-58 35th St Astoria, NY 11105",True,https://www.trulia.com/p/ny/astoria/21-58-35th-st-4c-astoria-ny-11105--2308632864,,
+5,345000,2,2,1100,"3750 Hudson Manor Ter Bronx, NY 10463",True,https://www.trulia.com/p/ny/bronx/3750-hudson-manor-ter-4de-bronx-ny-10463--2334492584,40.8888103,-73.9153828
+6,302000,3,1,965,"39 Osgood Avenue,Staten Island, NY 10304",True,https://www.trulia.com/p/ny/staten-island/39-osgood-ave-staten-island-ny-10304--2008750558,40.61912305,-74.08445016785714
+7,245000,,1,520,"207 Ocean Pkwy Brooklyn, NY 11218",True,https://www.trulia.com/p/ny/brooklyn/207-ocean-pkwy-1h-brooklyn-ny-11218--2346130917,40.644794222222224,-73.9740377037037
+8,699000,,1,536,"120 E 90th St New York, NY 10128",True,https://www.trulia.com/p/ny/new-york/120-e-90th-st-12g-new-york-ny-10128--2088913659,40.7820606,-73.9540587
+9,1298000,3,3,,"42-25 Orient Ave,Little Neck, NY 11363",True,https://www.trulia.com/p/ny/little-neck/42-25-orient-ave-little-neck-ny-11363--2397661292,40.7682502,-73.7438507
+10,289880,1,1,700,"141-18 79th Ave Flushing, NY 11367",True,https://www.trulia.com/p/ny/flushing/141-18-79th-ave-3f-flushing-ny-11367--2624993580,,
+11,2895000,3,2,,"490 W End Ave New York, NY 10024",True,https://www.trulia.com/p/ny/new-york/490-w-end-ave-11e-new-york-ny-10024--2226721237,40.7870631,-73.9789518
+12,1295000,2,2,,"105 W 13th St New York, NY 10011",True,https://www.trulia.com/p/ny/new-york/105-w-13th-st-9c-new-york-ny-10011--2177359462,40.7368609,-73.9975375
+13,1785000,2,2,1232,"524 E 72nd St New York, NY 10021",True,https://www.trulia.com/p/ny/new-york/524-e-72nd-st-32a-new-york-ny-10021--2088856902,40.765954699999995,-73.9523973368565
+14,579000,3,2,1175,"150-27 116th Ave S,Jamaica, NY 11434",True,https://www.trulia.com/p/ny/jamaica/150-27-116th-ave-s-jamaica-ny-11434--2624985723,,
+15,665000,1,1,,"176 E 77th St New York, NY 10075",True,https://www.trulia.com/p/ny/new-york/176-e-77th-st-3f-new-york-ny-10075--2193078588,40.77320875,-73.95905408333333
+16,1142000,2,2,,"176 E 77th St New York, NY 10075",True,https://www.trulia.com/p/ny/new-york/176-e-77th-st-3fg-new-york-ny-10075--2624985031,40.77320875,-73.95905408333333
+17,1280000,5,4,2496,"457 Beach 145 St,Rockaway Park, NY 11694",True,https://www.trulia.com/p/ny/rockaway-park/457-beach-145-st-rockaway-park-ny-11694--2123440685,,
+18,1500000,6,4,,"147-54 Huxley Street,Jamaica, NY 11422",True,https://www.trulia.com/p/ny/jamaica/14754-huxley-st-jamaica-ny-11422--720262,,
+19,610000,3,2,,"64-34 102nd Street UNIT 11Z,Rego Park, NY 11374",True,https://www.trulia.com/p/ny/rego-park/64-34-102nd-st-11z-rego-park-ny-11374--2397698563,,
+20,428000,2,1,1000,"6474 Saunders Street UNIT 3B,Flushing, NY 11374",True,https://www.trulia.com/p/ny/flushing/6474-saunders-st-3b-flushing-ny-11374--2474866654,,
+21,1600000,3,4,3500,"29-42 214th Place,Bayside, NY 11360",True,https://www.trulia.com/p/ny/bayside/29-42-214th-pl-bayside-ny-11360--2197736649,40.7744589,-73.773228592278
+22,1250000,4,3,,"138-28 10th Avenue,Whitestone, NY 11357",True,https://www.trulia.com/p/ny/whitestone/138-28-10th-ave-whitestone-ny-11357--2560400104,40.793289,-73.811568
+23,2900000,4,3,2500,"150 W 87th Street UNIT 5-AB,New York, NY 10024",True,https://www.trulia.com/p/ny/new-york/150-w-87th-st-5-new-york-ny-10024--2332905824,,
+24,259000,2,1,850,"2029 E 58th St Brooklyn, NY 11234",True,https://www.trulia.com/p/ny/brooklyn/2029-e-58th-st-144d-brooklyn-ny-11234--2307443855,40.61466425,-73.9177924
+25,1125000,1,1,915,"340 E 64th St New York, NY 10065",True,https://www.trulia.com/p/ny/new-york/340-e-64th-st-21a-new-york-ny-10065--2088909103,40.7629556,-73.9604866
+26,467000,,1,500,"176 E 77th St New York, NY 10075",True,https://www.trulia.com/p/ny/new-york/176-e-77th-st-3g-new-york-ny-10075--2193078712,40.77320875,-73.95905408333333
+27,4500000,4,3,5298,"502 E 118th St,New York, NY 10035",True,https://www.trulia.com/p/ny/new-york/502-e-118th-st-new-york-ny-10035--2088899799,40.79603405,-73.93177540462287
+28,1575000,1,1,760,"322 W 57th St New York, NY 10019",True,https://www.trulia.com/p/ny/new-york/322-w-57th-st-40c-new-york-ny-10019--2088848542,40.7669507,-73.9838062
+29,1250000,2,2,,"175 Riverside Dr New York, NY 10024",True,https://www.trulia.com/p/ny/new-york/175-riverside-dr-14l-new-york-ny-10024--2192110882,40.7919925,-73.977592
+30,359000,2,1,1000,"92-05 Whitney Ave Elmhurst, NY 11373",True,https://www.trulia.com/p/ny/elmhurst/92-05-whitney-ave-b44-elmhurst-ny-11373--2624414153,40.7416307,-73.8791824
+31,1825000,2,3,1441,"3D Plan in Quay Tower,Brooklyn, NY 11201",True,https://www.trulia.com/builder-community-plan/Quay-Tower-3d-2061496925,,
+32,615000,3,2,1320,"145 Roe St,Staten Island, NY 10310",True,https://www.trulia.com/p/ny/staten-island/145-roe-st-staten-island-ny-10310--2008814955,40.6302656,-74.120997125
+33,699000,3,2,1040,"20 Tompkins Cir,Staten Island, NY 10301",True,https://www.trulia.com/p/ny/staten-island/20-tompkins-cir-staten-island-ny-10301--1044558423,40.63627375,-74.07988438646979
+34,295000,1,1,484,"175 Zoe St Staten Island, NY 10305",True,https://www.trulia.com/p/ny/staten-island/175-zoe-st-2r-staten-island-ny-10305--2008758775,40.58476085,-74.10111959258955
+35,449000,2,1,950,"580 84th St Brooklyn, NY 11209",True,https://www.trulia.com/p/ny/brooklyn/580-84th-st-1c-brooklyn-ny-11209--2478497127,40.6216324,-74.0235714
+36,1280000,5,4,2496,"457 Beach 145th St,Far Rockaway, NY 11694",True,https://www.trulia.com/p/ny/far-rockaway/457-beach-145th-st-far-rockaway-ny-11694--2010492363,,
+37,725000,3,2,,"108-15 97th Avenue,South Richmond Hill, NY 11419",True,https://www.trulia.com/p/ny/south-richmond-hill/108-15-97th-ave-south-richmond-hill-ny-11419--2397932626,,
+38,875000,1,1,600,"130 E 17th St New York, NY 10003",True,https://www.trulia.com/p/ny/new-york/130-e-17th-st-3a-new-york-ny-10003--2478461772,40.7354218,-73.986828241147
+39,2650000,3,2,2000,"315 E 65th St New York, NY 10065",True,https://www.trulia.com/p/ny/new-york/315-e-65th-st-5ef-new-york-ny-10065--2327876111,40.764202299999994,-73.96067472639103
+0,1697000,2,2,1350,"340 W 86th St New York, NY 10024",True,https://www.trulia.com/p/ny/new-york/340-w-86th-st-8c-new-york-ny-10024--2088873584,40.7894677,-73.97980086581887
+1,319000,1,1,900,"31-65 138th St Flushing, NY 11354",True,https://www.trulia.com/p/ny/flushing/31-65-138th-st-4c-flushing-ny-11354--2398446929,40.76117,-73.829368
+2,199000,,1,550,"83-60 Vietor Avenue UNIT 1A,Elmhurst, NY 11373",True,https://www.trulia.com/p/ny/elmhurst/83-60-vietor-ave-1a-elmhurst-ny-11373--2398346700,,
+3,1850000,9,3,2700,"728 Monroe St,Brooklyn, NY 11221",True,https://www.trulia.com/p/ny/brooklyn/728-monroe-st-brooklyn-ny-11221--184432,40.68796175,-73.92753104923045
+4,1299999,3,2,1260,"2118 37th St,Long Island City, NY 11105",True,https://www.trulia.com/p/ny/long-island-city/2118-37th-st-long-island-city-ny-11105--2009510393,,
+5,2495000,3,2,1403,"2628 Broadway New York, NY 10025",True,https://www.trulia.com/p/ny/new-york/2628-broadway-27a-new-york-ny-10025--2008652715,,
+6,630000,,1,551,"111 Fulton St New York, NY 10038",True,https://www.trulia.com/p/ny/new-york/111-fulton-st-503-new-york-ny-10038--2008688388,40.7096737,-74.0064583
+7,4695000,5,5,3224,"212 E 57th St New York, NY 10022",True,https://www.trulia.com/p/ny/new-york/212-e-57th-st-1920a-new-york-ny-10022--2088858693,40.759721400000004,-73.96703971702955
+8,1860000,1,1,850,"55 W 17th St New York, NY 10011",True,https://www.trulia.com/p/ny/new-york/55-w-17th-st-902-new-york-ny-10011--2174418290,40.7391598,-73.9948278
+9,46395000,4,5,6786,"53 W 53rd St New York, NY 10019",True,https://www.trulia.com/p/ny/new-york/53-w-53rd-st-63-new-york-ny-10019--2174440713,40.761778449999994,-73.97819207482915
+10,1599000,12,6,4738,"100 Jackson St Brooklyn, NY 11211",True,https://www.trulia.com/p/ny/brooklyn/100-jackson-st-mf-brooklyn-ny-11211--2624976841,40.71623955,-73.94745644452681
+11,3050000,2,3,1400,"611 W 56th St New York, NY 10019",True,https://www.trulia.com/p/ny/new-york/611-w-56th-st-24a-new-york-ny-10019--2575639214,40.769965150000004,-73.99225480876038
+12,285000,1,1,,"63-109 Saunders St Rego Park, NY 11374",True,https://www.trulia.com/p/ny/rego-park/63-109-saunders-st-f12-rego-park-ny-11374--2410547417,40.7289527,-73.8615552
+13,2350000,3,3,1327,"220 E 65th St New York, NY 10065",True,https://www.trulia.com/p/ny/new-york/220-e-65th-st-19l-new-york-ny-10065--2088907976,40.764479,-73.9624015
+14,8000000,3,4,2830,"91 Leonard St New York, NY 10013",True,https://www.trulia.com/p/ny/new-york/91-leonard-st-1-new-york-ny-10013--2411592340,40.7172232,-74.0045792
+15,259998,1,1,630,"252-47 63rd Ave Little Neck, NY 11362",True,https://www.trulia.com/p/ny/little-neck/252-47-63rd-ave-2-little-neck-ny-11362--2624976484,,
+16,269998,2,1,,"67-54 Springfield Blvd Oakland Gardens, NY 11364",True,https://www.trulia.com/p/ny/oakland-gardens/67-54-springfield-blvd-2-oakland-gardens-ny-11364--2624207651,40.750228,-73.757377
+17,720000,2,3,940,"148-09 Northern Blvd Flushing, NY 11354",True,https://www.trulia.com/p/ny/flushing/148-09-northern-blvd-4d-flushing-ny-11354--2009916361,40.7654485,-73.8181059
+18,995000,1,1,589,"98 Front St Brooklyn, NY 11201",True,https://www.trulia.com/p/ny/brooklyn/98-front-st-6e-brooklyn-ny-11201--2409568695,40.701916600000004,-73.98891120479968
+19,620000,5,3,2000,"356 Harbor Rd,Staten Island, NY 10303",True,https://www.trulia.com/p/ny/staten-island/356-harbor-rd-staten-island-ny-10303--2008741281,40.6276159,-74.16067753146552
+20,285000,1,1,800,"36 Hamilton Ave Staten Island, NY 10301",True,https://www.trulia.com/p/ny/staten-island/36-hamilton-ave-1u-staten-island-ny-10301--2450370934,40.6449857,-74.078906
+21,958888,2,3,1600,"88-18 74th Avenue,Ridgewood, NY 11385",True,https://www.trulia.com/p/ny/ridgewood/88-18-74th-ave-ridgewood-ny-11385--2398359205,,
+22,369000,,"3,413 ",,"17207 144th Ave,Jamaica, NY 11434",True,https://www.trulia.com/p/ny/jamaica/17207-144th-ave-jamaica-ny-11434--2010261393,,
+23,249000,1,1,,"303 E 57th St New York, NY 10022",True,https://www.trulia.com/p/ny/new-york/303-e-57th-st-10c-new-york-ny-10022--2179924607,40.759561000000005,-73.96454088107677
+24,765000,4,3,,"3360 De Reimer Ave Bronx, NY 10475",True,https://www.trulia.com/p/ny/bronx/3360-de-reimer-ave-w-bronx-ny-10475--2624970798,40.8790871,-73.83618017051282
+25,298000,,1,,"17-85 215 Street UNIT 14EE,Bayside, NY 11360",True,https://www.trulia.com/p/ny/bayside/17-85-215th-st-14ee-bayside-ny-11360--2396359158,,
+26,1150000,5,3,1176,"2753 E 11th St,Brooklyn, NY 11235",True,https://www.trulia.com/p/ny/brooklyn/2753-e-11th-st-brooklyn-ny-11235--2089029749,40.583876700000005,-73.95886753388774
+27,599999,2,2,,"1050 E 52nd Street,Brooklyn, NY 11234",True,https://www.trulia.com/p/ny/brooklyn/1050-e-52nd-st-brooklyn-ny-11234--2089015732,40.6344673,-73.92683870358003
+28,1300000,9,6,1875,"298 E 151st St,Bronx, NY 10451",True,https://www.trulia.com/p/ny/bronx/298-e-151st-st-bronx-ny-10451--1005387786,40.8183133,-73.92081041955782
+29,950000,5,"1,280 ",,"3426 Boller Ave,Bronx, NY 10475",True,https://www.trulia.com/p/ny/bronx/3426-boller-ave-bronx-ny-10475--2008984150,40.8808294,-73.8350826886427
+30,950000,6,3,2367,"1614 Stadium Ave,Bronx, NY 10465",True,https://www.trulia.com/p/ny/bronx/1614-stadium-ave-bronx-ny-10465--2008931070,40.8467409,-73.81991374324701
+31,485000,2,1,,"149 Marine Ave Brooklyn, NY 11209",True,https://www.trulia.com/p/ny/brooklyn/149-marine-ave-6d-brooklyn-ny-11209--2478364950,40.6166919,-74.03519981719768
+32,390000,,1,,"125 W 96th St New York, NY 10025",True,https://www.trulia.com/p/ny/new-york/125-w-96th-st-1j-new-york-ny-10025--2174404912,40.79364955,-73.9687030368526
+33,1335000,1,1,650,"50 Clinton St New York, NY 10002",True,https://www.trulia.com/p/ny/new-york/50-clinton-st-5f-new-york-ny-10002--2488586933,40.719611,-73.98450746664133
+34,270000,1,1,780,"3325 92nd St Jackson Heights, NY 11372",True,https://www.trulia.com/p/ny/jackson-heights/3325-92nd-st-3b-jackson-heights-ny-11372--2474769793,,
+35,3295000,7,7,3494,"25 N Elliott Pl,Brooklyn, NY 11205",True,https://www.trulia.com/p/ny/brooklyn/25-n-elliott-pl-brooklyn-ny-11205--1004535742,40.69764265306122,-73.97738336734695
+36,1288888,6,4,1938,"333 Avenue T,Brooklyn, NY 11223",True,https://www.trulia.com/p/ny/brooklyn/333-avenue-t-brooklyn-ny-11223--2487941292,40.5995164,-73.9726472
+37,675000,1,1,610,"1991 Broadway New York, NY 10023",True,https://www.trulia.com/p/ny/new-york/1991-broadway-6a-new-york-ny-10023--2008646037,,
+38,760000,2,2,1487,"6807 60th Rd,Flushing, NY 11378",True,https://www.trulia.com/p/ny/flushing/6807-60th-rd-flushing-ny-11378--2010098075,,
+39,935000,1,1,750,"245 E 93rd St New York, NY 10128",True,https://www.trulia.com/p/ny/new-york/245-e-93rd-st-2f-new-york-ny-10128--2088915398,40.7825353,-73.9487536
+0,1150000,1,2,1066,"40 Broad St New York, NY 10004",True,https://www.trulia.com/p/ny/new-york/40-broad-st-28b-new-york-ny-10004--2008552168,40.7059776,-74.0115846
+1,3450000,2,3,2625,"630 Park Ave New York, NY 10065",True,https://www.trulia.com/p/ny/new-york/630-park-ave-10a-new-york-ny-10065--2198393884,40.7671803,-73.9669863
+2,1425000,1,1,,"2 5th Ave New York, NY 10011",True,https://www.trulia.com/p/ny/new-york/2-5th-ave-3k-new-york-ny-10011--2346015281,40.8224,-73.808071
+3,799000,4,1,,"4518 Richardson Ave Bronx, NY 10470",True,https://www.trulia.com/p/ny/bronx/4518-richardson-ave-ww-bronx-ny-10470--2624963761,40.901004650000004,-73.85349277079138
+4,699000,7,3,,"1364 Teller Ave Bronx, NY 10456",True,https://www.trulia.com/p/ny/bronx/1364-teller-ave-ww-bronx-ny-10456--2624963760,40.8359325,-73.90921494989007
+5,355000,1,1,,"4489 Broadway New York, NY 10040",True,https://www.trulia.com/p/ny/new-york/4489-broadway-5b-new-york-ny-10040--2346034591,,
+6,345000,,1,404,"1437 Hancock St Brooklyn, NY 11237",True,https://www.trulia.com/p/ny/brooklyn/1437-hancock-st-1a-brooklyn-ny-11237--2617142990,40.696617,-73.907006
+7,707000,1,1,745,"1437 Hancock St Brooklyn, NY 11237",True,https://www.trulia.com/p/ny/brooklyn/1437-hancock-st-2a-brooklyn-ny-11237--2617145505,40.696617,-73.907006
+8,675000,1,1,704,"1437 Hancock St Brooklyn, NY 11237",True,https://www.trulia.com/p/ny/brooklyn/1437-hancock-st-3b-brooklyn-ny-11237--2617114351,40.696617,-73.907006
+9,525000,2,1,875,"33-65 14th St Astoria, NY 11106",True,https://www.trulia.com/p/ny/astoria/33-65-14th-st-7a-astoria-ny-11106--2624958546,40.7687319,-73.9316433
+10,858000,1,1,660,"308 E 38th St New York, NY 10016",True,https://www.trulia.com/p/ny/new-york/308-e-38th-st-10c-new-york-ny-10016--2239807481,40.7468712,-73.9734586
+11,225000,1,1,,"212-04 75th Avenue UNIT 3M,Oakland Gardens, NY 11364",True,https://www.trulia.com/p/ny/oakland-gardens/212-04-75th-ave-3m-oakland-gardens-ny-11364--2460381677,,
+12,1799999,8,3,3300,"1792 Broadway,Brooklyn, NY 11207",True,https://www.trulia.com/p/ny/brooklyn/1792-broadway-brooklyn-ny-11207--2009604830,40.682243,-73.90947
+13,699000,3,2,840,"8 Matthews Pl,Brooklyn, NY 11236",True,https://www.trulia.com/p/ny/brooklyn/8-matthews-pl-brooklyn-ny-11236--2009880407,40.6334679,-73.8963962
+14,800000,1,1,704,"215 W 95th St New York, NY 10025",True,https://www.trulia.com/p/ny/new-york/215-w-95th-st-15d-new-york-ny-10025--2088875971,40.7938829,-73.9717997
+15,2595000,3,2,1613,"215 W 88th St New York, NY 10024",True,https://www.trulia.com/p/ny/new-york/215-w-88th-st-10h-new-york-ny-10024--2088871805,40.7895056,-73.9750346
+16,2225000,1,2,1126,"166 Perry St New York, NY 10014",True,https://www.trulia.com/p/ny/new-york/166-perry-st-4a-new-york-ny-10014--2008614935,40.73448945,-74.00936537782806
+17,995000,1,1,1000,"480 Park Ave New York, NY 10022",True,https://www.trulia.com/p/ny/new-york/480-park-ave-8j-new-york-ny-10022--2478874437,40.762577,-73.9703558
+18,1675000,3,2,1100,"343 E 30th St New york, NY 10016",True,https://www.trulia.com/p/ny/new-york/343-e-30th-st-2l-new-york-ny-10016--2204966962,40.7419551,-73.9757212
+19,735000,3,2,838,"1170 Ocean Pkwy Brooklyn, NY 11230",True,https://www.trulia.com/p/ny/brooklyn/1170-ocean-pkwy-e-brooklyn-ny-11230--2362003742,40.62015085,-73.97048267409545
+20,340000,1,1,650,"295 Bennett Ave New York, NY 10040",True,https://www.trulia.com/p/ny/new-york/295-bennett-ave-6b-new-york-ny-10040--2346034592,40.8593774,-73.9321715
+21,875000,5,4,,"95-11 95th Street,Ozone Park, NY 11416",True,https://www.trulia.com/p/ny/ozone-park/95-11-95th-st-ozone-park-ny-11416--2397689134,40.6869238,-73.84676540589788
+22,797000,"106  ,"," ,  10306",,"106 Winham Ave,Staten Island, NY 10306",True,https://www.trulia.com/home/106-Winham-Ave-Staten-Island-NY-10306-32334905,40.564601350000004,-74.10507441608388
+23,899000,4,2,2376,"903 Forest Ave,Staten Island, NY 10310",True,https://www.trulia.com/p/ny/staten-island/903-forest-ave-staten-island-ny-10310--2008820975,40.6286828,-74.11955555613191
+24,414900,2,2,953,"18 Eleanor Pl,Staten Island, NY 10303",True,https://www.trulia.com/p/ny/staten-island/18-eleanor-pl-staten-island-ny-10303--2008738726,40.62411255,-74.15811939528169
+25,499999,2,1,1056,"634 Drumgoole Rd E,Staten Island, NY 10312",True,https://www.trulia.com/p/ny/staten-island/634-drumgoole-rd-e-staten-island-ny-10312--2088921212,40.545870949999994,-74.18072264700825
+26,1300000,3,3,1208,"41 Delaware St,Staten Island, NY 10304",True,https://www.trulia.com/p/ny/staten-island/41-delaware-st-staten-island-ny-10304--2159062496,40.594775,-74.10086785600933
+27,610000,3,2,1080,"22 Derby Ct,Staten Island, NY 10302",True,https://www.trulia.com/p/ny/staten-island/22-derby-ct-staten-island-ny-10302--2008734055,40.62834685,-74.132411064571
+28,170000,1,1,795,"2 Fordham Hill Oval UNIT 17h,Bronx, NY 10468",True,https://www.trulia.com/p/ny/bronx/2-fordham-hill-oval-17h-bronx-ny-10468--2308955264,,
+29,829000,9,7,4505,"866 E 156th St,Bronx, NY 10455",True,https://www.trulia.com/p/ny/bronx/866-e-156th-st-bronx-ny-10455--1037326418,40.81714963636364,-73.90191981818181
+30,1850000,2,2,,"45 Sutton Pl S New York, NY 10022",True,https://www.trulia.com/p/ny/new-york/45-sutton-pl-s-16k-new-york-ny-10022--2332040287,40.7558143,-73.9615657
+31,2150000,,1,,"15 W 72nd St New York, NY 10023",True,https://www.trulia.com/p/ny/new-york/15-w-72nd-st-21j-new-york-ny-10023--2226704358,40.7770662,-73.97701395334909
+32,5995000,,9,10300,"7210 13th Ave,Brooklyn, NY 11228",True,https://www.trulia.com/p/ny/brooklyn/7210-13th-ave-brooklyn-ny-11228--2009812797,40.6218419,-74.006034
+33,155000,2,2,989,"10-40 Neilson Street UNIT 6N,Far Rockaway, NY 11691",True,https://www.trulia.com/p/ny/far-rockaway/1040-neilson-st-6n-far-rockaway-ny-11691--2183050497,,
+34,1799000,6,4,,"517 80th St,Brooklyn, NY 11209",True,https://www.trulia.com/p/ny/brooklyn/517-80th-st-brooklyn-ny-11209--308040,40.62559065,-74.0235184097881
+35,650000,1,2,900,"7 E 35th St New York, NY 10016",True,https://www.trulia.com/p/ny/new-york/7-e-35th-st-8a-new-york-ny-10016--2478458154,40.748949749999994,-73.98321225239619
+36,995000,1,1,750,"130 E 18th St New York, NY 10003",True,https://www.trulia.com/p/ny/new-york/130-e-18th-st-4e-new-york-ny-10003--2478483629,40.7361083,-73.9863772
+37,379900,2,1,800,"52-24 65th Pl Maspeth, NY 11378",True,https://www.trulia.com/p/ny/maspeth/52-24-65th-pl-5m-maspeth-ny-11378--2398208172,,
+38,850000,4,2,2052,"7819 90th Ave,Jamaica, NY 11421",True,https://www.trulia.com/p/ny/jamaica/7819-90th-ave-jamaica-ny-11421--2205108268,40.7032337,-73.8071484
+39,25950000,3,5,4019,"432 Park Ave New York, NY 10022",True,https://www.trulia.com/p/ny/new-york/432-park-ave-62b-new-york-ny-10022--2183149575,40.7616833,-73.97185835002351
+0,485000,1,1,803,"4455 Douglas Ave Bronx, NY 10471",True,https://www.trulia.com/p/ny/bronx/4455-douglas-ave-15m-bronx-ny-10471--2189798599,40.8895632,-73.9176781355932
+1,7350000,5,4,,"130 E 67th St New York, NY 10065",True,https://www.trulia.com/p/ny/new-york/130-e-67th-st-4-5c-new-york-ny-10065--2554901484,40.7669924,-73.964215
+2,1775000,3,2,1148,"89 S 4th St Brooklyn, NY 11249",True,https://www.trulia.com/p/ny/brooklyn/89-s-4th-st-3-brooklyn-ny-11249--2624956096,40.7126426,-73.9645135
+3,718888,2,2,,"5-26 115th St College Pt, NY 11356",True,https://www.trulia.com/p/ny/college-pt/5-26-115th-st-d-college-pt-ny-11356--2496924128,40.79022775,-73.85419821883814
+4,799999,5,2,1892,"3531 Paulding Avenue,Bronx, NY 10469",True,https://www.trulia.com/p/ny/bronx/3531-paulding-ave-bronx-ny-10469--2008963710,40.87567185,-73.85779325408066
+5,1200000,,3,1942,"170 Hull St,Brooklyn, NY 11233",True,https://www.trulia.com/p/ny/brooklyn/170-hull-st-brooklyn-ny-11233--2009847579,40.679583550000004,-73.90896659565439
+6,850000,2,2,,"135 E 83rd St New York, NY 10028",True,https://www.trulia.com/p/ny/new-york/135-e-83rd-st-2e-new-york-ny-10028--2177992508,40.7775185,-73.9566721
+7,1420000,2,2,1060,"429 Kent Ave Brooklyn, NY 11249",True,https://www.trulia.com/p/ny/brooklyn/429-kent-ave-309-brooklyn-ny-11249--2009908748,40.709598119999995,-73.96839560000001
+8,468900,,1,605,"7 Park Ave New York, NY 10016",True,https://www.trulia.com/p/ny/new-york/7-park-ave-12g-new-york-ny-10016--2334482574,42.64375026315789,-73.7586707368421
+9,1280000,5,4,,"457 Beach 145,Rockaway Park, NY 11694",True,https://www.trulia.com/p/ny/rockaway-park/145-457th-bch-rockaway-park-ny-11694--2624982292,,
+10,888000,3,2,,"166-14 Jewel Avenue,Flushing, NY 11365",True,https://www.trulia.com/p/ny/flushing/16614-jewel-ave-flushing-ny-11365--2009996961,,
+11,889999,3,2,838,"2054 Kimball St,Brooklyn, NY 11234",True,https://www.trulia.com/p/ny/brooklyn/2054-kimball-st-brooklyn-ny-11234--2009857693,40.610477,-73.9275797760551
+12,560000,3,1,1036,"2326 Knapp St,Brooklyn, NY 11229",True,https://www.trulia.com/p/ny/brooklyn/2326-knapp-st-brooklyn-ny-11229--2009820222,40.596065100000004,-73.93359392996435
+13,290000,1,1,,"745 E 31st St Brooklyn, NY 11210",True,https://www.trulia.com/p/ny/brooklyn/745-e-31st-st-4a-brooklyn-ny-11210--2478697538,40.63308895,-73.94644862155222
+14,895000,2,2,1010,"88 Marion St Brooklyn, NY 11233",True,https://www.trulia.com/p/ny/brooklyn/88-marion-st-4b-brooklyn-ny-11233--2624952668,40.6797474,-73.92744729401508
+15,788000,3,2,1850,"69-10 Yellowstone Boulevard UNIT 620621,Forest Hills, NY 11375",True,https://www.trulia.com/p/ny/forest-hills/69-10-yellowstone-blvd-620621-forest-hills-ny-11375--2582070312,,
+16,999000,6,5,875,"281 Ashford St,Brooklyn, NY 11207",True,https://www.trulia.com/p/ny/brooklyn/281-ashford-st-brooklyn-ny-11207--239498,40.675583,-73.88537301688312
+17,799000,5,3,1600,"292 E 40th St,Brooklyn, NY 11203",True,https://www.trulia.com/p/ny/brooklyn/292-e-40th-st-brooklyn-ny-11203--2088978747,40.650014350000006,-73.94010478896396
+18,950000,2,2,,"188 E 75th St New York, NY 10021",True,https://www.trulia.com/p/ny/new-york/188-e-75th-st-4cd-new-york-ny-10021--2478481497,40.7718265,-73.95997036476619
+19,565000,1,1,,"61 W 62nd St New York, NY 10023",True,https://www.trulia.com/p/ny/new-york/61-w-62nd-st-5k-new-york-ny-10023--2319729912,40.771132449999996,-73.98284498868884
+20,6350000,3,3,1860,"15 E 30th St New York, NY 10016",True,https://www.trulia.com/p/ny/new-york/15-e-30th-st-51d-new-york-ny-10016--2544497263,40.74567955,-73.98518092574707
+21,850000,2,1,,"500 E 83rd St New York, NY 10028",True,https://www.trulia.com/p/ny/new-york/500-e-83rd-st-1l-new-york-ny-10028--2333062769,40.7737615,-73.9482952
+22,2300000,9,3,3800,"263 Hancock St,Brooklyn, NY 11216",True,https://www.trulia.com/p/ny/brooklyn/263-hancock-st-brooklyn-ny-11216--193211,40.683229499999996,-73.94564334859177
+23,595000,1,1,650,"1020 66th St Brooklyn, NY 11219",True,https://www.trulia.com/p/ny/brooklyn/1020-66th-st-b4-brooklyn-ny-11219--2009733520,40.6288568,-74.00834650893373
+24,775000,3,4,1880,"23 Raymond Pl,Staten Island, NY 10310",True,https://www.trulia.com/p/ny/staten-island/23-raymond-pl-staten-island-ny-10310--2008816561,40.6301562,-74.12554596353814
+25,1150000,5,4,3237,"35 Bocce Ct,Staten Island, NY 10307",True,https://www.trulia.com/p/ny/staten-island/35-bocce-ct-staten-island-ny-10307--2008791238,40.51138635,-74.24777393198721
+26,824999,4,3,2142,"31 Willow Ln,Staten Island, NY 10306",True,https://www.trulia.com/p/ny/staten-island/31-willow-ln-staten-island-ny-10306--825564,40.554930783751594,-74.14099149875162
+27,799000,4,3,1944,"64 Saint Johns Ave,Staten Island, NY 10305",True,https://www.trulia.com/p/ny/staten-island/64-saint-johns-ave-staten-island-ny-10305--2008766493,40.6110796,-74.0666402
+28,1350000,6,3,2845,"237 Hylan Blvd,Staten Island, NY 10305",True,https://www.trulia.com/p/ny/staten-island/237-hylan-blvd-staten-island-ny-10305--796136,40.6121734,-74.07028408579336
+29,690000,3,2,892,"7504 Bay Pkwy,Brooklyn, NY 11214",True,https://www.trulia.com/p/ny/brooklyn/7504-bay-pkwy-brooklyn-ny-11214--1008206429,40.6081067,-73.9876892
+30,1599000,12,6,4738,"100 Jackson Street UNIT 6,Brooklyn, NY 11211",True,https://www.trulia.com/p/ny/brooklyn/100-jackson-st-6-brooklyn-ny-11211--2009649135,,
+31,750000,5,3,1872,"2317 Bronxwood Avenue,Bronx, NY 10469",True,https://www.trulia.com/p/ny/bronx/2317-bronxwood-ave-bronx-ny-10469--2008956625,40.85999057142857,-73.86185414285714
+32,2395000,,20 ,,"510 Ralph Ave,Brooklyn, NY 11233",True,https://www.trulia.com/p/ny/brooklyn/510-ralph-ave-brooklyn-ny-11233--1037988682,40.672029,-73.922396
+33,1249000,"462  ,"," ,  10303",,"462 Lisk Ave,Staten Island, NY 10303",True,https://www.trulia.com/home/462-Lisk-Ave-Staten-Island-NY-10303-2059251802,40.622531,-74.163934
+34,235000,1,1,558,"1534 E 98th St Brooklyn, NY 11236",True,https://www.trulia.com/p/ny/brooklyn/1534-e-98th-st-100a-brooklyn-ny-11236--2089035413,40.63613109375,-73.89091428124999
+35,535000,2,1,,"67-76 Booth St Forest Hills, NY 11375",True,https://www.trulia.com/p/ny/forest-hills/67-76-booth-st-7h-forest-hills-ny-11375--2478936957,,
+36,299000,,1,,"804 W 180th St New York, NY 10033",True,https://www.trulia.com/p/ny/new-york/804-w-180th-st-8-new-york-ny-10033--2088897960,40.8500402,-73.9394112
+37,3900000,2,2,,"38 W 26th St New York, NY 10010",True,https://www.trulia.com/p/ny/new-york/38-w-26th-st-11b-new-york-ny-10010--2478565269,40.7444122,-73.9907381
+38,925000,2,1,,"360 E 72nd St New York, NY 10021",True,https://www.trulia.com/p/ny/new-york/360-e-72nd-st-b1008-new-york-ny-10021--2180348067,40.7677332,-73.9563296
+39,249000,2,1,,"86-63 Springfield Blvd Queens Village, NY 11427",True,https://www.trulia.com/p/ny/queens-village/86-63-springfield-blvd-2-queens-village-ny-11427--2207196433,40.7317241,-73.7452734
+0,639000,3,2,1900,"1051 W Fingerboard Rd,Staten Island, NY 10304",True,https://www.trulia.com/p/ny/staten-island/1051-w-fingerboard-rd-staten-island-ny-10304--2088918858,40.600374450000004,-74.09071715000002
+1,695000,3,3,2021,"2753 Morgan Avenue,Bronx, NY 10469",True,https://www.trulia.com/p/ny/bronx/2753-morgan-ave-bronx-ny-10469--2008959320,40.866869699999995,-73.84551545993209
+2,769000,5,4,1920,"2646 Morris Avenue,Bronx, NY 10468",True,https://www.trulia.com/p/ny/bronx/2646-morris-ave-bronx-ny-10468--2008952836,40.86654815,-73.89644024292792
+3,749000,5,2,,"4028 De Reimer Avenue,Bronx, NY 10466",True,https://www.trulia.com/p/ny/bronx/4028-de-reimer-ave-bronx-ny-10466--2008942127,40.891201550000005,-73.84178365
+4,1799000,7,4,3200,"2249 85th St Brooklyn, NY 11214",True,https://www.trulia.com/p/ny/brooklyn/2249-85th-st-4-brooklyn-ny-11214--2009683461,40.601901,-73.99169205088756
+5,5950000,5,5,3928,"122 W 88th St,New York, NY 10024",True,https://www.trulia.com/p/ny/new-york/122-w-88th-st-new-york-ny-10024--2088870175,40.78796305,-73.97213090467034
+6,2525000,3,3,1800,"54 Riverside Dr New York, NY 10024",True,https://www.trulia.com/p/ny/new-york/54-riverside-dr-3b-new-york-ny-10024--2478807917,40.7841113,-73.9829706
+7,1450000,2,2,1147,"350 W 42nd St New York, NY 10036",True,https://www.trulia.com/p/ny/new-york/350-w-42nd-st-4e-new-york-ny-10036--2088901358,40.75784715,-73.99223011350482
+8,1250000,2,2,965,"343 4th Ave Brooklyn, NY 11215",True,https://www.trulia.com/p/ny/brooklyn/343-4th-ave-7e-brooklyn-ny-11215--2009694417,40.672933900000004,-73.9861624700476
+9,1330000,2,2,1104,"220 W 93rd St New York, NY 10025",True,https://www.trulia.com/p/ny/new-york/220-w-93rd-st-15c-new-york-ny-10025--2088876166,40.7924866,-73.9728745
+10,635000,2,1,,"345 Montgomery St Brooklyn, NY 11225",True,https://www.trulia.com/p/ny/brooklyn/345-montgomery-st-5h-brooklyn-ny-11225--2478363153,40.66572335,-73.95260571180899
+11,329000,2,1,1000,"679 W 239th St Bronx, NY 10463",True,https://www.trulia.com/p/ny/bronx/679-w-239th-st-4h-bronx-ny-10463--2478333050,40.88991858333333,-73.91431
+12,425000,1,4,509,"750 Riverside Dr New York, NY 10031",True,https://www.trulia.com/p/ny/new-york/750-riverside-dr-3b-new-york-ny-10031--2173797643,40.831812,-73.949158
+13,715000,1,1,,"35 E 85th St New York, NY 10028",True,https://www.trulia.com/p/ny/new-york/35-e-85th-st-7g-new-york-ny-10028--2334107658,40.7801727,-73.9590434
+14,2595000,2,2,1112,"438 E 12th St New York, NY 10009",True,https://www.trulia.com/p/ny/new-york/438-e-12th-st-4k-new-york-ny-10009--2174736431,40.729572979591836,-73.98270369387755
+15,1995000,2,2,1143,"710 Metropolitan Ave Brooklyn, NY 11211",True,https://www.trulia.com/p/ny/brooklyn/710-metropolitan-ave-a-brooklyn-ny-11211--2624949103,40.7143274,-73.9452235
+16,369000,2,1,,"224-24 Union Tpke Oakland Gardens, NY 11364",True,https://www.trulia.com/p/ny/oakland-gardens/224-24-union-tpke-6g-oakland-gardens-ny-11364--2561261348,,
+17,24750000,7,11,6104,"111 Murray St New York, NY 10007",True,https://www.trulia.com/p/ny/new-york/111-murray-st-48we-new-york-ny-10007--2624949072,40.71519085714286,-74.01255165306122
+18,475000,,1,455,"159 E 118th St New York, NY 10035",True,https://www.trulia.com/p/ny/new-york/159-e-118th-st-1a-new-york-ny-10035--2624949071,40.7998429,-73.93986244905327
+19,2995000,5,4,2250,"200 Rector Pl New York, NY 10280",True,https://www.trulia.com/p/ny/new-york/200-rector-pl-23abc-new-york-ny-10280--2570793808,,
+20,549000,1,1,,"11 Riverside Dr New York, NY 10023",True,https://www.trulia.com/p/ny/new-york/11-riverside-dr-16pw-new-york-ny-10023--2333409663,40.7811003,-73.9851722
+21,649000,1,1,,"350 E 77th St New York, NY 10075",True,https://www.trulia.com/p/ny/new-york/350-e-77th-st-2h-new-york-ny-10075--2189150130,40.77137557446808,-73.9547085106383
+22,449000,2,2,839,"3065 Williamsbridge Road,Bronx, NY 10467",True,https://www.trulia.com/p/ny/bronx/3065-williamsbridge-rd-bronx-ny-10467--2008947705,40.869198999999995,-73.86582738963517
+23,3100000,8,14,7800,"16-33 166 St.,Whitestone, NY 11357",True,https://www.trulia.com/p/ny/whitestone/16-33-166th-st-whitestone-ny-11357--2397790420,,
+24,1299999,3,2,,"21-18 37th Street,Astoria, NY 11105",True,https://www.trulia.com/p/ny/astoria/21-18-37th-st-astoria-ny-11105--2397118989,,
+25,295000,2,1,960,"252-35 63rd Avenue UNIT Lower,Little Neck, NY 11362",True,https://www.trulia.com/p/ny/little-neck/252-35-63rd-ave-little-neck-ny-11362--2624970706,,
+26,868888,3,3,1890,"1864 Brown St,Brooklyn, NY 11229",True,https://www.trulia.com/p/ny/brooklyn/1864-brown-st-brooklyn-ny-11229--2009817342,40.606021150000004,-73.94121646796702
+27,760000,2,2,1487,"68-07 60th Road,Maspeth, NY 11378",True,https://www.trulia.com/p/ny/maspeth/68-07-60th-rd-maspeth-ny-11378--2396931984,,
+28,629000,1,1,,"137 E 36th St New York, NY 10016",True,https://www.trulia.com/p/ny/new-york/137-e-36th-st-9h-new-york-ny-10016--2478843699,40.747758899999994,-73.97832760468114
+29,399000,2,2,1400,"555 Kappock St Bronx, NY 10463",True,https://www.trulia.com/p/ny/bronx/555-kappock-st-20-h-bronx-ny-10463--2478254841,40.877946699999995,-73.91703031266044
+30,475000,,1,500,"159 Madison Ave New York, NY 10016",True,https://www.trulia.com/p/ny/new-york/159-madison-ave-4e-new-york-ny-10016--2008627578,40.65094607692308,-73.59611346153847
+31,2700000,2,2,,"41 Central Park N New York, NY 10023",True,https://www.trulia.com/p/ny/new-york/41-central-park-n-1a-new-york-ny-10023--2624943510,40.797876675,-73.951356375
+32,1888000,4,3,4980,"101-01 101st Avenue,Ozone Park, NY 11416",True,https://www.trulia.com/p/ny/ozone-park/101-01-101st-ave-ozone-park-ny-11416--1139922637,40.683295,-73.849422
+33,940000,6,5,3180,"228-23 Edgewood Avenue,Laurelton, NY 11413",True,https://www.trulia.com/p/ny/laurelton/22823-edgewood-ave-laurelton-ny-11413--2010149010,40.665313850000004,-73.74835024895232
+34,1350000,2,2,1500,"870 United Nations Plz New York, NY 10017",True,https://www.trulia.com/p/ny/new-york/870-united-nations-plz-11d-new-york-ny-10017--2192113413,40.7523285,-73.9655017
+35,2750000,2,2,1447,"91 Leonard St New York, NY 10013",True,https://www.trulia.com/p/ny/new-york/91-leonard-st-9g-new-york-ny-10013--2381921084,40.7172232,-74.0045792
+36,21680000,5,5,5782,"151 E 58th St New York, NY 10022",True,https://www.trulia.com/p/ny/new-york/151-e-58th-st-46ab-new-york-ny-10022--2349692331,40.7612586,-73.9675565
+37,356000,2,1,950,"140-14 28th Rd Flushing, NY 11354",True,https://www.trulia.com/p/ny/flushing/140-14-28th-rd-g2-flushing-ny-11354--2624422305,,
+38,5200000,2,2,2595,"285 Lafayette St New York, NY 10012",True,https://www.trulia.com/p/ny/new-york/285-lafayette-st-2e-new-york-ny-10012--2008591308,40.724065,-73.9959668
+39,4999000,9,9,5100,"310 W 82nd St,New York, NY 10024",True,https://www.trulia.com/p/ny/new-york/310-w-82nd-st-new-york-ny-10024--21479,40.7864203,-73.98040698909668
+0,699999,8,3,,"3663 Paulding Avenue,Bronx, NY 10469",True,https://www.trulia.com/p/ny/bronx/3663-paulding-ave-bronx-ny-10469--2008963964,40.8784326,-73.85619970338462
+1,1600000,5,4,,"19 Circle Road,Flushing, NY 11363",True,https://www.trulia.com/p/ny/flushing/19-circle-rd-flushing-ny-11363--2009983581,,
+2,320000,1,1,,"83-45 Vietor Avenue UNIT 5D,Flushing, NY 11373",True,https://www.trulia.com/p/ny/flushing/8345-vietor-ave-5d-flushing-ny-11373--2177076030,,
+3,629888,2,2,1600,"166-25 Powells Cove Boulevard UNIT 10E,Whitestone, NY 11357",True,https://www.trulia.com/p/ny/whitestone/166-25-powells-cove-blvd-10e-whitestone-ny-11357--2445724300,,
+4,12995000,5,7,4616,"252 E 57th St New York, NY 10022",True,https://www.trulia.com/p/ny/new-york/252-e-57th-st-62a-new-york-ny-10022--2197044953,40.7590843,-73.96588549844728
+5,1700000,"229  ,",",  11205",,"229 Waverly Ave,Brooklyn, NY 11205",True,https://www.trulia.com/home/229-Waverly-Ave-Brooklyn-NY-11205-2059280321,40.690883923076925,-73.96727015384616
+6,749000,4,2,,"55-11 68th Street,Maspeth, NY 11378",True,https://www.trulia.com/p/ny/maspeth/55-11-68th-st-maspeth-ny-11378--2397910089,,
+7,850000,4,2,2052,"78-19 90th Avenue,Woodhaven, NY 11421",True,https://www.trulia.com/p/ny/woodhaven/78-19-90th-ave-woodhaven-ny-11421--2196636630,40.6880672,-73.8620956
+8,1459000,4,4,,"1 Carolina Road,Little Neck, NY 11362",True,https://www.trulia.com/p/ny/little-neck/1-carolina-rd-little-neck-ny-11362--2305521709,40.7618009,-73.7431146
+9,1100000,2,1,,"1115-1139 Prospect Avenue UNIT 4G,Brooklyn, NY 11218",True,https://www.trulia.com/p/ny/brooklyn/1115-1139-prospect-ave-4g-brooklyn-ny-11218--2624955247,,
+10,1498000,5,3,,"137-34 Juniper Avenue,Flushing, NY 11355",True,https://www.trulia.com/p/ny/flushing/13734-juniper-ave-flushing-ny-11355--2346799126,,
+11,725000,4,3,3127,"Address Not Disclosed,Far Rockaway, NY 11691",True,https://www.trulia.com/p/ny/far-rockaway/address-not-disclosed-far-rockaway-ny-11691--2010482471,,
+12,495000,2,1,,"64-11 99th Street UNIT 220,Rego Park, NY 11374",True,https://www.trulia.com/p/ny/rego-park/64-11-99th-st-220-rego-park-ny-11374--2397272970,,
+13,2750000,"54-27 73 ,",",  11378",,"54-27 73rd Place,Maspeth, NY 11378",True,https://www.trulia.com/home/54-27-73rd-Pl-Maspeth-NY-11378-2059251039,,
+14,718888,2,2,,"526 115th Street UNIT 526D,College Pt, NY 11356",True,https://www.trulia.com/p/ny/college-pt/526-115th-st-526d-college-pt-ny-11356--2009941617,,
+15,2750000,5,2,,"54-27/25 73rd Place,Maspeth, NY 11378",True,https://www.trulia.com/p/ny/maspeth/54-27-25-73rd-pl-maspeth-ny-11378--2624952912,,
+16,1030000,3,3,,"34-23 Jordan Street,Flushing, NY 11358",True,https://www.trulia.com/p/ny/flushing/3423-jordan-st-flushing-ny-11358--2009959238,,
+17,550000,3,2,1386,"4026 Bronxwood Avenue,Bronx, NY 10466",True,https://www.trulia.com/p/ny/bronx/4026-bronxwood-ave-bronx-ny-10466--2008942092,40.8874593,-73.8535978
+18,259998,1,1,630,"252-47 63 Avenue UNIT 1032,Little Neck, NY 11362",True,https://www.trulia.com/p/ny/little-neck/252-47-63rd-ave-1032-little-neck-ny-11362--2479019585,,
+19,919000,7,4,2961,"4419 Bruner Avenue,Bronx, NY 10466",True,https://www.trulia.com/p/ny/bronx/4419-bruner-ave-bronx-ny-10466--2008945364,40.89906775,-73.85004729312608
+20,289000,2,1,,"74-65 220th Street UNIT 1A,Oakland Gardens, NY 11364",True,https://www.trulia.com/p/ny/oakland-gardens/74-65-220th-st-1a-oakland-gardens-ny-11364--2624950315,,
+21,577690,4,2,,"104-02 215th Street,Queens Village, NY 11429",True,https://www.trulia.com/p/ny/queens-village/104-02-215th-st-queens-village-ny-11429--2497200967,40.720417,-73.743233
+22,229000,1,1,,"73-45 210th Street UNIT 6C,Oakland Gardens, NY 11364",True,https://www.trulia.com/p/ny/oakland-gardens/73-45-210th-st-6c-oakland-gardens-ny-11364--2624950317,,
+23,535000,1,1,,"210-19 26th Avenue UNIT 1E,Bayside, NY 11360",True,https://www.trulia.com/p/ny/bayside/210-19-26th-ave-1e-bayside-ny-11360--2564272668,,
+24,1399999,6,5,,"11-28 Welling Court,Long Island City, NY 11102",True,https://www.trulia.com/p/ny/long-island-city/1128-welling-ct-long-island-city-ny-11102--2009493485,,
+25,1650000,4,3,2092,"10-20 141st Street,Flushing, NY 11357",True,https://www.trulia.com/p/ny/flushing/1020-141st-st-flushing-ny-11357--2009942458,,
+26,385000,2,2,,"33-04 Junction Blvd UNIT 4W,Jackson Heights, NY 11372",True,https://www.trulia.com/p/ny/jackson-heights/3304-junction-blvd-4w-jackson-heights-ny-11372--2010038285,,
+27,848000,2,2,1406,"29-10 163 Street,Flushing, NY 11358",True,https://www.trulia.com/p/ny/flushing/2910-163rd-st-flushing-ny-11358--2159025484,,
+28,1268000,7,3,,"96-02 32nd Avenue,Flushing, NY 11369",True,https://www.trulia.com/p/ny/flushing/9602-32nd-ave-flushing-ny-11369--2010032373,40.77001,-73.811255
+29,599999,3,3,,"3028 Grace Avenue,Bronx, NY 10469",True,https://www.trulia.com/p/ny/bronx/3028-grace-ave-bronx-ny-10469--2008960861,40.8725634,-73.8359663
+30,300000,2,1,,"78-17 Park Dr E UNIT 1E,Flushing, NY 11367",True,https://www.trulia.com/p/ny/flushing/78-17-park-dr-e-1e-flushing-ny-11367--2197685534,,
+31,849000,2,2,1190,"12-33 Estates Lane UNIT 1765,Bayside, NY 11360",True,https://www.trulia.com/p/ny/bayside/12-33-estates-ln-1765-bayside-ny-11360--2624735851,,
+32,770000,3,2,,"1376 Albany Avenue,Brooklyn, NY 11203",True,https://www.trulia.com/p/ny/brooklyn/1376-albany-ave-brooklyn-ny-11203--2009562046,40.639860049999996,-73.93809358080986
+33,1395000,1,2,836,"50 Riverside Blvd New York, NY 10069",True,https://www.trulia.com/p/ny/new-york/50-riverside-blvd-3r-new-york-ny-10069--2008708340,40.77404755,-73.99130988415699
+34,175000,1,1,750,"4295 Webster Avenue UNIT 4J,Bronx, NY 10470",True,https://www.trulia.com/p/ny/bronx/4295-webster-ave-4j-bronx-ny-10470--2478255189,,
+35,1599990,9,4,,"138-07 90th Avenue,Jamaica, NY 11435",True,https://www.trulia.com/p/ny/jamaica/138-07-90th-ave-jamaica-ny-11435--2010266498,40.7032337,-73.8071484
+36,459000,1,1,794,"152-72 Melbourne Avenue UNIT 4H,Flushing, NY 11367",True,https://www.trulia.com/p/ny/flushing/152-72-melbourne-ave-4h-flushing-ny-11367--2398362621,,
+37,3000000,24,16,12720,"491 E 45th Street UNIT 16,Brooklyn, NY 11203",True,https://www.trulia.com/p/ny/brooklyn/491-e-45th-st-16-brooklyn-ny-11203--2204908484,,
+38,1395000,4,4,,"101-29 75th Rd.,Flushing, NY 11375",True,https://www.trulia.com/p/ny/flushing/10129-75th-rd-flushing-ny-11375--2010064929,,
+39,1700000,6,4,2000,"740 54th St,Brooklyn, NY 11220",True,https://www.trulia.com/p/ny/brooklyn/740-54th-st-brooklyn-ny-11220--2009753555,40.639432799999994,-74.00734781602564
+0,675000,2,1,860,"327 101st St Brooklyn, NY 11209",True,https://www.trulia.com/p/ny/brooklyn/327-101st-st-c-brooklyn-ny-11209--2009634257,40.612875,-74.03484328015361
+1,365000,2,1,900,"224-61 Kingsbury Ave Oakland Gardens, NY 11364",True,https://www.trulia.com/p/ny/oakland-gardens/224-61-kingsbury-ave-2-oakland-gardens-ny-11364--2554507283,,
+2,465000,3,2,1425,"11A Maple Ave,Bronx, NY 10465",True,https://www.trulia.com/p/ny/bronx/11a-maple-ave-bronx-ny-10465--2467517760,40.81442215,-73.81057255868637
+3,1175000,1,1,714,"280 Park Ave S New York, NY 10010",True,https://www.trulia.com/p/ny/new-york/280-park-ave-s-5f-new-york-ny-10010--2088820518,40.7394797,-73.9871968
+4,749000,1,1,,"156 E 79th St New York, NY 10075",True,https://www.trulia.com/p/ny/new-york/156-e-79th-st-9f-new-york-ny-10075--2478558604,40.774531249999995,-73.95852229170727
+5,349000,2,1,860,"63-11 Queens Blvd Woodside, NY 11377",True,https://www.trulia.com/p/ny/woodside/63-11-queens-blvd-7-woodside-ny-11377--2428772284,40.7415055,-73.9017848
+6,988000,2,2,1100,"37-20 Prince St Flushing, NY 11354",True,https://www.trulia.com/p/ny/flushing/37-20-prince-st-a-flushing-ny-11354--2396402196,40.7603954,-73.8329109
+7,995000,3,3,2500,"750 Kappock St Bronx, NY 10463",True,https://www.trulia.com/p/ny/bronx/750-kappock-st-405-bronx-ny-10463--2332571513,40.8818984,-73.9205807422543
+8,1895000,4,2,,"325 E 80th St New York, NY 10075",True,https://www.trulia.com/p/ny/new-york/325-e-80th-st-5g-new-york-ny-10075--2346040082,40.77363105,-73.95308516773821
+9,1200000,9,7,3239,"602 Osborn St,Brooklyn, NY 11212",True,https://www.trulia.com/p/ny/brooklyn/602-osborn-st-brooklyn-ny-11212--2009667831,40.6570397,-73.90585150106604
+10,815000,5,2,1800,"66 Fountain Ave,Brooklyn, NY 11208",True,https://www.trulia.com/p/ny/brooklyn/66-fountain-ave-brooklyn-ny-11208--245703,40.678571500000004,-73.87641425000001
+11,2500000,1,2,1400,"48 Canal St New York, NY 10002",True,https://www.trulia.com/p/ny/new-york/48-canal-st-3-new-york-ny-10002--2008539725,40.7147129,-73.9916697
+12,1195000,2,2,1115,"308 E 38th St New York, NY 10016",True,https://www.trulia.com/p/ny/new-york/308-e-38th-st-4a-new-york-ny-10016--2172450776,40.7468712,-73.9734586
+13,610000,1,1,,"305 E 88th St New York, NY 10128",True,https://www.trulia.com/p/ny/new-york/305-e-88th-st-5f-new-york-ny-10128--2307473632,40.77909915,-73.95005336729261
+14,850000,3,3,2200,"57-68 Mazeau St Maspeth, NY 11378",True,https://www.trulia.com/p/ny/maspeth/57-68-mazeau-st-1-maspeth-ny-11378--2624923486,,
+15,150000,1,1,,"160-10 89th Ave Jamaica, NY 11432",True,https://www.trulia.com/p/ny/jamaica/160-10-89th-ave-123-jamaica-ny-11432--2571191517,40.70601455,-73.80025505860253
+16,665000,3,2,,"9016 Glenwood Road,Brooklyn, NY 11236",True,https://www.trulia.com/p/ny/brooklyn/9016-glenwood-rd-brooklyn-ny-11236--2009880505,40.64191655,-73.90697228115887
+17,1304500,3,2,,"138-12 76th Avenue,Flushing, NY 11367",True,https://www.trulia.com/p/ny/flushing/138-12-76th-ave-flushing-ny-11367--2010008908,,
+18,2600000,4,4,2814,"186-16 Aberdeen Road,Jamaica, NY 11432",True,https://www.trulia.com/p/ny/jamaica/186-16-aberdeen-rd-jamaica-ny-11432--2010241467,,
+19,369000,2,1,,"16-44 200 Street UNIT 2-59,Whitestone, NY 11357",True,https://www.trulia.com/p/ny/whitestone/16-44-200th-st-2-59-whitestone-ny-11357--2395652077,,
+20,1369000,10,5,,"27-11/13 Ericsson Street,East Elmhurst, NY 11369",True,https://www.trulia.com/p/ny/east-elmhurst/27-11-13-ericsson-st-east-elmhurst-ny-11369--2613512476,,
+21,395000,3,2,1250,"2265 Gerritsen Ave Brooklyn, NY 11229",True,https://www.trulia.com/p/ny/brooklyn/2265-gerritsen-ave-5l-brooklyn-ny-11229--2478475362,40.6008286,-73.9337446
+22,3325000,3,3,1854,"3B Plan in Quay Tower,Brooklyn, NY 11201",True,https://www.trulia.com/builder-community-plan/Quay-Tower-3b-2061496931,,
+23,900000,1,2,702,"360 E 88th St New York, NY 10128",True,https://www.trulia.com/p/ny/new-york/360-e-88th-st-10b-new-york-ny-10128--2088916220,40.7782758,-73.9490193
+24,695000,1,1,,"380 Riverside Dr New York, NY 10025",True,https://www.trulia.com/p/ny/new-york/380-riverside-dr-6m-new-york-ny-10025--2478456862,40.8046596,-73.967443
+25,3595000,3,2,2700,"75 Livingston St,Brooklyn, NY 11201",True,https://www.trulia.com/p/ny/brooklyn/75-livingston-st-brooklyn-ny-11201--2346121831,40.691809,-73.9917684
+26,5889000,4,3,2480,"1951 86th St,Brooklyn, NY 11214",False,https://www.trulia.com/p/ny/brooklyn/1951-86th-st-brooklyn-ny-11214--2009681255,40.605388149999996,-73.99897722584748
+27,5889000,4,3,2480,"1949 86th St,Brooklyn, NY 11214",False,https://www.trulia.com/p/ny/brooklyn/1949-86th-st-brooklyn-ny-11214--2009681217,40.60542565,-73.99903046812841
+28,490000,2,1,528,"25 Lincoln Ter,Brooklyn, NY 11235",False,https://www.trulia.com/p/ny/brooklyn/25-lincoln-ter-brooklyn-ny-11235--2009867754,40.5847347,-73.9386083
+29,525000,,1,,"126 W 73rd St New York, NY 10023",False,https://www.trulia.com/p/ny/new-york/126-w-73rd-st-5-a-new-york-ny-10023--2478368550,40.778356650000006,-73.97939010175295
+30,1450000,10,6,,"89-29 138th St Jamaica, NY 11435",False,https://www.trulia.com/p/ny/jamaica/89-29-138th-st-4f-jamaica-ny-11435--2624920937,,
+31,829000,3,13,1618,"229-01 69th Ave Oakland Gardens, NY 11364",False,https://www.trulia.com/p/ny/oakland-gardens/229-01-69th-ave-84-oakland-gardens-ny-11364--2496873208,,
+32,15400000,5,7,,"1185 Park Ave New York, NY 10128",False,https://www.trulia.com/p/ny/new-york/1185-park-ave-17-16g-new-york-ny-10128--2568929672,40.7848335,-73.9534973
+33,1338000,4,3,,"159-11 29th Avenue,Flushing, NY 11358",True,https://www.trulia.com/p/ny/flushing/15911-29th-ave-flushing-ny-11358--2346803575,40.7717551,-73.8098843
+34,1050000,1,1,750,"220 Riverside Blvd New York, NY 10069",False,https://www.trulia.com/p/ny/new-york/220-riverside-blvd-3d-new-york-ny-10069--2008707957,40.7796941,-73.98754840652174
+35,5988000,5,5,3576,"30 Main St Brooklyn, NY 11201",False,https://www.trulia.com/p/ny/brooklyn/30-main-st-11b-brooklyn-ny-11201--2009547150,40.703030299999995,-73.99100222345739
+36,5995000,3,3,2000,"59 W 12th St New York, NY 10011",False,https://www.trulia.com/p/ny/new-york/59-w-12th-st-4ef-new-york-ny-10011--2429921859,40.735810900000004,-73.99678025858543
+37,1050000,6,5,2956,"7520 Avenue T,Brooklyn, NY 11234",False,https://www.trulia.com/p/ny/brooklyn/7520-avenue-t-brooklyn-ny-11234--2009863758,40.6234139,-73.90605300000001
+38,17990000,5,6,5000,"50 Central Park W,New York, NY 10023",False,https://www.trulia.com/p/ny/new-york/50-central-park-w-new-york-ny-10023--2127487162,40.771735449999994,-73.97950119600952
+39,3300000,2,2,1093,"28 E 10th St New York, NY 10003",False,https://www.trulia.com/p/ny/new-york/28-e-10th-st-11d-new-york-ny-10003--2088811005,40.73251,-73.9935442
+0,839000,2,1,990,"81 Ocean Pkwy Brooklyn, NY 11218",False,https://www.trulia.com/p/ny/brooklyn/81-ocean-pkwy-5d-brooklyn-ny-11218--2478965852,40.648782499999996,-73.97447190125
+1,1995000,2,4,1372,"11 Hoyt St Brooklyn, NY 11201",False,https://www.trulia.com/p/ny/brooklyn/11-hoyt-st-47c-brooklyn-ny-11201--2544494626,40.689779599999994,-73.98533487558507
+2,1900000,12,6,5400,"381 Sumpter St Brooklyn, NY 11233",False,https://www.trulia.com/p/ny/brooklyn/381-sumpter-st-3-brooklyn-ny-11233--2180454863,40.6813603,-73.9098177
+3,675000,4,3,5000,"4051 Seton Ave Bronx, NY 10466",False,https://www.trulia.com/p/ny/bronx/4051-seton-ave-1-bronx-ny-10466--2624920294,40.892755949999994,-73.83811674768961
+4,229000,2,1,950,"2212 Plumb 1 St Brooklyn, NY 11229",False,https://www.trulia.com/p/ny/brooklyn/2212-plumb-1-st-1b-brooklyn-ny-11229--2571584699,,
+5,2000000,1,1,707,"111 W 56th St New York, NY 10019",False,https://www.trulia.com/p/ny/new-york/111-w-56th-st-34a-new-york-ny-10019--2624920263,40.76388710204081,-73.97803602040815
+6,1850000,,3,2080,"550 52nd St,Brooklyn, NY 11220",False,https://www.trulia.com/p/ny/brooklyn/550-52nd-st-brooklyn-ny-11220--150090,40.643048050000004,-74.01030049321994
+7,2475000,2,3,1985,"100 United Nations Plz New York, NY 10017",False,https://www.trulia.com/p/ny/new-york/100-united-nations-plz-32d-new-york-ny-10017--2008632936,40.7531948,-73.96778375013017
+8,575000,1,1,,"1270 5th Ave New York, NY 10029",False,https://www.trulia.com/p/ny/new-york/1270-5th-ave-10k-new-york-ny-10029--2478342874,40.7957897,-73.9497938
+9,230000,,1,550,"110-20 71st Ave Forest Hills, NY 11375",False,https://www.trulia.com/p/ny/forest-hills/110-20-71st-ave-231-forest-hills-ny-11375--2397867460,40.7195249,-73.8451946
+10,435000,,1,500,"305 E 40th St New York, NY 10016",False,https://www.trulia.com/p/ny/new-york/305-e-40th-st-10v-new-york-ny-10016--2174999864,40.748540204081635,-73.97292261224489
+11,1595000,2,2,,"119 E 84th St New York, NY 10028",False,https://www.trulia.com/p/ny/new-york/119-e-84th-st-5a-new-york-ny-10028--2332652145,40.77863257142857,-73.95739828571429
+12,1400000,1,1,549,"111 W 56th St New York, NY 10019",False,https://www.trulia.com/p/ny/new-york/111-w-56th-st-37g-new-york-ny-10019--2624917187,40.76388710204081,-73.97803602040815
+13,3150000,2,2,1165,"111 W 56th St New York, NY 10019",False,https://www.trulia.com/p/ny/new-york/111-w-56th-st-39j-new-york-ny-10019--2624917183,40.76388710204081,-73.97803602040815
+14,679000,3,3,,"171-43 107th Ave Jamaica, NY 11433",False,https://www.trulia.com/p/ny/jamaica/171-43-107th-ave-1-jamaica-ny-11433--2624917185,40.6981167,-73.7924857
+15,1350000,1,1,568,"111 W 56th St New York, NY 10019",False,https://www.trulia.com/p/ny/new-york/111-w-56th-st-34e-new-york-ny-10019--2624917182,40.76388710204081,-73.97803602040815
+16,549000,1,2,1320,"44 Euclid Ave Brooklyn, NY 11208",False,https://www.trulia.com/p/ny/brooklyn/44-euclid-ave-1c-brooklyn-ny-11208--2590581995,40.6875316,-73.875477911183
+17,2200000,2,2,813,"111 W 56th St New York, NY 10019",False,https://www.trulia.com/p/ny/new-york/111-w-56th-st-35i-new-york-ny-10019--2624917186,40.76388710204081,-73.97803602040815
+18,3250000,2,2,1133,"111 W 56th St New York, NY 10019",False,https://www.trulia.com/p/ny/new-york/111-w-56th-st-38c-new-york-ny-10019--2624917184,40.76388710204081,-73.97803602040815
+19,569000,,1,600,"244 Madison Ave New York, NY 10016",False,https://www.trulia.com/p/ny/new-york/244-madison-ave-6k-new-york-ny-10016--2333539052,40.7501514,-73.9813886
+20,550000,2,3,1280,"139 Bement Ct,Staten Island, NY 10310",False,https://www.trulia.com/p/ny/staten-island/139-bement-ct-staten-island-ny-10310--2008814842,40.6400995,-74.1125938024724
+21,708000,3,2,2020,"107 Ontario Ave,Staten Island, NY 10301",False,https://www.trulia.com/p/ny/staten-island/107-ontario-ave-staten-island-ny-10301--2008720839,40.61299725,-74.1034257
+22,1695000,4,5,3992,"1168 Willowbrook Rd,Staten Island, NY 10314",False,https://www.trulia.com/p/ny/staten-island/1168-willowbrook-rd-staten-island-ny-10314--2008843103,40.60334905,-74.13382520616898
+23,899900,3,4,1900,"40 Winant Pl,Staten Island, NY 10309",False,https://www.trulia.com/p/ny/staten-island/40-winant-pl-staten-island-ny-10309--2008808803,40.53650115,-74.23892214301785
+24,715000,3,3,1200,"131 Jefferson St,Staten Island, NY 10304",False,https://www.trulia.com/p/ny/staten-island/131-jefferson-st-staten-island-ny-10304--2008745447,40.588857450000006,-74.09955086510547
+25,5500000,,"2178 65 ,",,"2178 65th St,Brooklyn, NY 11204",False,https://www.trulia.com/p/ny/brooklyn/2178-65th-st-brooklyn-ny-11204--2624716695,40.61409885526316,-73.98172328947368
+26,189000,,1,,"61-55 98th St Rego Park, NY 11374",False,https://www.trulia.com/p/ny/rego-park/61-55-98th-st-4a-rego-park-ny-11374--2478970526,40.73345535,-73.85955577682199
+27,299000,1,1,655,"221 Beach 80th St Rockaway Beach, NY 11693",False,https://www.trulia.com/p/ny/rockaway-beach/221-beach-80th-st-5e-rockaway-beach-ny-11693--2010486657,,
+28,229000,2,1,950,"2212 Plumb 1st St Brooklyn, NY 11229",False,https://www.trulia.com/p/ny/brooklyn/2212-plumb-1st-st-1b-brooklyn-ny-11229--2189270030,40.5993474,-73.9330461
+29,550000,1,1,,"609 Columbus Ave New York, NY 10024",False,https://www.trulia.com/p/ny/new-york/609-columbus-ave-8i-new-york-ny-10024--2334310944,40.7888238,-73.9701823
+30,695000,2,2,965,"204 W 140th St New York, NY 10030",False,https://www.trulia.com/p/ny/new-york/204-w-140th-st-2e-new-york-ny-10030--2624550560,40.81861765,-73.94224641701292
+31,980000,1,1,975,"138-35 39th Ave Flushing, NY 11354",False,https://www.trulia.com/p/ny/flushing/138-35-39th-ave-12f-flushing-ny-11354--2345641528,40.761092,-73.8273089
+32,2250000,2,2,1171,"20 River Ter New York, NY 10282",False,https://www.trulia.com/p/ny/new-york/20-river-ter-21e-new-york-ny-10282--2171942798,40.7165629,-74.0161548656639
+33,975000,4,3,2366,"16139 84th St,Jamaica, NY 11414",False,https://www.trulia.com/p/ny/jamaica/16139-84th-st-jamaica-ny-11414--2010154166,,
+34,374999,2,2,878,"2796 Sedgwick Ave Bronx, NY 10468",False,https://www.trulia.com/p/ny/bronx/2796-sedgwick-ave-2c-bronx-ny-10468--2008953316,40.87200515000001,-73.90191871450259
+35,1050000,1,2,1050,"40-50 E 10th St New York, NY 10003",False,https://www.trulia.com/p/ny/new-york/40-50-e-10th-st-2-l-new-york-ny-10003--2341844937,40.6053075,-73.9625623
+36,229000,1,1,700,"3242 92nd St East Elmhurst, NY 11369",False,https://www.trulia.com/p/ny/east-elmhurst/3242-92nd-st-505-east-elmhurst-ny-11369--2196206900,,
+37,1380000,5,3,1733,"20415 42nd Ave,Flushing, NY 11361",False,https://www.trulia.com/p/ny/flushing/20415-42nd-ave-flushing-ny-11361--2009970320,,
+38,2195000,3,2,1550,"425 W End Ave New York, NY 10024",False,https://www.trulia.com/p/ny/new-york/425-w-end-ave-4a-new-york-ny-10024--2478829379,40.7852867,-73.9807153
+39,1500000,2,1,1000,"1060 Park Ave New York, NY 10128",False,https://www.trulia.com/p/ny/new-york/1060-park-ave-12d-new-york-ny-10128--2478484770,40.7810396,-73.9568847
+0,525000,1,1,760,"800 E 17th St Brooklyn, NY 11230",False,https://www.trulia.com/p/ny/brooklyn/800-e-17th-st-1b-brooklyn-ny-11230--2171891248,40.6311818,-73.96093692247888
+1,8995000,4,4,3140,"90 Furman St Brooklyn, NY 11201",False,https://www.trulia.com/p/ny/brooklyn/90-furman-st-1003-brooklyn-ny-11201--2332137220,40.70209878378378,-73.99535367567567
+2,899000,5,4,,"9025 Farragut Rd,Brooklyn, NY 11236",False,https://www.trulia.com/p/ny/brooklyn/9025-farragut-rd-brooklyn-ny-11236--2009880561,40.64388805,-73.90877433421707
+3,675000,2,2,1037,"1,037 sqft3441 85th St ",False,https://www.trulia.com/p/ny/flushing/3441-85th-st-1a-flushing-ny-11372--2174517952,,
+4,325000,1,1,850,"11034 73rd Rd Forest Hills, NY 11375",False,https://www.trulia.com/p/ny/forest-hills/11034-73rd-rd-4m-forest-hills-ny-11375--2174810999,,
+5,1150000,2,2,1073,"207A Prospect Ave Brooklyn, NY 11215",False,https://www.trulia.com/p/ny/brooklyn/207a-prospect-ave-4-brooklyn-ny-11215--2460209115,40.6650379,-73.99160615111583
+6,359000,1,1,775,"70-20 108th St Forest Hills, NY 11375",False,https://www.trulia.com/p/ny/forest-hills/70-20-108th-st-2-forest-hills-ny-11375--2624504344,,
+7,725000,1,1,,"175 E 79th St New York, NY 10075",False,https://www.trulia.com/p/ny/new-york/175-e-79th-st-6d-new-york-ny-10075--2333469901,40.77483135,-73.95795215444369
+8,624999,3,3,1600,"12 Altamont St,Staten Island, NY 10306",False,https://www.trulia.com/p/ny/staten-island/12-altamont-st-staten-island-ny-10306--2008770887,40.57768845,-74.11810374502497
+9,588888,4,2,1650,"1600 Castleton Ave,Staten Island, NY 10302",False,https://www.trulia.com/p/ny/staten-island/1600-castleton-ave-staten-island-ny-10302--2008733026,40.63590145,-74.13664191345376
+10,589000,2,2,1000,"252 Kensington Ave,Staten Island, NY 10305",False,https://www.trulia.com/p/ny/staten-island/252-kensington-ave-staten-island-ny-10305--2008761060,40.5922471,-74.07498085765008
+11,724900,3,3,1344,"1231 Mason Ave,Staten Island, NY 10306",False,https://www.trulia.com/p/ny/staten-island/1231-mason-ave-staten-island-ny-10306--813618,40.57440185,-74.09829158219856
+12,1299900,3,6,4500,"3691 Hylan Blvd,Staten Island, NY 10308",False,https://www.trulia.com/p/ny/staten-island/3691-hylan-blvd-staten-island-ny-10308--2008798906,40.54857295,-74.13901465116945
+13,699999,3,2,1196,"149 Dixon Ave,Staten Island, NY 10303",False,https://www.trulia.com/p/ny/staten-island/149-dixon-ave-staten-island-ny-10303--2008738053,40.62817915,-74.14689942132854
+14,1100000,5,4,2712,"26 Deppe Pl,Staten Island, NY 10314",False,https://www.trulia.com/p/ny/staten-island/26-deppe-pl-staten-island-ny-10314--2008853577,40.617373,-74.1540668777441
+15,899000,2,2,1000,"2805 E 26th St Brooklyn, NY 11235",False,https://www.trulia.com/p/ny/brooklyn/2805-e-26th-st-1a-brooklyn-ny-11235--2560537130,40.58460395,-73.94248680158466
+16,2800000,4,3,2000,"290 Van Brunt St,Brooklyn, NY 11231",False,https://www.trulia.com/p/ny/brooklyn/290-van-brunt-st-brooklyn-ny-11231--143667,40.6796783,-74.01043023337124
+17,589995,3,1,1520,"123 Hendrix St,Brooklyn, NY 11207",False,https://www.trulia.com/p/ny/brooklyn/123-hendrix-st-brooklyn-ny-11207--2009603448,40.6793128,-73.8908786978503
+18,2290000,2,3,1235,"106 Central Park S New York, NY 10019",False,https://www.trulia.com/p/ny/new-york/106-central-park-s-14i-new-york-ny-10019--2088844803,40.765454,-73.97692895487805
+19,9495000,3,4,3928,"60 Collister St New York, NY 10013",False,https://www.trulia.com/p/ny/new-york/60-collister-st-b-new-york-ny-10013--2624504187,40.7217244,-74.0090522
+20,750000,1,1,,"363 E 76th St New York, NY 10021",False,https://www.trulia.com/p/ny/new-york/363-e-76th-st-5a-new-york-ny-10021--2553887276,40.7706063,-73.9543643
+21,1150000,2,2,1376,"625 Main St New York, NY 10044",False,https://www.trulia.com/p/ny/new-york/625-main-st-630-new-york-ny-10044--2250588301,40.7633891,-73.9486432
+22,728000,2,2,890,"14469 Barclay Ave Flushing, NY 11355",False,https://www.trulia.com/p/ny/flushing/14469-barclay-ave-7b-flushing-ny-11355--2333033260,40.7590745,-73.8234362
+23,2200000,3,2,,"33-09 214th Place,Bayside, NY 11361",True,https://www.trulia.com/p/ny/bayside/33-09-214th-pl-bayside-ny-11361--2624736570,40.7722548,-73.77200583470676
+24,1288000,3,3,1480,"93-08 68th Avenue,Forest Hills, NY 11375",True,https://www.trulia.com/p/ny/forest-hills/93-08-68th-ave-forest-hills-ny-11375--2624728306,,
+25,599000,3,2,1250,"7211 Avenue U,Brooklyn, NY 11234",False,https://www.trulia.com/p/ny/brooklyn/7211-avenue-u-brooklyn-ny-11234--2009863543,40.62068335,-73.90663426981897
+26,1295000,1,2,,"71 E 77th St New York, NY 10075",False,https://www.trulia.com/p/ny/new-york/71-e-77th-st-4a-new-york-ny-10075--2478402735,40.774773550000006,-73.96197765144993
+27,375000,,1,550,"505 E 82nd St New York, NY 10028",False,https://www.trulia.com/p/ny/new-york/505-e-82nd-st-4f-new-york-ny-10028--2478368238,40.77327135,-73.94835073528152
+28,875000,1,1,665,"415 Central Park W New York, NY 10025",False,https://www.trulia.com/p/ny/new-york/415-central-park-w-9bl-new-york-ny-10025--2478345460,40.7950942,-73.9624213
+29,800000,2,2,1054,"148-09 Northern Blvd Flushing, NY 11354",False,https://www.trulia.com/p/ny/flushing/148-09-northern-blvd-2j-flushing-ny-11354--2009916337,40.7654485,-73.8181059
+30,1075000,,2,,"661 Ralph Ave,Brooklyn, NY 11212",False,https://www.trulia.com/p/ny/brooklyn/661-ralph-ave-brooklyn-ny-11212--2009668197,40.66665485,-73.92235841149906
+31,725000,2,2,1035,"800 E 17th St Brooklyn, NY 11230",False,https://www.trulia.com/p/ny/brooklyn/800-e-17th-st-4c-brooklyn-ny-11230--2173672603,40.6311818,-73.96093692247888
+32,800000,5,3,2000,"716 Logan St,Brooklyn, NY 11208",False,https://www.trulia.com/p/ny/brooklyn/716-logan-st-brooklyn-ny-11208--2009628859,40.66839895,-73.87449005000002
+33,767000,4,3,,"133-24 222nd Street,Springfield Gardens, NY 11413",True,https://www.trulia.com/p/ny/springfield-gardens/133-24-222nd-st-springfield-gardens-ny-11413--2396846130,40.679012900000004,-73.74728215213591
+34,699000,4,1,1248,"132 E 28th St,Brooklyn, NY 11226",False,https://www.trulia.com/p/ny/brooklyn/132-e-28th-st-brooklyn-ny-11226--2089003039,40.64602145,-73.95120175545057
+35,469000,2,1,871,"2108 Dorchester Rd Brooklyn, NY 11226",False,https://www.trulia.com/p/ny/brooklyn/2108-dorchester-rd-4a-brooklyn-ny-11226--2009799280,40.64195046938776,-73.95815846938775
+36,1299000,6,3,2600,"2639 Haring St,Brooklyn, NY 11235",False,https://www.trulia.com/p/ny/brooklyn/2639-haring-st-brooklyn-ny-11235--2009868060,40.58873245,-73.9384061681068
+37,4950000,2,2,,"225 Central Park N New York, NY 10024",False,https://www.trulia.com/p/ny/new-york/225-central-park-n-1001-new-york-ny-10024--2478479456,40.7996582244898,-73.95605134693878
+38,4800000,5,4,3300,"134 Manhattan Ave,New York, NY 10025",False,https://www.trulia.com/p/ny/new-york/134-manhattan-ave-new-york-ny-10025--2008651329,40.79826215,-73.9614932652216
+39,1250000,1,1,900,"158 E 22nd St New York, NY 10010",False,https://www.trulia.com/p/ny/new-york/158-e-22nd-st-1-new-york-ny-10010--2478765543,40.7381823,-73.98416434739158
+40,599900,4,2,2360,"1056 Wood Park Drive,Baldwin, NY 11510",True,https://www.trulia.com/p/ny/baldwin/1056-wood-park-dr-baldwin-ny-11510--2010287917,40.6819637,-73.6020481
+41,595000,3,1,1242,"56 Wellington Road,Elmont, NY 11003",True,https://www.trulia.com/p/ny/elmont/56-wellington-rd-elmont-ny-11003--2009424737,40.70772225,-73.72380988497706
+42,239000,1,1,981,"900 Palmer Road UNIT 8A,Bronxville, NY 10708",True,https://www.trulia.com/p/ny/bronxville/900-palmer-rd-8a-bronxville-ny-10708--2009226111,,
+43,278888,2,1,,"221 Middle Neck Road UNIT K1,Great Neck, NY 11021",True,https://www.trulia.com/p/ny/great-neck/221-middle-neck-rd-k1-great-neck-ny-11021--2198093101,,
+44,2895000,6,5,5270,"48 Eton Road,Larchmont, NY 10538",True,https://www.trulia.com/p/ny/larchmont/48-eton-rd-larchmont-ny-10538--2009054231,40.9475257,-73.7540815
+45,149000,1,1,913,"555 Bronx River Road UNIT 6R,Yonkers, NY 10704",True,https://www.trulia.com/p/ny/yonkers/555-bronx-river-rd-6r-yonkers-ny-10704--2174391693,,
+46,1849000,4,3,2221,"10 Dante Street,Larchmont, NY 10538",True,https://www.trulia.com/p/ny/larchmont/10-dante-st-larchmont-ny-10538--2159369599,40.9399682,-73.7602442
+47,515000,2,2,1260,"1374 Midland Avenue UNIT PH07,Bronxville, NY 10708",True,https://www.trulia.com/p/ny/bronxville/1374-midland-ave-7-bronxville-ny-10708--2191158098,,
+48,499900,5,2,2044,"458 S 6th Avenue,Mount Vernon, NY 10550",True,https://www.trulia.com/p/ny/mount-vernon/458-s-6th-ave-mount-vernon-ny-10550--1005021757,40.8995898,-73.8347178
+49,1575000,4,3,2823,"73 Brevoort Lane,Rye, NY 10580",True,https://www.trulia.com/p/ny/rye/73-brevoort-ln-rye-ny-10580--2009130154,40.947382,-73.7116349
+50,819000,6,3,2688,"18 Cosgrove Street,Glen Cove, NY 11542",True,https://www.trulia.com/p/ny/glen-cove/18-cosgrove-st-glen-cove-ny-11542--2458577396,,
+51,349000,2,2,,"2355 Pershing Boulevard UNIT 709,Baldwin, NY 11510",True,https://www.trulia.com/p/ny/baldwin/2355-pershing-blvd-709-baldwin-ny-11510--2625409359,,
+52,369000,2,2,,"34 Pearsall Avenue UNIT 2D,Glen Cove, NY 11542",True,https://www.trulia.com/p/ny/glen-cove/34-pearsall-ave-2d-glen-cove-ny-11542--2010325728,,
+53,1650000,4,3,2076,"8 Hayward Place,Rye, NY 10580",True,https://www.trulia.com/p/ny/rye/8-hayward-pl-rye-ny-10580--2009130609,40.9633247,-73.6847936
+54,695000,3,2,1584,"12 Sunset Drive,Yonkers, NY 10704",True,https://www.trulia.com/p/ny/yonkers/12-sunset-dr-yonkers-ny-10704--2009203111,40.9245732,-73.8734278
+55,125000,1,1,750,"11 Park Avenue UNIT 2W,Mount Vernon, NY 10550",True,https://www.trulia.com/p/ny/mount-vernon/11-park-ave-2w-mount-vernon-ny-10550--2173418666,,
+56,460000,3,2,1756,"105 Vincent Avenue,Lynbrook, NY 11563",True,https://www.trulia.com/p/ny/lynbrook/105-vincent-ave-lynbrook-ny-11563--2010385550,40.65455075,-73.66663336772186
+57,675000,4,3,,"173 Warren Street,Uniondale, NY 11553",True,https://www.trulia.com/p/ny/uniondale/173-warren-st-uniondale-ny-11553--2010352423,40.718035,-73.60675258120986
+58,417000,3,1,,"2994 Dorlon,Baldwin, NY 11510",True,https://www.trulia.com/p/ny/baldwin/2994-dorlon-pl-baldwin-ny-11510--2010291966,40.637521,-73.6061549
+59,899000,3,2,1460,"146 White Road,Scarsdale, NY 10583",True,https://www.trulia.com/p/ny/scarsdale/146-white-rd-scarsdale-ny-10583--2009132716,40.9758487,-73.793908
+60,2495000,4,4,3712,"14 White Plains Road,Bronxville, NY 10708",True,https://www.trulia.com/p/ny/bronxville/14-white-plains-rd-bronxville-ny-10708--2009221674,40.9319261,-73.8184097
+61,1385000,4,3,2478,"208 Roxbury Road,Garden City, NY 11530",True,https://www.trulia.com/p/ny/garden-city/208-roxbury-rd-garden-city-ny-11530--2010317102,40.7335811,-73.6639473
+62,849999,8,4,2394,"131 W Sandford Boulevard,Mount Vernon, NY 10550",True,https://www.trulia.com/p/ny/mount-vernon/131-w-sandford-blvd-mount-vernon-ny-10550--1008062230,,
+63,299900,2,2,1100,"650 Warburton Avenue UNIT 6E,Yonkers, NY 10701",True,https://www.trulia.com/p/ny/yonkers/650-warburton-ave-6e-yonkers-ny-10701--2332024943,,
+64,500000,5,3,1870,"149 Remington Place,New Rochelle, NY 10801",True,https://www.trulia.com/p/ny/new-rochelle/149-remington-pl-new-rochelle-ny-10801--2009237876,40.9152106,-73.7944331
+65,669000,2,2,1232,"701 Ridge Hill Boulevard UNIT 6B,Yonkers, NY 10710",True,https://www.trulia.com/p/ny/yonkers/701-ridge-hill-blvd-6b-yonkers-ny-10710--2171952754,,
+66,158000,,1,600,"480 Halstead Avenue UNIT 5-U,Harrison, NY 10528",True,https://www.trulia.com/p/ny/harrison/480-halstead-ave-5u-harrison-ny-10528--2174573222,,
+67,599000,4,2,1314,"325 Covert Avenue,New Hyde Park, NY 11040",True,https://www.trulia.com/p/ny/new-hyde-park/325-covert-ave-new-hyde-park-ny-11040--2009462638,40.7281572,-73.68727147747408
+68,480000,2,1,933,"225 Stanley Avenue UNIT 110,Mamaroneck, NY 10543",True,https://www.trulia.com/p/ny/mamaroneck/225-stanley-ave-110-mamaroneck-ny-10543--2009066277,,
+69,1249000,5,4,,"11 Park Circle,Cedarhurst, NY 11516",True,https://www.trulia.com/p/ny/cedarhurst/11-park-cir-cedarhurst-ny-11516--2010299303,40.6315939,-73.72974495167385

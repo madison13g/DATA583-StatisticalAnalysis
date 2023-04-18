@@ -1,0 +1,290 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry} %Sets proper 1-inch margins. 
+\usepackage{amsmath} %Only load this if you are using math/equations.
+\usepackage{graphicx} %Only need to call this if inserting images.
+%\usepackage{caption} %Only need to call this if inserting captions.
+\usepackage{float} %Allows the use of the [H] specifier. 
+%\graphicspath{{C:/Users/jonah/Pictures/}} %Sets the working directory for images.
+\usepackage[colorlinks,citecolor=blue,linkcolor=blue,urlcolor=blue]{hyperref} %Allows for the embedding of urls. 
+\usepackage{setspace}
+\usepackage{blindtext}
+
+\pagenumbering{arabic}
+
+%\usepackage{fontspec} %%in order for this font stuff to work, you must compile using xelatex+makeindex+bibtex (or at minimum xelatex)
+%\setmainfont[Mapping=tex-text-ms]{Essays1743}
+
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Greenough \& Edmundson \\ 2023}
+\lhead{\thepage}
+
+\newcommand{\comment}[1]{}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE, echo=FALSE}
+
+\begin{center}
+\LARGE{DATA583 Exploratory Analysis}
+\par
+\vspace{1.0pc}
+\par
+\large{Madison Greenough \& Jonah Edmundson}
+\end{center}
+
+
+\vspace{0.917 pc} %Creates a paragraph line break. 
+
+%\pagebreak
+
+%\tableofcontents
+
+\section{Summary Statistics}
+
+There are 10 variables for each listing, including the price of the listing (integer in \$USD), number of bedrooms (numeric, int), number of bathrooms (numeric), square feet (numeric), address (string), flag of whether it is new or not (binary 0 or 1), the listing company name (string), latitude (numeric), longitude (numeric), and distance to Central Park (numeric). Below we a summary of all numeric variables. Given is the minimum, quartiles, maximum, and median. This gives a great background and summary of the major variables here, especially our response variable, Price. Note that since the newflag variable is binary, this summary shows simply the count of which are new (True) and which are not (False).
+
+<<fig=FALSE, echo=FALSE>>=
+#loading in data
+df = read.csv('../data/NY_realestate2023-02-17-cleaned.csv')
+#cat('Column names:')
+#cat(names(df))
+cat(paste('Number of rows in dataset:', nrow(df)))
+
+#summary stats for numeric
+#cat('Numeric variables:')
+numeric = unlist(lapply(df, is.numeric), use.names = FALSE)
+summary(df[, numeric])
+
+@ 
+
+Testing for outliers was done by calculating the z-score for each variable individually, within each row. Any z-score value greater than 3 was removed. 
+
+<<fig=FALSE, echo=FALSE>>=
+#removing outliers
+#cat('Removing outliers with a Z-score greater than 3 for any variable...')
+outlier.vars = numeric
+outlier.vars[8:10] = F
+z_scores = as.data.frame(sapply(df[, numeric], function(x) (abs(x-mean(x, na.rm=TRUE))/sd(x, na.rm = TRUE))))
+no_outliers_pca = df[!rowSums(z_scores>3, na.rm = TRUE), numeric]
+#outliers = df[rowSums(z_scores>3, na.rm = TRUE), numeric]
+to.remove = c(rep(F, nrow(df)))
+for (i in 1:nrow(df)){
+  for (j in names(z_scores)){
+    if ((z_scores[i,j] > 3 & (!is.na(z_scores[i,j])))){
+      to.remove[i] = TRUE
+    }
+  }
+}
+no_outliers = df[!to.remove,]
+row.names(no_outliers) = 1:nrow(no_outliers)
+outliers = df[to.remove,]
+
+cat(paste('Number of rows after outliers removed:', nrow(no_outliers)))
+@
+
+To confirm that the outliers were removed justly, a comparison was done between the outlier values and the dataset after the outliers were removed. Below, we see the difference between the two datasets in the median price, feet, bed, and bath. These are our primary numeric variables in the dataset. See below that there is a significant (greater) difference in the outlier median values compared to the new filtered dataset without them. This justifies the removal of these 35 instances.
+
+<<fig=FALSE, echo=FALSE>>=
+#viewing outliers
+cat('Comparing outlier houses to non-outlier houses:')
+data.frame(
+  'Median price' = median(no_outliers$price, na.rm=TRUE),
+  'median outlier price' = median(outliers$price, na.rm = TRUE)
+)
+data.frame(
+  'Median feet' = median(no_outliers$feet, na.rm=TRUE),
+  'median outlier feet' = median(outliers$feet, na.rm = TRUE)
+)
+data.frame(
+  'Median bed' = median(no_outliers$bed, na.rm=TRUE),
+  'median outlier bed' = median(outliers$bed, na.rm = TRUE)
+)
+data.frame(
+  'Median bath' = median(no_outliers$bath, na.rm=TRUE),
+  'median outlier bath' = median(outliers$bath, na.rm = TRUE)
+)
+@ 
+
+Note that the outliers were removed based on individual values. A multivariate outlier detection would be superior, as it would take covariance into account when considering the distance between variables within rows, rather than each variables individually. A technique to measure this could be Mahalanobis distance, however, as some rows are missing various individual values, this leads to an NA value for the entire row, thus resulting in the current outlier approach looking at variables separately, without covariance considered. Moving forward, this could be a method to improve upon.
+\par
+
+Next, the pairs plot below shows not only the correlation between variables, but also the distribution of each. It seems as though that even with the outliers removed, the distribution of the response variable (price) is heavily right-skewed. This will result in the need for a GLM rather than a SLR in order to model price correctly. The distance measurement plots appear to have a `V' shape to them. This is a unique pattern to note. One prediction as to why this is happening, is that it could model the layout of the city, where the distinct V line lies around the water which is the boundary of the land of New York City, which is the location of this dataset.
+
+<<fig=TRUE, echo=FALSE>>=
+#pairs plot
+cat('Pairs plot for data with no outliers:')
+#pairs(no_outliers)
+library(GGally)
+GGally::ggpairs(no_outliers[,numeric])
+@
+
+Below, see a visualization of the missing data. 
+
+<<fig=TRUE, echo=FALSE>>=
+#code from: https://jenslaufer.com/data/analysis/visualize_missing_values_with_ggplot.html
+library(ggplot2)
+library(tidyverse)
+missing.values <- df %>%
+  gather(key = "key", value = "val") %>%
+  mutate(isna = is.na(val)) %>%
+  group_by(key) %>%
+  mutate(total = n()) %>%
+  group_by(key, total, isna) %>%
+  summarise(num.isna = n()) %>%
+  mutate(pct = num.isna / total * 100)
+levels <- (missing.values  %>% filter(isna == T) %>% arrange(desc(pct)))$key
+percentage.plot <- missing.values %>%
+      ggplot() +
+        geom_bar(aes(x = reorder(key, desc(pct)), 
+                     y = pct, fill=isna), 
+                 stat = 'identity', alpha=0.8) +
+      scale_x_discrete(limits = levels) +
+      scale_fill_manual(name = "", 
+                        values = c('steelblue', 'tomato3'), labels = c("Present", "Missing")) +
+      coord_flip() +
+      labs(title = "Percentage of missing values", x =
+             'Variable', y = "% of missing values")
+
+percentage.plot + ggthemes::theme_few()
+@
+
+There are missing data points throughout the dataset, given the nature of how the data
+comes from many different listing agencies which have different protocols. Very few, <5\% of listings were missing bedroom or bathroom details. Approximately 25\% of the dataset has missing latitude or longitude values, which in turn results in 25\% of distance measures, as it is calculated from those values. Also, square footage is missing in approximately 30-35\% of the dataset.
+
+\pagebreak
+
+\section{Application of Techniques}
+
+To begin, a Principal Component Analysis was done on the variables.
+
+<<fig=TRUE>>=
+#pca
+comp = numeric
+comp[1] = F
+house.pca = prcomp(na.omit(df[,comp]), scale. = TRUE)
+#plot
+no.pca = prcomp(na.omit(no_outliers_pca[,-1]), scale. = TRUE)
+
+biplot(no.pca, main = 'Biplot for PC1 and PC2')
+
+loadi = round(house.pca$rotation[,1:3], 2)
+loadi[abs(loadi)<0.2] <- NA
+loadi
+@
+
+It seems as though PC1 is measuring `location', PC2 indicates the housing `features' (number of bed and bath only), and PC3 measures the `size' of the property, indicated by `feet', as in square feet. 
+\par
+The PCA was run on the entire dataframe, including the outliers. When outliers are included, the results of PCA are intuitive. However, when outliers are removed, the results change drastically, and are no longer intuitive. This is a question leading into the report further to understand this further. 
+\par
+Also note that the plot of the PCA below has the outliers removed, to help with scaling and the visualization.
+\par
+To continue applying various learned techniques, see the prelimiary analysis section for different model fittings and preliminary assessment of scientific questions.
+
+Notice in the plot the `V' shape looks similar to the plotting from the distance measurement in the pairs plot from above, but it is rotated now. This is an interesting shape, and we see that distance is in the exact opposite direction of latitude and longitude. Also, bed, bath, and feet are in the same general area, which makes sense, as they are similar measurements in the sense that the larger they are, the price would be expected to go up as well.
+
+\section{Scientific Questions}
+
+The goal of this analysis is to provide a model to predict housing prices in New York City. Price is the response variable, and the remaining variables are potential explanatory variables. A scientific question to answer, is, can the remaining variables be used to predict prices of listings in New York City? Another question, more specifically, which variables are more significant when predicting price, and can distance from Central Park be a useful measure to predict price? Potential future uses for the model is to apply it to different locations. 
+\par
+\par
+Clustering is a potential modelling method that could be used for this dataset. The plan is to map various combinations of latitude and longitude onto different neighbourhoods in New York City to identify if there are differences in the clusters, or neighbourhoods.
+
+\section{Statistical Analysis Techniques and Preliminary Results}
+
+A linear model was run with price as the predictor, then bed, bath, feet, and distance as the explanatory variables. Below is the linear model summary output, as well as the residual plot, qqplot, and more.
+
+<<fig=TRUE, echo=FALSE>>=
+test = lm(price~bed+bath+feet+distance, data=no_outliers)
+#test = lm(price~bed+bath+feet+latitude+longitude+distance, data=df)
+#test = lm(price~bed+bath+feet+distance+latitude*longitude, data=df)
+summary(test)
+par(mfrow = c(2,2))
+plot(test)
+par(mfrow = c(1,1))
+@
+
+Note that, at first glance, all variables appear significant, and the overall model p-value is also very significant. The adjusted R-squared value is moderate, at 0.49 approximately, meaning about half of the variation is explained by the model. If we look at the residual standard error, it is significantly greater than the degrees of freedom. This calculation was performed on the dataset after the outliers were removed. When performed on the original dataset, the p-values differed greatly. The results were also varied based on which variables were included.
+\par
+The residual plots show that there appears to be a lot of heteroskedasticity within the residuals. This implies that a linear model is likely not the best approach.
+\par
+There is one main outlier in the Cook's distance plot. Below is the point information specifically.
+
+<<>>=
+cat('Point 375 and 27 are significant outliers in Cook\'s Distance:')
+print(no_outliers[357,])
+#print(no_outliers[375,])
+#print(no_outliers[27,])
+@
+
+It seems as though this point is unusually influential because it is very cheap (low price value) given the large size in features (number of beds, baths, and square footage size). This point was not removed by the outlier algorithm because each variable was only considered in isolation, and covariance was not accounted for. As mentioned above, in the final report, it may be beneficial to use Mahalanobis distance to detect outliers, as this algorithm \textit{does} take covariance into account, and would remove these types of points. 
+
+
+\pagebreak
+Modelling GLMs
+
+
+\par
+From the pairs plot above, it appears that the inverse Gaussian distribution would be the best fit when attempting to model price. However, there is a problem:
+
+<<echo=FALSE, error=0, warning=TRUE, message = TRUE>>=
+cat('glm(price~bed+bath+feet+distance, data=no_outliers, family = inverse.gaussian)')
+cat('Error: no valid set of coefficients has been found: please supply starting values
+In addition: Warning message:
+In sqrt(eta) : NaNs produced')
+@
+
+This is the same problem encountered in this paper:
+\par
+\url{https://link.springer.com/chapter/10.1007/978-1-4419-0118-7\_11}
+\par
+Given this error, it may be worth looking into potential solutions, or alternate ways to use a right-skewed distribution, as the dataset appears to follow.
+\par
+GLM can only be fitted on a few select model types with this dataset, and they appear to al have a very large deviance value relative to the degrees of freedom. This indicates that it is a poor fitting model. See below for the summary of a Gaussian fitted GLM.
+
+<<echo=FALSE>>=
+no.glm = glm(price~bed+bath+feet+distance, data=no_outliers, family = gaussian)
+summary(no.glm)
+@
+
+Again, the deviance strays significantly from the degrees of freedom, indicating a poor model fit. Due to the odd distributions of each of the predictors as well as the response variable, parametric regression may prove difficult. 
+
+
+\pagebreak
+Modelling with Random Forests
+\par
+Next, Random Forests will be used to attempt to model this dataset.
+
+<<echo=FALSE>>=
+library(randomForest)
+set.seed(2023)
+no.rf = randomForest(price~bed+bath+feet+distance, data=no_outliers, na.action = na.roughfix)
+no.rf
+@
+
+Note that it was needed to set \texttt{na.action = na.roughfix} due to missing values (thanks to \href{https://stackoverflow.com/questions/8370455/how-to-use-random-forests-in-r-with-missing-values}{this} SO post). 
+
+While a fair amount of the variation is explained by the model, the squared residuals are extremely high. This is concerning, and indicates that this may not be the correct method for this dataset. 
+
+\pagebreak
+Modelling with Boosting
+\par
+Next, boosting will be used to attempt to model this dataset.
+
+<<echo=FALSE>>=
+library(gbm)
+#cat('Some rows removed because "Missing values are not allowed in the response"...')
+no.boost = gbm(price~bed+bath+feet+distance, distribution="tdist", data=no_outliers, n.trees=5000, interaction.depth=1)
+no.boost
+summary(no.boost)
+@
+
+Above, the summary output for the boosting model is shown. All four predictors had an influence, which is positive, and distance appeared to be the strongest. Square footage was close behind, but bed and bath were significantly less influential. It is interesting to note that distance, the variable created from the latitude and longitude measures, was the most influential. This is a variable that is not given in the scraped data, and it is not typically available to buyers or sellers when looking at a home. It was created to represent the distance from Central Park, a common attraction and central part of the city. This is an interesting outcome, as it shows that it may be a useful tool in predicting price for this model, but if this model were to be used in a different location other than New York City, it would not be transferable.
+
+\vspace{2pc}
+
+Moving forward, the target model for this dataset is clustering, so various clustering algorithms will be used to attempt to model this dataset. Hierarchical clustering, k-means clustering, as well as mixture models, are some methods to be explored, to name a few. Clustering will likely fit this dataset the best because, given the nature of the distance variable, it would be helpful to cluster based on neighbourhoods, as well as different housing features within the neighbourhood. For example, the Upper East Side of New York, which is known to be an elite neighbourhood, could be identified by the clustering algorithm, and then further cluster within the neighbourhood to group based on the size of the listing (including beds, baths, and square footage). It would be useful to have these levels clustered to help with predicting prices, both from a buyer and seller perspective. This could help homeowners when determining a list price for a home, and it could also help buyers to determine their budget based on their given variable criteria, as well as to evaluate given prices of listings to determine if they are reasonable or not. If the clustering algorithm succeeds with this dataset, it could mean that many different audiences will have access to a tool to help them in their home buying and selling journey. It could also be used as a tool sold to listing companies to help them with home evaluations and listings.
+
+\end{document}

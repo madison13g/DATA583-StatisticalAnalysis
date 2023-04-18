@@ -1,0 +1,374 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry} %Sets proper 1-inch margins. 
+\usepackage{amsmath} %Only load this if you are using math/equations.
+\usepackage{graphicx} %Only need to call this if inserting images.
+\usepackage{caption} %Only need to call this if inserting captions.
+\usepackage{float} %Allows the use of the [H] specifier. 
+%\graphicspath{{C:/Users/jonah/Pictures/}} %Sets the working directory for images.
+\usepackage[colorlinks,citecolor=blue,linkcolor=blue,urlcolor=blue]{hyperref} %Allows for the embedding of urls. 
+\usepackage{setspace}
+\usepackage{blindtext}
+
+\pagenumbering{arabic}
+
+%\usepackage{fontspec} %%in order for this font stuff to work, you must compile using xelatex+makeindex+bibtex (or at minimum xelatex)
+%\setmainfont[Mapping=tex-text-ms]{Essays1743}
+
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Greenough \& Edmundson \\ 2023}
+\lhead{\thepage}
+
+\newcommand{\comment}[1]{}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE, echo=FALSE}
+
+\begin{center}
+\LARGE{DATA583 Project Report}
+\par
+\vspace{1.0pc}
+\par
+\large{Madison Greenough \& Jonah Edmundson}
+\end{center}
+
+
+\vspace{0.917 pc} %Creates a paragraph line break. 
+
+%\pagebreak
+
+%\tableofcontents
+
+%\pagebreak
+\section{Dataset Introduction and Hypotheses}
+
+This dataset was scraped from \href{https://www.trulia.com/NY/New\_York/20\_p/}{Trulia}, and it contains 800 recently posted real estate listings in New York City. The variables contain information on the listing, including the \texttt{price} (integer in \$USD), \texttt{bedrooms} (numeric, int), \texttt{bathrooms} (numeric), \texttt{feet} (numeric), \texttt{address} (string), \texttt{newflag} (binary 0 or 1), \texttt{listing company} (string), \texttt{latitude} (numeric), \texttt{longitude} (numeric), and \texttt{distance} to Central Park (numeric). The distance metrics were computed by mapping the address and converting to coordinates and then calculating the distance to a central location, Central Park.
+
+The purpose of this report is to attempt to model price as a response variable given the dependent variables in the dataset mentioned above. Determining a well-fitting model will allow for the model to be used to make predictions for future listing prices. This would serve many purposes, as it would act as a tool for listing companies when appraising a home to determine the list price. It could also be used by buyers to determine their offer price for a property given its features, and it could help to identify if the listing is priced appropriately or not.
+
+We hypothesize that clustering will prove to be a suitable model to help predict prices given the input variables, and we also expect that it will help map these listing onto a map of the city, to be used by the clustering algorithm when grouping by boroughs. Note that there are five main boroughs in New York City, consisting of Staten Island, Brooklyn, Queens, Manhattan, and the Bronx. Naturally, we would expect that some of these neighbourhoods will fetch higher prices for properties, as it is common knowledge that Manhattan, for example, is an exclusive neighbourhood. We also expect that larger quantities of bedrooms and bathrooms will fetch higher list prices. Additionally, a larger square footage, or size, of the listing will also increase the price. We expect that as the distance to Central Park increases, the price will decrease, as we predict that this is a desired location. Throughout this report, we will be fitting various statistical models to attempt to represent the relationship between price and the other variables, and to determine whether or not our hypotheses are correct.
+
+<<>>=
+#loading data
+df = read.csv('../data/NY_realestate2023-02-17-cleaned.csv')
+
+#logging price!
+df[,'logprice'] = log10(df[,'price'])
+
+#removing outliers
+numeric = unlist(lapply(df, is.numeric), use.names = FALSE)
+numeric[length(numeric)] = F #removing logprice from numeric
+z_scores = as.data.frame(sapply(df[, numeric], function(x) (abs(x-mean(x, na.rm=TRUE))/sd(x, na.rm = TRUE))))
+to.remove = c(rep(F, nrow(df)))
+for (i in 1:nrow(df)){
+  for (j in names(z_scores)){
+    if ((z_scores[i,j] > 3 & (!is.na(z_scores[i,j])))){
+      to.remove[i] = TRUE
+    }
+  }
+}
+no_outliers = df[!to.remove,]
+row.names(no_outliers) = 1:nrow(no_outliers)
+@
+
+\pagebreak
+
+\section{Analysis}
+
+A comprehensive analysis was conducted by fitting several different statistical models to test the fit. Many different models and tools were fitted but not shown due to the lack of application and relevance to our hypotheses. Below, see a few of the models fitted that were beneficial to our analysis.
+
+\subsection{Modelling Price}
+
+\subsubsection{Multiple Linear Regression}
+
+First, a multiple linear regression model (MLR) was fitted with all coefficients. Note that our response variable, \texttt{price}, was used in the model as a log value. Below see a quick summary output of just the coefficient statistics as well as the $R^2$. Note that the p-values were very small for \texttt{bath} and \texttt{distance}, but not for \texttt{bed} and \texttt{feet}. The $R^2$ value of 0.554 was poor, indicating that nearly half of the variability in the data is not captured by this model.
+
+<<>>=
+price.lm = lm(logprice~bed+bath+feet+distance, data=no_outliers, x=TRUE, y=TRUE)
+cat('Full model coefficients:')
+summary(price.lm)$coefficients
+cat('Full model R^2:', round(unlist(summary(price.lm)['adj.r.squared']), 3))
+
+#car::vif(price.lm)
+#price.lm2 = lm(logprice~bed+bath+feet+distance, data=df)
+#summary(price.lm2)
+#car::vif(price.lm2)
+@
+
+The next linear model fitted was a best subset. This model was created by using the BIC values to determine the best subset of the variables used in the first multiple linear regression model above. Looking below, we see that there are just two coefficients remaining, \texttt{bath} and \texttt{distance}. Note that these are the same two coefficients that were the most significant in the first model. Both coefficients are very significant, but the $R^2$ is still very poor, at just 0.55.
+
+<<>>=
+#best subset
+library(bestglm)
+price.bic = bestglm(na.omit(no_outliers[,c(2:4, 10, 11)]), IC='BIC')
+cat('Best subset coefficients:')
+summary(price.bic$BestModel)['coefficients']
+cat('Best subset R^2:', round(unlist(summary(price.bic$BestModel)['adj.r.squared']), 3))
+@
+
+Using the consistent model specification test, we tested the linear models to the null model. Below, the results outline that the p-value is significant so the null of correct specification is rejected at the 0.1\% level.
+
+<<results=hide>>=
+library(np)
+isa = is
+#supress printing
+quiet <- function(x) { 
+  sink(tempfile()) 
+  on.exit(sink()) 
+  invisible(force(x)) 
+}
+@
+
+<<>>=
+X = with(no_outliers,data.frame(bed,bath,feet,distance))
+np.test = quiet(with(no_outliers, npcmstest(model = price.lm, xdat = X, ydat = logprice)))
+np.test
+@
+
+Given the poor results from the linear models, it can be concluded that this approach will not best represent our data. Moving forward, we will look at a GLM model.
+
+\subsubsection{General Linear Model}
+
+First, a general linear model (GLM) model was fitted with all coefficients. Note that our response variable, price, was used in the model as a log value. Below see a summary output of this model fitted with Gaussian distribution. Notice that \texttt{bed} is very insignificant, but the other three variables are significant. The \texttt{residual deviance} value is significantly smaller than the degrees of freedom, which indicates it may not be the best model fit. 
+
+Additionally, we see a plot that maps the density of the original price data compared to the density of normal distribution with the dataset's mean and standard deviation. We see that the fit is not the best, as the lines do not follow the same relative distribution.
+
+<<fig=TRUE>>=
+x = seq(5, 7, length=500)
+plot(density(no_outliers$logprice), main='Log Price Fitted with Normal Density', ylab='Density', 
+     xlab='Log Price')
+lines(x, dnorm(x, mean=mean(no_outliers$logprice), sd = sd(no_outliers$logprice)), type="l", col=2)
+price.glm = glm(logprice~bed+bath+feet+distance, data=no_outliers, 
+                family = gaussian(link='identity'), x=TRUE, y=TRUE)
+summary(price.glm)
+@
+
+<<eval=FALSE>>=
+np.test2 = quiet(with(no_outliers, npcmstest(model = price.glm, xdat = X, ydat = logprice)))
+np.test2
+@
+
+Given this output and due to the fact that the deviance is quite far off of the degrees of freedom, it is safe to say that this glm fit is not the best model for the dataset. A non-parametric approach is the next step in our model fitting process. 
+
+
+\subsubsection{Nonparametric Approach}
+
+Our next attempt at modelling price was through a non-parametric regression approach. Here, we conducted a Kernel Regression Significance Test which tested our variables \texttt{distance, feet, bed, bath}. The output for this data is shown below. First, the bandwidths are given which indicates that the \texttt{feet} bandwidth is very large compared to the other three. \texttt{Bath} is the smallest by far, with just 0.15. The individual significance test show the p-value which indicates that \texttt{bed} is very significant, \texttt{bath} is moderately significant, but \texttt{distance} and \texttt{feet} are not. Overall, this model fit appears to be the best approach so far.
+
+<<results=hide>>=
+datanp = no_outliers
+#setting bed and bath as ordered categorical
+datanp$bed = ordered(datanp$bed)
+datanp$bath = ordered(datanp$bath)
+
+nonp = npreg(price~distance+feet+bed+bath, data=datanp, regtype="ll", bwmethod="cv.aic")
+@
+
+
+
+<<eval=TRUE>>=
+y <- quiet(npsigtest(nonp))
+y
+@
+
+Now that all of the attempts to model price have been completed and we can compare them amongst each other.
+
+Below, we see the mean squared estimates (MSE) and $R^2$ values for the models calculated so far. We see that the man squared estimates are all very large, with the MLR and GLMs the largest and quite similar, with the Kernel MSE smaller but still very large. The $R^2$ values for the MLR and GLM, recall, are quite poor, with just over half of the variation explained by the model. The Kernel $R^2$ value is significantly better, with 0.94 approximately. This indicates that the Kernel model has been the best for modelling price. 
+
+<<eval=TRUE>>=
+#comparing fit
+data.frame(
+'MLR MSE' = mean((fitted(price.lm)-na.omit(no_outliers)$price)^2),
+'GLM MSE' = mean((fitted(price.glm)-na.omit(no_outliers)$price)^2),
+'Kernel MSE' = mean((fitted(nonp)-na.omit(no_outliers)$price)^2)
+)
+data.frame(
+'MLR R2' = summary(price.lm)$r.squared,
+'GLM R2' = with(summary(price.glm), 1 - deviance/null.deviance),
+'Kernel R2' = nonp$R2
+)
+@
+
+
+
+\pagebreak
+\subsection{Clustering}
+%https://data.cityofnewyork.us/City-Government/Borough-Boundaries/tqmj-j8zm
+
+This next portion will walk through the different clustering methods attempted to fit the dataset with respect to the distance metrics.
+
+\subsubsection{Hierarchical}
+
+First, hierarchical clustering was conducted on the dataset. Recall the 5 main boroughs in New York City that was mentioned earlier. This data was segmented into 5 clusters with this model. Below see the the table output for the count of listings allocated to each of the 5 clusters. Additionally, see below the dendogram for the hierarchical cluster fitted with a complete method used. The dendogram visualizes the distance of the points when they were clustered. It can be seen here, around the height of 0.5, that the clusters are in 5 main groups, or clusters. Note that in this model, the clustering was run on \texttt{latitude}, \texttt{longitude}, and  \texttt{price}. The other variables were not used.
+
+<<fig=TRUE>>=
+clust.vars = c('price', 'latitude', 'longitude')
+clust.dist = dist(no_outliers[,clust.vars], method="canberra")
+hier.clust = hclust(clust.dist, method="complete")
+cat('New York is known to have 5 buroughs:')
+print(table(cutree(hier.clust,5)))
+plot(hier.clust)
+@
+
+Next, we will look at a pairs plot that shows the paired relationships between the variables \texttt{price}, \texttt{latitude}, and  \texttt{longitude}. The points are coloured based on the 5 clusters that they were fitted to with the hierarchical clustering run above. Notice that the pyramid shape reflects what was seen in earlier reports. The $V$ shape between latitude and longitude reflects the actual layout of the map of New York City. Later on, we will see this mapped onto the geographic map to visualize it further. Overall here, the pairs plot shows that the clusters represent a stacked pyramid shape between \texttt{price} and \texttt{latitude} or \texttt{longitude}. It starts wide and short at the bottom, with many listings in the cheaper price range, and it narrows as it gets towards the top, which represents fewer listings in the higher price range.
+
+<<fig=TRUE>>=
+pairs(no_outliers[,clust.vars], col=cutree(hier.clust,5))
+@
+
+This next plot shows \texttt{longitude} and \texttt{latitude} on the x and y axis, respectively. Recall the $V$ shape here, which outlines roughly the layout of the city of New York, wrapping around the waterfront. The colours represent the hierarchical clustering assignments. Here it does not appear that the cluster assignments can be grouped by location (\texttt{latitude} and \texttt{longitude}) because they are scattered quite randomly throughout this plot.
+
+<<fig=TRUE>>=
+plot(latitude~longitude, data=no_outliers, col=cutree(hier.clust,5))
+@
+
+
+
+\pagebreak
+\subsubsection{\textit{k}-means}
+
+Next, \texttt{k}-means clustering was done. Note that \texttt{k}-means can only be conducted on data without missing values, so several rows were required to be removed in order to fit the data. Below, we see the pairs plot that shows the paired relationships between the variables \texttt{price}, \texttt{latitude}, and \texttt{longitude}. The points are coloured based on the new clusters fitted with the \texttt{k}-means clustering. Note the similar shape and colourings with the clusters appearing to form a pyramid shape between \texttt{price} and \texttt{latitude} or \texttt{longitude}. It starts wide and short at the bottom, with many listings in the cheaper price range, and it narrows as it gets towards the top, which represents fewer listings in the higher price range. Here, there appears to be a larger group at the bottom, in green. This green group looks thicker than the bottom green group in the hierarchical clustering. This indicates that \texttt{k}-means is fitting more values in that group than the hierarchical clustering did. The colouring of the clusters again seem to fit appropriately, similar to the hierarchical clustering above. The \texttt{latitude} and \texttt{longitude} also has the $V$ shape, following the layout of the city. We will look at this relationship further next.
+
+<<>>=
+set.seed(2023)
+k.means = kmeans(na.omit(no_outliers[,clust.vars]), 5, nstart=100)
+@
+
+<<fig=TRUE>>=
+pairs(na.omit(no_outliers[,clust.vars]), col=k.means$cl)
+@
+
+As mentioned, we will now look at a plot that shows \texttt{longitude} and \texttt{latitude} on the x and y axis, respectively. Again, like the hierarchical clustering, it does not appear that the cluster assignments can be grouped by location (\texttt{latitude} and \texttt{longitude}) because they are scattered quite randomly throughout this plot. The green appears to be the dominant cluster with the most points, and note that in the pairs plot above it was the bottom tier for price, indicating that this is the cheapest cluster of listings, which makes sense why there are more of them. It indicates that listings in this price range can be found all across the city. 
+
+<<fig=TRUE>>=
+plot(latitude~longitude, data=na.omit(no_outliers[,clust.vars]), col=k.means$cl)
+@
+
+Next, the within sum of squares (WSS) was calculated for different values of $k$. This was plotted for all values $k$ from 1 to 15. See below for this plot. Notice that the WSS drops significantly from 1 to 2, and then plateaus around 4 or 5. This indicates that the ideal number of clusters to select from \texttt{k}-means clustering could be argued to be 5.
+
+<<fig=TRUE>>=
+cat('Plotting WSS for different k:')
+wss = c()
+for (i in 1:15){
+  k.means = kmeans(na.omit(no_outliers[,clust.vars]), i, nstart=100)
+  wss[i] = k.means$tot.withinss
+}
+plot(wss~c(1:15))
+@
+
+
+\pagebreak
+\subsubsection{Mixture Models}
+
+Next, mixture modelling was considered. Note that this can only be conducted on data without missing values, so several rows were required to be removed in order to fit the data. Below we see the plot that shows \texttt{longitude} and \texttt{latitude} on the $x$ and $y$ axis, respectively. The colouring of the points represent the groupings assigned by the mixture model. There were 5 groups selected to be fitted here. The value 5 was chosen to ideally model the 5 different boroughs in New York City. This plot appears to better outline different geographical locations compared to hierarchical clustering and \texttt{k}-means. However, there is still a lot of overlap between the clusters, and it does not have 5 distinct clusters that could outline the 5 boroughs. To improve this, we will play around with the number of groups fitted.
+
+<<fig=TRUE, eval=TRUE>>=
+library(mclust)
+cat("Mixture Model Clustering with 5 Groups:")
+mix = Mclust(na.omit(no_outliers[,clust.vars]), G=5)
+#plot(mix, what="BIC")
+plot(latitude~longitude, data=na.omit(no_outliers[,clust.vars]), col=mix$classification)
+@
+
+
+
+For some reason, the plot of \texttt{latitude} and \texttt{longitude} appears to better align with the 5 boroughs when there are 6 groups fitted to the mixture model. Below, we see the same plot but with the mixture model fitted to 6 groups. Here we see a distinct 5 groups in a shape and pattern that appears to follow the map of New York City. This is an interesting result, and could be occurring because the borders of the boroughs are closely aligned, and could cause confusion with the oddly shaped borders, as well as the fact that the water creates a sharp border on the other side. 
+
+<<fig=TRUE, eval=TRUE>>=
+cat("Mixture Model Clustering with 6 Groups:")
+mix = Mclust(na.omit(no_outliers[,clust.vars]), G=6)
+#plot(mix, what="BIC")
+plot(latitude~longitude, data=na.omit(no_outliers[,clust.vars]), col=mix$classification)
+@
+
+
+
+%Between 25-45, 25 was selected by Mclust:
+
+
+<<fig=TRUE, eval=FALSE>>=
+mix2 = Mclust(na.omit(no_outliers[,clust.vars]), G=25)
+#plot(mix2, what="BIC")
+plot(latitude~longitude, data=na.omit(no_outliers[,clust.vars]), col=mix2$classification)
+print(paste('Number of groups suggested by Mclust: ', mix2$G) )
+@
+
+To further visualize the above mixture model plot with 6 groups fitted, we can overlay this with the actual map of New York City, outlining the 5 boroughs. See below the map, with labels outlining the 5 different NYC boroughs. The points are coloured to reflect the cluster assignment. The labels are coloured to reflect the cluster-assigned groups. Notice that the points fit reasonably well within the map itself, and they roughly reflect the borough boundaries. Again, the $x$-axis represents \texttt{longitude} and the $y$-axis represents \texttt{latitude}.
+
+<<fig=FALSE>>=
+cat('Overlaying Borough Coordinate Boundaries:')
+library(terra)
+f = "../data/boundaries/geo_export_98de6c3b-3a3b-438d-8233-caac01b47f7c.shp" 
+map = vect(f)
+#plot(map, col=2:6)
+@
+
+<<fig=TRUE>>=
+plot(map)
+points(latitude~longitude, data=na.omit(no_outliers[,clust.vars]), pch=16, cex=0.4, col=mix$classification)
+text(x=c(-74.1, -73.99, -74.05, -74.05, -73.97, -73.76), y=c(40.52, 40.55, 40.82, 40.8, 40.9, 40.73), labels=c("Staten Island", "Brooklyn", "Manhattan A", "Manhattan B", "Bronx", "Queens"), col=c(3, 2, 1, 5, 6, 4))
+@
+
+
+<<>>=
+library(sf)
+pnts = na.omit(no_outliers[,c('latitude', 'longitude')])
+row.names(pnts) = 1:nrow(pnts)
+tt = read_sf(f)
+tt1 = st_transform(tt, 2163)
+area = c()
+for (i in 1:nrow(pnts)){
+  p = st_transform(st_sfc(st_point(c(pnts[i,'longitude'],pnts[i,'latitude'])), crs = 4267), 2163)
+  temp = suppressWarnings(st_intersection(tt1, p)$boro_name)
+  if (length(temp)==0){
+    area[i] = NA
+  } else {
+    area[i] = temp
+  }
+}
+pnts$area = area
+@
+
+Recall that there are only 5 boroughs in New York City, but this model fitted 6 clusters. To understand the misclassification rate of the cluster assignments, we can view the classification table. The columns represent the actual borough that the listing belongs to, as calculated given the address of the listing. The rows represent the assigned borough from the mixture model classification assignments. Notice that the additional group, as there were 6 groups instead of the actual 5, splits into Manhattan A and Manhattan B. This was labelled as such because the points overlaped within the existing borough Manhattan. The misclassification rate is approximately 0.29. This is still relatively high for a misclassification rate, which is not ideal. See the table below for exact assignments and comparisons.
+
+<<>>=
+mixclass = as.character(mix$classification)
+mixclass[mixclass == '1'] = 'Manhattan A'
+mixclass[mixclass == '5'] = 'Manhattan B'
+mixclass[mixclass == '2'] = 'Brooklyn'
+mixclass[mixclass == '3'] = 'Staten Island'
+mixclass[mixclass == '4'] = 'Queens'
+mixclass[mixclass == '6'] = 'Bronx'
+
+
+#for misclass. rate
+mixclass2 = mixclass
+mixclass2[mixclass2 == 'Manhattan A'] = 'Manhattan'
+mixclass2[mixclass2 == 'Manhattan B'] = 'Manhattan'
+tab = table(mixclass2, pnts$area)
+
+#misclassification table
+cat('Classification Table:')
+table(mixclass, 'true'=area, useNA = 'ifany')
+cat('Misclassification Rate:', (sum(tab)-sum(diag(tab)))/sum(tab)) #counting manhattan a and b as correct
+@
+
+
+\pagebreak
+
+\section{Conclusions \& Recommendations}
+
+Modelling price was relatively successful with the non-parametric approach. Recall our MSE was the lowest in this model, and the $R^2$ was significantly better here as well. We were correct in assuming that bed and bath would be important variables to determine price, but we incorrectly assumed that distance and feet would also be significant. The model represented the variation much better than we expected, given that we did not expect anything to perform well compared to the clustering approach.
+
+Mapping pricing into clusters based on the distance variables also proved to be relatively successful. Although the misclassification rate was 0.29 for our best fitting cluster via mixture modelling, it still held up relatively well. Our hypothesis that this would be the best for mapping values onto the existing boroughs was also correct that the latitude and longitude would assist in this model. We hypothesized that price would be more significant to the specific boroughs, but it was not, as it was fairly evenly distributed based on regions, which was shown in our earlier clustering (hierarchical and k-means).
+
+We came across a few issues in the beginning of the project with data collection, as well as outlier determination. This was outlined in the previous report. Specifically, the outlier distance calculation was very complicated due to missing values so it left us to calculate each variable individually rather than all variables in each row.
+
+The model is currently restricted to the New York City data, so it could not be tested or used to make predictions on a different dataset. In the future, we would hope to train the model with different geographic locations to make it a more well-rounded model. Also, to improve the model we could add many more data points, as we were limited to approximately 800 here. Expanding the dataset would allow us to better train and test both the parametric and mixture model. Additionally, adding other features such as a binary variable if there is a view or not in the listing could also be beneficial. Distinguishing between condos and apartments and houses could also help improve the model, as it would consider that some apartments or condos could have strata fees which are not accounted for in the list price of a home, but are definitely considered by buyers when making purchase decisions.
+
+Overall, the models explain the variance in the data relatively well. Although we have not tested the model to predict prices of a test set or on future data, that would be something to be explored in the future to further evaluate the success of the models fitted.
+
+\end{document}
